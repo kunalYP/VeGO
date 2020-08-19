@@ -84,9 +84,15 @@ background-color: white;
   width: 100%;
   overflow-x: scroll;
   box-sizing: border-box;
+height:200px;
+}
+.horizontal-scrolloffers {
+  display: block;
+  width: 100%;
+  overflow-x: scroll;
+  box-sizing: border-box;
 
 }
-
 .scroll-container {
   display: block;
   white-space: nowrap;
@@ -2486,7 +2492,7 @@ font-size: 1rem;
   position: fixed;
   top: 0;
   width: 100%;
-  background: linear-gradient(90deg, #e61304,#e92502);
+  background-image: linear-gradient(-90deg, #5db6e9,#bff0f0);
 border: none;
 }
 
