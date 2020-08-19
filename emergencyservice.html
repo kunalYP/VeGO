@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Vego - Emergency Service </title>
+</head>
+
+<body>
+    <header id="navbar">
+        <div class="navigation-wrap bg-light start-header start-style">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-md navbar-light">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="brand">
+                                <a class="navbar-brand" href="index.html"><img src="VeGo icons/logo.png" alt=""></a>
+                            </div>
+
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto py-4 py-md-0">
+
+
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+                                            role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="emergencyservice.html">Emergency Service</a>
+                                            <a class="dropdown-item" href="nearbyshowrooms.html">Nearby Showrooms &
+                                                Shops</a>
+                                            <a class="dropdown-item" href="vehcilecomparison.html">Compare Vehicles</a>
+                                            <a class="dropdown-item" href="nearbygarages.html">Nearby Garages &
+                                                Workshops</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link btn" data-toggle="modal" data-target="#myModal">Login /
+                                            Signup</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+                                            role="button" aria-haspopup="true" aria-expanded="false">Work With us</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="registergarage.html">Register Garage</a>
+                                            <a class="dropdown-item" href="registershowroom.html">Register Vehicle
+                                                Showroom and Shop</a>
+                                            <a class="dropdown-item" href="registerservicecenter.html">Register Service
+                                                Center</a>
+
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="contactus.html">Contact Us</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="aboutus.html">About Us</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <header id="mobilenavbar">
+        <!-- Just an image -->
+        <nav class="navbar navbar-light bg-light">
+            <button onclick="w3_open()" aria-label="Toggle navigation" style="border:none;">
+
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="VeGo icons/logo.png" width="85" height="45" alt="">
+            </a>
+        </nav>
+    </header>
+
+    <section id="selectvehiclemobile">
+        <div class="container-fluid heading">
+            <h4><span>Select Type Of</span> Vehicle <span></span></h4>
+
+        </div>
+        <div class="container text-center">
+            <div class="radio-tile-group">
+                <div class="row" id="vehiclerow">
+                    <div class="col" id="vehiclecol">
+                        <div class="input-container">
+                            <input id="bike" class="radio-button" type="radio" name="radio" />
+                            <div class="radio-tile">
+                                <img src="VeGO Icons/2wh.png" class="" alt="">
+                                <label for="bike" class="radio-tile-label">2 Wheeler</label>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col" id="vehiclecol">
+                        <div class="input-container">
+                            <input id="drive" class="radio-button" type="radio" name="radio" />
+                            <div class="radio-tile">
+                                <div class="icon car-icon">
+                                    <img src="VeGO Icons/3wh.png" class=""  alt="">
+
+                                </div>
+                                <label for="drive" class="radio-tile-label">3 Wheeler</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="vehiclerow">
+                    <div class="col" id="vehiclecol">
+
+                        <div class="input-container">
+                            <input id="walk" class="radio-button" type="radio" name="radio" />
+                            <div class="radio-tile">
+                                <div class="icon walk-icon">
+                                    <img src="VeGO Icons/4wh.png" 
+                                       />
+                                </div>
+                                <label for="walk" class="radio-tile-label">4 Wheeler</label>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col s2" id="vehiclecol">
+
+
+                        <div class="input-container">
+                            <input id="fly" class="radio-button" type="radio" name="radio" />
+                            <div class="radio-tile">
+                                <div class="icon fly-icon">
+                                    <img src="VeGO Icons/4+wh.png" class=""  alt="">
+                                </div>
+
+                                <label for="fly" class="radio-tile-label">Other</label>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Login/Register</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="wrapper">
+                        <div class="container">
+                            <div class="login">Log In</div>
+                            <div class="signup">Sign Up</div>
+
+
+                            <div class="login-form">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Mobile No</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Enter Mobile Number">
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your
+                                            number with anyone else.</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1"
+                                            placeholder="Password">
+                                        <a href="">Forgot Password ?</a>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-danger btn-block">Login</button>
+                                </form>
+                            </div>
+
+                            <div class="signup-form">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Name</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Enter Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Contact No</label>
+                                        <input type="text" class="form-control" id="exampleInputPassword1"
+                                            placeholder="Mobile Number">
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your
+                                            Number with anyone else.</small>
+
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">New Password</label>
+                                        <input type="password" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Enter New Password">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Confirm Password</label>
+                                        <input type="password" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Confirm Password">
+                                    </div>
+                                    <button type="submit" class="btn btn-danger btn-block">Create Account</button>
+                                </form>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="selectvehicle">
+        <div class="services">
+            <h4><span>Select The Type Of Your </span> Vehicle</h4>
+            <p>Just Click On The Vehicle</p>
+        </div>
+        <div class="container">
+            <div class="radio-tile-group">
+
+                <div class="input-container">
+                    <input id="bike" class="radio-button" type="radio" name="radio" />
+                    <div class="radio-tile">
+                        <img src="VeGo icons/2wh.png" class="" alt="" >
+                        <label for="bike" class="radio-tile-label">2 Wheeler</label>
+                    </div>
+                </div>
+
+                <div class="input-container">
+                    <input id="drive" class="radio-button" type="radio" name="radio" />
+                    <div class="radio-tile">
+                        <div class="icon car-icon">
+                            <img src="VeGo icons/3wh.png" class="" alt="">
+
+                        </div>
+                        <label for="drive" class="radio-tile-label ">3 Wheeler</label>
+                    </div>
+                </div>
+                <div class="input-container">
+                    <input id="walk" class="radio-button" type="radio" name="radio" />
+                    <div class="radio-tile">
+                        <div class="icon walk-icon">
+                            <img src="VeGO Icons/4wh.png"  />
+                        </div>
+                        <label for="walk" class="radio-tile-label ">4 Wheeler</label>
+                    </div>
+                </div>
+
+                <div class="input-container">
+                    <input id="fly" class="radio-button" type="radio" name="radio" />
+                    <div class="radio-tile">
+                        <div class="icon fly-icon">
+                            <img src="VeGo icons/4+wh.png" class=""  alt="">
+                        </div>
+
+                        <label for="fly" class="radio-tile-label">Other</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="locationbox">
+        <div class="services">
+            <h4><span>Confirm Your </span>Location</h4>
+        </div>
+        <div class="container-fluid heading">
+            <h4><span>Confirm</span> Location<span></span></h4>
+
+        </div>
+
+        <div class="container-fluid contactus">
+            <div class="container">
+                <div class="row" id="searchbox">
+                    <div class="searchbox">
+                        <button class="btn-menu btn-danger" style="height:62px;">
+                            Auto Detect
+                        </button>
+                        <input id="search" type="text" placeholder="  Enter Your Location" name="search" class="search">
+
+                    </div>
+                </div>
+                <div class="row" id="searchboxmobile">
+                    <div class="searchbox2">
+                        <button class="btn-menu">
+                            <img src="VeGO Icons/address.png" style="width:50px" alt="">
+                        </button>
+                        <input id="search" type="text" placeholder="Search..." name="search" class="search">
+                        <button class="btn-search">
+                            <img src="https://img.icons8.com/cotton/24/000000/search--v2.png">
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="row" id="autodetect">
+                    <button class="btn btn-success btn-lg" type="submit"><i class="fa fa-check" aria-hidden="true"></i>
+                        Auto Detect</button>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+    <div class="submitbutton">
+        <a href="garagelist.html"> <button id="getlist" class="btn btn-primary btn-block submit mx-auto">Get Nearby
+                Garages</button></a>
+        <button id="next" class="btn btn-primary btn-block submit mx-auto">Next</button>
+    </div>
+
+
+
+    <!-- Modal -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script>
+        $(".signup-form").hide();
+        $(".signup").css("background", "none");
+
+        $(".login").click(function () {
+            $(".signup-form").hide();
+            $(".login-form").show();
+            $(".signup").css("background", "none");
+            $(".login").css("background", "#75e2e9");
+        });
+
+        $(".signup").click(function () {
+            $(".signup-form").show();
+            $(".login-form").hide();
+            $(".login").css("background", "none");
+            $(".signup").css("background", "#75e2e9");
+        });
+
+        $(".btn").click(function () {
+            $(".input").val("");
+        });
+        $("#locationbox").hide();
+        $("#getlist").hide();
+        $(document).ready(function () {
+
+       
+            $("#next").click(function () {
+                $("#selectvehicle").hide();
+                $("#selectvehiclemobile").hide();
+                $("#next").hide();
+                $("#locationbox").show();
+                $("#getlist").show();
+            });
+        });
+    </script>
+</body>
+
+</html>

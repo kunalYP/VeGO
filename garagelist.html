@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Vego - Garages Near You </title>
+</head>
+
+
+<body>
+    <header id="mobilenavbar">
+        <!-- Just an image -->
+        <nav class="navbar navbar-light navbarcolor">
+            <button class="navbar-toggler menu-icon" type="button" data-toggle="collapse" aria-expanded="false"
+                onclick="w3_open()" aria-label="Toggle navigation" style="border:none;">
+
+            </button>
+
+            <a class="navbar-brand" href="#">
+                <img src="VeGo icons/logo.png" width="85" height="45" alt="">
+            </a>
+
+        </nav>
+        <div class="container sticky-top" id="myHeader">
+
+            <div id="search">
+                <div class="fixedsearchbox">
+                    <button class="btn-menu">
+                  <img src="VeGO Icons/search bar.png" alt="" style="float:left;width:30px">
+                    </button>
+                    <input id="fixedsearch" type="text" placeholder="Search For Garage, Showroom or Location"
+                        class="search">
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+    </header>
+
+
+
+    <header id="navbar">
+        <div class="navigation-wrap bg-light start-header start-style">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-md navbar-light">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="brand">
+                                <a class="navbar-brand" href="index.html"><img src="VeGo icons/logo.png" alt=""></a>
+                            </div>
+
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto py-4 py-md-0">
+
+
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+                                            role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="emergencyservice.html">Emergency Service</a>
+                                            <a class="dropdown-item" href="nearbyshowrooms.html">Nearby Showrooms &
+                                                Shops</a>
+                                            <a class="dropdown-item" href="vehcilecomparison.html">Compare Vehicles</a>
+                                            <a class="dropdown-item" href="nearbygarages.html">Nearby Garages &
+                                                Workshops</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link btn" data-toggle="modal" data-target="#myModal">Login /
+                                            Signup</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+                                            role="button" aria-haspopup="true" aria-expanded="false">Work With us</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="registergarage.html">Register Garage</a>
+                                            <a class="dropdown-item" href="registershowroom.html">Register Vehicle
+                                                Showroom and Shop</a>
+                                            <a class="dropdown-item" href="registerservicecenter.html">Register Service
+                                                Center</a>
+
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="contactus.html">Contact Us</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="aboutus.html">About Us</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Login/Register</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="wrapper">
+                        <div class="container">
+                            <div class="login">Log In</div>
+                            <div class="signup">Sign Up</div>
+
+
+                            <div class="login-form">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Mobile No</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Enter Mobile Number">
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your
+                                            number with anyone else.</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1"
+                                            placeholder="Password">
+                                        <a href="">Forgot Password ?</a>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-danger btn-block">Login</button>
+                                </form>
+                            </div>
+
+                            <div class="signup-form">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Name</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Enter Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Contact No</label>
+                                        <input type="text" class="form-control" id="exampleInputPassword1"
+                                            placeholder="Mobile Number">
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your
+                                            Number with anyone else.</small>
+
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">New Password</label>
+                                        <input type="password" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Enter New Password">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Confirm Password</label>
+                                        <input type="password" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Confirm Password">
+                                    </div>
+                                    <button type="submit" class="btn btn-danger btn-block">Create Account</button>
+                                </form>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container heading" style="padding-top:30px;">
+        <h4><span>Select The</span> Garage <span></span></h4>
+
+    </div>
+
+    <section id="garagescardsmobile">
+        <section id="filteroption">
+            <div class="alert alert-light" role="alert" style="float:right">
+                <button onclick="w3_openfilter()" class="btn btn-outline-dark btn-sm" style="width:110%"> filters <i
+                        class="fa fa-angle-down" aria-hidden="true"></i></button>
+            </div>
+            <div style="float:left;font-weight:900;font-size:13px;margin-top:18px;margin-left:10px">
+                <p>20 garages Found
+                <p>
+            </div>
+        </section>
+
+   
+        <header id="sidebar ">
+            <div class="w3-sidebar w3-bar-block w3-animate-bottom fixed" style="display:none;z-index:5;width:100%;"
+                id="filtersidebar">
+                <button class="w3-bar-item w3-button w3-large" onclick="w3_closefilter()"><i class="fa fa-filter"
+                        aria-hidden="true"></i> Filters<i class="fa fa-window-close" style="float: right;"
+                        aria-hidden="true"></i></button>
+                <div class="filters text-center">
+                    <button style="border-radius: 12px;margin-top:10px;margin-right:10px" class="btn btn-outline-dark btn-sm"> Sort By Ratings</button>
+                    <button style="border-radius: 12px;margin-top:10px;margin-right:10px" class="btn btn-outline-dark btn-sm"> Show only Authorized</button>
+
+                    <button style="border-radius: 12px;margin-top:10px" class="btn btn-outline-dark btn-sm"> Sort By Distance From You</button>
+ 
+                </div>
+
+            </div>
+        </header>
+        <div class="servicesverticalcards">
+
+            <a style="text-decoration: none; color:black;" data-toggle="modal" data-target="#confirm"
+                data-name="Garage 1">
+                <div class="row" id="garagescardsrow">
+
+                    <div class="col garage-cont-btm-one">
+                        <img src="VeGo icons/garage1 (1).jpg" alt="...">
+                    </div>
+                    <div class="col garage-cont-btm-two">
+                        <h3>Garage 1</h3>
+                        <p class="desc">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+
+                        </p>
+                        <div id="distance">
+                            <span class="distance">2.5 KM</span>
+
+                        </div>
+                        <div class="price">
+                            <span style="font-size:10px;">Delivery Charge : </span><span
+                                class="deleverycharge">₹50</span>
+                        </div>
+                        <a class="service-link stretched-link" href="">
+                            <div class="seeinfo">
+                                <p>See info <i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+                            </div>
+
+                        </a>
+                    </div>
+                </div>
+            </a>
+            <a style="text-decoration: none; color:black;" data-toggle="modal" data-target="#confirm"
+                data-name="Garage 2">
+                <div class="row" id="garagescardsrow">
+
+                    <div class="col garage-cont-btm-one">
+                        <img src="VeGo icons/garage1 (2).jpg" alt="...">
+                    </div>
+                    <div class="col garage-cont-btm-two">
+                        <h3>Garage 2</h3>
+                        <p class="desc">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+
+                        </p>
+                        <div id="distance">
+                            <span class="distance">2.5 KM</span>
+
+                        </div>
+                        <div class="price">
+                            <span style="font-size:10px;">Delivery Charge : </span><span
+                                class="deleverycharge">₹50</span>
+                        </div>
+                        <a class="service-link stretched-link" href="">
+                            <div class="seeinfo">
+                                <p>See info <i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+                            </div>
+
+                        </a>
+                    </div>
+                </div>
+            </a>
+            <a style="text-decoration: none; color:black;" data-toggle="modal" data-target="#confirm"
+                data-name="Garage 3">
+                <div class="row" id="garagescardsrow">
+
+                    <div class="col garage-cont-btm-one">
+                        <img src="VeGo icons/garage1 (3).jpg" alt="...">
+                    </div>
+                    <div class="col garage-cont-btm-two">
+                        <h3>Garage 3</h3>
+                        <p class="desc">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+
+                        </p>
+                        <div id="distance">
+                            <span class="distance">2.5 KM</span>
+
+                        </div>
+                        <div class="price">
+                            <span style="font-size:10px;">Delivery Charge : </span><span
+                                class="deleverycharge">₹50</span>
+                        </div>
+                        <a class="service-link stretched-link" href="">
+                            <div class="seeinfo">
+                                <p>See info <i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+                            </div>
+
+                        </a>
+                    </div>
+                </div>
+            </a>
+            <a style="text-decoration: none; color:black;" data-toggle="modal" data-target="#confirm"
+                data-name="Garage 4">
+                <div class="row" id="garagescardsrow">
+
+                    <div class="col garage-cont-btm-one">
+                        <img src="VeGo icons/garage1 (4).jpg" alt="...">
+                    </div>
+                    <div class="col garage-cont-btm-two">
+                        <h3>Garage 4</h3>
+                        <p class="desc">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+
+                        </p>
+                        <div id="distance">
+                            <span class="distance">2.5 KM</span>
+
+                        </div>
+                        <div class="price">
+                            <span style="font-size:10px;">Delivery Charge : </span><span
+                                class="deleverycharge">₹50</span>
+                        </div>
+                        <a class="service-link stretched-link" href="">
+                            <div class="seeinfo">
+                                <p>See info <i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+                            </div>
+
+                        </a>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <section id="garagecardsdesktop">
+
+
+        <div class="container-fluid services  pt-5 mt-5 hide">
+            <h4><span>Select The</span> Garage</h4>
+            <p>Just Click On The Garage</p>
+            <div class=" d-flex justify-content-around kp">
+
+                <label>
+                    <input type="radio" name="product" class="card-input-element" data-toggle="modal"
+                        data-target="#confirm" data-name="Garage 1" />
+
+                    <div class="card card-input" style="width: 18rem;">
+                        <div class="inner">
+                            <img class="card-img-top" src="VeGo icons/garage1 (2).jpg" alt="Card image cap">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Garage 1</h5>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <ul class="list-group list-group-flush pt-2">
+
+                                <li class="list-group-item">Distance : <span class="distance">2.5 KM</span></li>
+                                <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+                                <a href="garageinfo.html">
+                                    <li class="list-group-item"><span class="distance">See Info <i
+                                                class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
+                                </a>
+                            </ul>
+
+                        </div>
+                    </div>
+                </label>
+                <label>
+                    <input type="radio" name="product" class="card-input-element" data-toggle="modal"
+                        data-target="#confirm" data-name="Garage 2" />
+
+                    <div class="card card-input" style="width: 18rem;">
+                        <div class="inner">
+                            <img class="card-img-top" src="VeGo icons/garage1 (3).jpg" alt="Card image cap">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Garage 2</h5>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <ul class="list-group list-group-flush pt-2">
+
+                                <li class="list-group-item">Distance : <span class="distance">2.5 KM</span></li>
+                                <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+                                <a href="garageinfo.html">
+                                    <li class="list-group-item"><span class="distance">See Info <i
+                                                class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </label>
+                <label>
+                    <input type="radio" name="product" class="card-input-element" data-toggle="modal"
+                        data-target="#confirm" data-name="Garage 3" />
+
+                    <div class="card card-input" style="width: 18rem;">
+                        <div class="inner">
+                            <img class="card-img-top" src="VeGo icons/garage1 (4).jpg" alt="Card image cap">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Garage 3</h5>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <ul class="list-group list-group-flush pt-2">
+
+                                <li class="list-group-item">Distance : <span class="distance">2.5 KM</span></li>
+                                <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+                                <a href="garageinfo.html">
+                                    <li class="list-group-item"><span class="distance">See Info <i
+                                                class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </label>
+                <label>
+                    <input type="radio" name="product" class="card-input-element" data-toggle="modal"
+                        data-target="#confirm" data-name="Garage 4" />
+
+                    <div class="card card-input" style="width: 18rem;">
+                        <div class="inner">
+                            <img class="card-img-top" src="VeGo icons/garage1 (1).jpg" alt="Card image cap">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Garage 4</h5>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <ul class="list-group list-group-flush pt-2">
+
+                                <li class="list-group-item">Distance : <span class="distance">2.5 KM</span></li>
+                                <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+                                <a href="garageinfo.html">
+                                    <li class="list-group-item"><span class="distance">See Info <i
+                                                class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </label>
+            </div>
+
+            <div class="d-flex justify-content-around kp">
+                <label>
+                    <input type="radio" name="product" class="card-input-element" data-toggle="modal"
+                        data-target="#confirm" />
+
+                    <div class="card card-input" style="width: 18rem;">
+                        <div class="inner">
+                            <img class="card-img-top" src="VeGo icons/garage1 (2).jpg" alt="Card image cap">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Garage 1</h5>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <ul class="list-group list-group-flush pt-2">
+
+                                <li class="list-group-item">Distance : <span class="distance">2.5 KM</span></li>
+                                <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+                                <a href="garageinfo.html">
+                                    <li class="list-group-item"><span class="distance">See Info <i
+                                                class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
+                                </a>
+                            </ul>
+
+                        </div>
+                    </div>
+                </label>
+                <label>
+                    <input type="radio" name="product" class="card-input-element" data-toggle="modal"
+                        data-target="#confirm" />
+
+                    <div class="card card-input" style="width: 18rem;">
+                        <div class="inner">
+                            <img class="card-img-top" src="VeGo icons/garage1 (3).jpg" alt="Card image cap">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Garage 2</h5>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <ul class="list-group list-group-flush pt-2">
+
+                                <li class="list-group-item">Distance : <span class="distance">2.5 KM</span></li>
+                                <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+                                <a href="garageinfo.html">
+                                    <li class="list-group-item"><span class="distance">See Info <i
+                                                class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </label>
+                <label>
+                    <input type="radio" name="product" class="card-input-element" data-toggle="modal"
+                        data-target="#confirm" />
+
+                    <div class="card card-input" style="width: 18rem;">
+                        <div class="inner">
+                            <img class="card-img-top" src="VeGo icons/garage1 (4).jpg" alt="Card image cap">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Garage 3</h5>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <ul class="list-group list-group-flush pt-2">
+
+                                <li class="list-group-item">Distance : <span class="distance">2.5 KM</span></li>
+                                <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+                                <a href="garageinfo.html">
+                                    <li class="list-group-item"><span class="distance">See Info <i
+                                                class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </label>
+                <label>
+                    <input type="radio" name="product" class="card-input-element" data-toggle="modal"
+                        data-target="#confirm" />
+
+                    <div class="card card-input" style="width: 18rem;">
+                        <div class="inner">
+                            <img class="card-img-top" src="VeGo icons/garage1 (1).jpg" alt="Card image cap">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Garage 4</h5>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <ul class="list-group list-group-flush pt-2">
+
+                                <li class="list-group-item">Distance : <span class="distance">2.5 KM</span></li>
+                                <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+                                <a href="garageinfo.html">
+                                    <li class="list-group-item"><span class="distance">See Info <i
+                                                class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </label>
+            </div>
+            <div class="d-flex justify-content-around kp">
+                <label>
+                    <input type="radio" name="product" class="card-input-element" data-toggle="modal"
+                        data-target="#confirm" />
+
+                    <div class="card card-input" style="width: 18rem;">
+                        <div class="inner">
+                            <img class="card-img-top" src="VeGo icons/garage1 (2).jpg" alt="Card image cap">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Garage 1</h5>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <ul class="list-group list-group-flush pt-2">
+
+                                <li class="list-group-item">Distance : <span class="distance">2.5 KM</span></li>
+                                <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+                                <a href="garageinfo.html">
+                                    <li class="list-group-item"><span class="distance">See Info <i
+                                                class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
+                                </a>
+                            </ul>
+
+                        </div>
+                    </div>
+                </label>
+                <label>
+                    <input type="radio" name="product" class="card-input-element" data-toggle="modal"
+                        data-target="#confirm" />
+
+                    <div class="card card-input" style="width: 18rem;">
+                        <div class="inner">
+                            <img class="card-img-top" src="VeGo icons/garage1 (3).jpg" alt="Card image cap">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Garage 2</h5>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <ul class="list-group list-group-flush pt-2">
+
+                                <li class="list-group-item">Distance : <span class="distance">2.5 KM</span></li>
+                                <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+                                <a href="garageinfo.html">
+                                    <li class="list-group-item"><span class="distance">See Info <i
+                                                class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </label>
+                <label>
+                    <input type="radio" name="product" class="card-input-element" data-toggle="modal"
+                        data-target="#confirm" />
+
+                    <div class="card card-input" style="width: 18rem;">
+                        <div class="inner">
+                            <img class="card-img-top" src="VeGo icons/garage1 (4).jpg" alt="Card image cap">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Garage 3</h5>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <ul class="list-group list-group-flush pt-2">
+
+                                <li class="list-group-item">Distance : <span class="distance">2.5 KM</span></li>
+                                <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+                                <a href="garageinfo.html">
+                                    <li class="list-group-item"><span class="distance">See Info <i
+                                                class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </label>
+                <label>
+                    <input type="radio" name="product" class="card-input-element" data-toggle="modal"
+                        data-target="#confirm" />
+
+                    <div class="card card-input" style="width: 18rem;">
+                        <div class="inner">
+                            <img class="card-img-top" src="VeGo icons/garage1 (1).jpg" alt="Card image cap">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Garage 4</h5>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <ul class="list-group list-group-flush pt-2">
+
+                                <li class="list-group-item">Distance : <span class="distance">2.5 KM</span></li>
+                                <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+                                <a href="garageinfo.html">
+                                    <li class="list-group-item"><span class="distance">See Info <i
+                                                class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </label>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="confirm" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Confirm Garage</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <label for="" style="font-weight:500;">Continue With </label>
+                    <input type="text" id="name" style="border: none;font-weight:500;">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+                    <a href="loading.html"> <button type="button" class="btn btn-primary">YES</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w3-overlay w3-animate-opacity" onclick="w3_closefilter()" style="cursor:pointer" id="myOverlay"></div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script>
+        $(".signup-form").hide();
+        $(".signup").css("background", "none");
+
+        $(".login").click(function () {
+            $(".signup-form").hide();
+            $(".login-form").show();
+            $(".signup").css("background", "none");
+            $(".login").css("background", "#75e2e9");
+        });
+
+        $(".signup").click(function () {
+            $(".signup-form").show();
+            $(".login-form").hide();
+            $(".login").css("background", "none");
+            $(".signup").css("background", "#75e2e9");
+        });
+
+        $(".btn").click(function () {
+            $(".input").val("");
+        });
+
+        $('#confirm').on('show.bs.modal', function (e) {
+            var button = $(e.relatedTarget)
+            var id = button.data('name');
+            var modal = $(this)
+            modal.find('.modal-body #name').val(id);
+
+
+        })
+        function w3_openfilter() {
+            document.getElementById("filtersidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function w3_closefilter() {
+            document.getElementById("filtersidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+        }
+
+    </script>
+</body>
+
+</html>
