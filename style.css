@@ -106,7 +106,7 @@ height:200px;
   border-radius: 5px;
   width:40%;
   height:45%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
 }
 
 .item img {
@@ -125,7 +125,7 @@ height:200px;
   border-radius: 5px;
   width:40%;
   height:45%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
 
 }
 
@@ -758,7 +758,7 @@ input:focus {
 
   #hero {
     width: 100%;
-    margin-top: 10%;
+    margin-top: 30%;
     height: 70vh;
   }
   
@@ -813,6 +813,7 @@ input:focus {
     }
     #hero .hero-img {
       text-align: center;
+      margin-top:10%;
     }
     #hero .hero-img img {
       width: 50%;
@@ -2432,7 +2433,6 @@ font-size: 1rem;
   left:0;
   bottom:0;
   width: 100%;
-  position: fixed;
   flex-direction: column;
   background-color: #06192D;
   color:white;
@@ -2904,7 +2904,7 @@ width:90%;
 
 
   .offer-item img {
-    height: 9rem;
+    height: 9.5rem;
     width: 16rem;
     margin-left: 3px;
     margin-right: 3px;

@@ -14,13 +14,13 @@
     <title>Vego - Home </title>
 </head>
 <header id="sidebar ">
-    <div class="w3-sidebar w3-bar-block w3-animate-left fixed" style="display:none;z-index:5;width:80%;"
+    <div class="w3-sidebar w3-bar-block w3-animate-left " style="display:none;z-index:5;width:80%;"
         id="mySidebar">
         <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">
            <img src="images/user.png" style="width:50px" alt=""> Hello User !<i class="fa fa-window-close"
                 style="float: right;" aria-hidden="true"></i></button>
 
-        <div class="dropdown-divider" style="margin-top:60px"></div>
+        <div class="dropdown-divider" style="margin-top:20px"></div>
         <a href="index.html" class="w3-bar-item w3-button"><i class="fa fa-home" aria-hidden="true"
                 style="margin-right: 1rem;"></i> Home</a>
         <!---<a href="#" class="w3-bar-item w3-button">Your Orders </a> !-->
@@ -685,13 +685,19 @@
         $(".input").val("");
     });
     function w3_open() {
+   
         document.getElementById("mySidebar").style.display = "block";
         document.getElementById("myOverlay").style.display = "block";
+        var x = document.getElementById("search");
+        x.style.display = "none";
+        
     }
 
     function w3_close() {
         document.getElementById("mySidebar").style.display = "none";
         document.getElementById("myOverlay").style.display = "none";
+        var x = document.getElementById("search");
+        x.style.display = "block";
     }
 
 </script>
