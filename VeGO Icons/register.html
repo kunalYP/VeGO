@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+            integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://use.fontawesome.com/2b19638171.js"></script>
+    <title>VeGO</title>
+</head>
+
+<style>
+    :root {
+        --input-padding-x: 1.5rem;
+        --input-padding-y: .75rem;
+    }
+
+    body {
+        background-color: rgb(255, 253, 253);
+    }
+
+    .card-signin {
+        border: 0;
+        border-radius: 1rem;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        height: auto;
+        width: auto;
+    }
+
+    .card-signin .card-title {
+        margin-bottom: 2rem;
+        font-weight: 300;
+        font-size: 1.5rem;
+    }
+
+
+
+    .card-signin .card-body {
+        padding: 2rem;
+    }
+
+    .form-signin {
+        width: 100%;
+    }
+
+    .form-signin .btn {
+        font-size: 80%;
+        /* border-radius: 5rem; */
+        letter-spacing: .1rem;
+        font-weight: bold;
+        padding: 1rem;
+        transition: all 0.2s;
+    }
+
+    .form-label-group {
+        position: relative;
+        margin-bottom: 1rem;
+    }
+
+    .form-label-group input {
+        height: auto;
+        /* border-radius: 2rem; */
+    }
+
+    .form-label-group>label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        margin-bottom: 0;
+        /* Override default `<label>` margin */
+        line-height: 1.5;
+        color: #495057;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+        transition: all .1s ease-in-out;
+    }
+    .form-label-group>input,
+    .form-label-group>label {
+        padding: var(--input-padding-y) var(--input-padding-x);
+    }
+
+    .btn-google {
+        color: white;
+        background-color: #A60523;
+    }
+
+    .btn-facebook {
+        color: white;
+        background-color: #3b5998;
+    }
+</style> 
+<header id="mobilenavbar">
+    <!-- Just an image -->
+    <nav class="navbar navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false"
+            onclick="w3_open()" aria-label="Toggle navigation" style="border:none;">
+          
+        </button>
+        <a class="navbar-brand" href="#">
+            <img src="VeGo icons/logo.png" width="85" height="45" alt="">
+        </a>
+        <header id="sidebar">
+            <div class="w3-sidebar w3-bar-block w3-animate-left fixed" style="display:none;z-index:5;width:80%;"
+                id="mySidebar">
+                <button class="w3-bar-item w3-button w3-large" onclick="w3_close()"><i class="fa fa-user-circle-o"
+                        aria-hidden="true" style="margin-right: 1rem;"></i>Hello User !<i class="fa fa-window-close"
+                        style="float: right;" aria-hidden="true"></i></button>
+
+                <div class="dropdown-divider"></div>
+                <a href="index.html" class="w3-bar-item w3-button"><i class="fa fa-home" aria-hidden="true"
+                        style="margin-right: 1rem;"></i> Home</a>
+                <!---<a href="#" class="w3-bar-item w3-button">Your Orders </a> !-->
+
+                <div class="dropdown-divider"></div>
+
+                <a href="emergencyservice.html" class="w3-bar-item w3-button"><i class="fa fa-exclamation-triangle"
+                        aria-hidden="true" style="margin-right: 1rem;"></i> Emergency Service</a>
+                <a href="vehcilecomparison.html" class="w3-bar-item w3-button"><i class="fa fa-balance-scale"
+                        aria-hidden="true" style="margin-right: 1rem;"></i>Compare Vehicles</a>
+                <a href="nearbyshowrooms.html" class="w3-bar-item w3-button"> <i class="fa fa-car" aria-hidden="true"
+                        style="margin-right: 1rem;"></i> Nearby Showrooms & Shops</a>
+                <a href="nearbygarages.html" class="w3-bar-item w3-button"><i class="fa fa-cogs" aria-hidden="true"
+                        style="margin-right: 1rem;"></i> Nearby Garages & Workshops</a>
+                <div class="dropdown-divider"></div>
+                <a href="registergarage.html" class="w3-bar-item w3-button"><i class="fa fa-handshake-o" aria-hidden="true"
+                        style="margin-right: 1rem;"></i>Work With Us</a>
+                <a href="aboutus.html" class="w3-bar-item w3-button"><i class="fa fa-globe" aria-hidden="true"
+                        style="margin-right: 1rem;"></i> About Us</a>
+                <a href="contactus.html" class="w3-bar-item w3-button"><i class="fa fa-phone-square" aria-hidden="true"
+                        style="margin-right: 1rem;"></i> Contact Us</a>
+                <div class="dropdown-divider"></div>
+                <a href="login.html" class="w3-bar-item w3-button"><i class="fa fa-sign-in" aria-hidden="true"
+                        style="margin-right: 1rem;"></i> Login/Sign Up</a>
+
+                <div class="dropdown-divider"></div>
+
+
+
+            </div>
+        </header>
+    </nav>
+</header>
+
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-xl-9 mx-auto">
+                <div class="card card-signin flex-row my-5">
+                    <div class="card-img-left d-none d-md-flex">
+                        <!-- Background image for card set in CSS! -->
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-center font-weight-bold">Register</h5>
+                        <form class="form-signin">
+                            <div class="form-label-group">
+                                <input type="text" id="inputUserame" class="form-control" placeholder="First Name"
+                                    required autofocus>
+                         
+                            </div>
+                            <div class="form-label-group">
+                                <input type="text" id="inputUserame" class="form-control" placeholder="Last Name"
+                                    required autofocus>
+                         
+                            </div>
+  
+
+                            <hr>
+                            <div class="form-label-group">
+                                <input type="text" id="inputEmail" class="form-control" placeholder="Mobile Number"
+                                    required>
+                            
+                            </div>
+                            <div class="form-label-group">
+                                <input type="text" id="inputEmail" class="form-control" placeholder="Email address (optional)"
+                                    required>
+                            
+                            </div>
+                            <hr>
+                            <div class="form-label-group">
+                                <input type="password" id="inputPassword" class="form-control"
+                                    placeholder="Password" required>
+                             
+                            </div>
+                        
+                            <div class="form-label-group">
+                                <input type="password" id="inputConfirmPassword" class="form-control"
+                                    placeholder="Confirm Password" required>
+                             
+                            </div>
+
+                            <button class="btn btn-lg btn-dark btn-block text-uppercase"
+                                type="submit">Register</button>
+                            <a class="d-block text-center mt-2 small font-weight-bold" href="login.html">Already
+                                Have a Account ? Sign In</a>
+                            <hr class="my-4">
+                            <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i
+                                    class="fab fa-google mr-2"></i> Sign up with Google</button>
+                            <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i
+                                    class="fab fa-facebook-f mr-2"></i> Sign up with Facebook</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script>
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
+    
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+        }
+    
+    </script>
+    </body>
+    
+    </html>
+    

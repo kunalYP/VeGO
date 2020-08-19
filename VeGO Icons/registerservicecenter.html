@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Vego - Home </title>
+</head>
+<header id="sidebar ">
+    <div class="w3-sidebar w3-bar-block w3-animate-right fixed" style="display:none;z-index:5;width:80%;"
+        id="mySidebar">
+        <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">
+           <img src="VeGO Icons/user.png" style="width:50px" alt=""> Hello User !<i class="fa fa-window-close"
+                style="float: right;" aria-hidden="true"></i></button>
+
+        <div class="dropdown-divider" style="margin-top:60px"></div>
+        <a href="index.html" class="w3-bar-item w3-button"><i class="fa fa-home" aria-hidden="true"
+                style="margin-right: 1rem;"></i> Home</a>
+        <!---<a href="#" class="w3-bar-item w3-button">Your Orders </a> !-->
+
+        <div class="dropdown-divider"></div>
+
+        <a href="emergencyservice.html" class="w3-bar-item w3-button"><i class="fa fa-exclamation-triangle"
+                aria-hidden="true" style="margin-right: 1rem;"></i> Emergency Service</a>
+        <a href="vehcilecomparison.html" class="w3-bar-item w3-button"><i class="fa fa-balance-scale"
+                aria-hidden="true" style="margin-right: 1rem;"></i>Compare Vehicles</a>
+        <a href="nearbyshowrooms.html" class="w3-bar-item w3-button"> <i class="fa fa-car" aria-hidden="true"
+                style="margin-right: 1rem;"></i> Nearby Showrooms & Shops</a>
+        <a href="nearbygarages.html" class="w3-bar-item w3-button"><i class="fa fa-cogs" aria-hidden="true"
+                style="margin-right: 1rem;"></i> Nearby Garages & Workshops</a>
+        <div class="dropdown-divider"></div>
+        <a href="workwithus.html" class="w3-bar-item w3-button"><i class="fa fa-handshake-o"
+                aria-hidden="true" style="margin-right: 1rem;"></i>Work With Us</a>
+        <a href="aboutus.html" class="w3-bar-item w3-button">
+        <img src="VeGO Icons/about us.png" style="width:18px;margin-right: 0.7rem;" alt="">      
+          About Us</a>
+        <a href="contactus.html" class="w3-bar-item w3-button"><i class="fa fa-phone-square" aria-hidden="true"
+                style="margin-right: 1rem;"></i> Contact Us</a>
+        <div class="dropdown-divider"></div>
+        <a href="login.html" class="w3-bar-item w3-button"><i class="fa fa-sign-in" aria-hidden="true"
+                style="margin-right: 1rem;"></i> Login/Sign Up</a>
+
+        <div class="dropdown-divider"></div>
+
+
+
+    </div>
+</header>
+
+<body>
+    <header id="navbar">
+        <div class="navigation-wrap bg-light start-header start-style">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-md navbar-light">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="brand">
+                                <a class="navbar-brand" href="index.html"><img src="VeGo icons/logo.png" alt=""></a>
+                            </div>
+
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto py-4 py-md-0">
+
+
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+                                            role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="emergencyservice.html">Emergency Service</a>
+                                            <a class="dropdown-item" href="nearbyshowrooms.html">Nearby Showrooms &
+                                                Shops</a>
+                                            <a class="dropdown-item" href="vehcilecomparison.html">Compare Vehicles</a>
+                                            <a class="dropdown-item" href="nearbygarages.html">Nearby Garages &
+                                                Workshops</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link btn" data-toggle="modal" data-target="#myModal">Login /
+                                            Signup</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+                                            role="button" aria-haspopup="true" aria-expanded="false">Work With us</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="registergarage.html">Register Garage</a>
+                                            <a class="dropdown-item" href="registershowroom.html">Register Vehicle
+                                                Showroom and Shop</a>
+                                            <a class="dropdown-item" href="registerservicecenter.html">Register Service
+                                                Center</a>
+
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="contactus.html">Contact Us</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="aboutus.html">About Us</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <header id="mobilenavbar">
+        <!-- Just an image -->
+        <nav class="navbar  navbar-light">
+            <button class="navbar-toggler menu-icon" type="button" data-toggle="collapse" aria-expanded="false"
+                onclick="w3_open()" aria-label="Toggle navigation" style="border:none;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand" href="#">
+                <img src="VeGo icons/logo.png" width="85" height="45" alt="">
+            </a>
+
+        </nav>
+        <div class="container  sticky-top" id="myHeader">
+
+            <div id="search">
+                <div class="fixedsearchbox">
+                    <button class="btn-menu">
+                  <img src="VeGO Icons/search bar.png" alt="" style="float:left;width:30px">
+                    </button>
+                    <input id="fixedsearch" type="text" placeholder="Search For Garage, Showroom or Location"
+                        class="search">
+                </div>
+            </div>
+
+
+        </div>
+   
+
+    </header>
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center" id="floatinggarage">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                    <h1 data-aos="fade-up">Register Your Service Center With Us.</h1>
+                    <h2 data-aos="fade-up" class="" data-aos-delay="400">Bring Your Service Center Online And Available For
+                        Customers For 24 Hr.</h2>
+                    <div data-aos="fade-up" data-aos-delay="800">
+                        <a href="#form" class="btn-get-started scrollto">Register Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
+                    <img src="VeGo icons/garage vector.svg" class="img-fluid animated" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section><!-- End Hero -->
+    <div class="container-fluid heading" id="ourfeatures">
+        <h4><span>Our</span> Features <span></span></h4>
+
+    </div>
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+        <div class="container">
+
+            <div class="container-fluid services">
+                <h4><span>What We </span> Provide <span>To You</span></h4>
+                <p> We cater an array of high-end products for Education and Government Sector </p>
+            </div>
+
+            <div class="row" data-aos="fade-up" data-aos-delay="300">
+                <div class="col-lg-4 col-md-4">
+                    <div class="icon-box">
+                        <img src="VeGO Icons/bring your garage online.png" style="height:40px;width:45px" alt=""> &nbsp;&nbsp;&nbsp;
+                        <h3><a href="">Bring Your Shop Online</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 mt-4 mt-md-0">
+                    <div class="icon-box">
+                        <img src="VeGO Icons/provide online service.png" style="height:40px;width:45px" alt=""> &nbsp;&nbsp;&nbsp;
+                        <h3><a href="">Provide Online Service</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 mt-4 mt-md-0">
+                    <div class="icon-box">
+                        <img src="VeGO Icons/nearby customers.png" style="height:40px;width:45px" alt=""> &nbsp;&nbsp;&nbsp;
+                        <h3><a href="">Get All Nearby Customers</a></h3>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row pt-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="col-lg-4 col-md-4">
+                    <div class="icon-box">
+                        <img src="VeGO Icons/faster service.png" style="height:40px;width:45px" alt=""> &nbsp;&nbsp;&nbsp;
+                        <h3><a href="">Faster Service</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 mt-4 mt-md-0">
+                    <div class="icon-box">
+                        <img src="VeGO Icons/24_7 working.png" style="height:40px;width:45px" alt=""> &nbsp;&nbsp;&nbsp;
+                        <h3><a href="">24 X 7 Working</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 mt-4 mt-md-0">
+                    <div class="icon-box">
+                        <img src="VeGO Icons/more customers.png" style="height:40px;width:45px" alt=""> &nbsp;&nbsp;&nbsp;
+                        <h3><a href="">Get More Customers</a></h3>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row pt-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="col-lg-4 col-md-4">
+                    <div class="icon-box">
+                        <img src="VeGo icons/logo.png" style="height:40px;width:55px" alt=""> &nbsp;&nbsp;&nbsp;
+                        <h3><a href="">Be Service Provider On Vego</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 mt-4 mt-md-0">
+                    <div class="icon-box">
+                        <img src="VeGO Icons/1 year .png" style="height:40px;width:45px" alt=""> &nbsp;&nbsp;&nbsp;
+                        <h3><a href="">Get 1 Yr Free Service</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 mt-4 mt-md-0">
+                    <div class="icon-box">
+                        <img src="VeGO Icons/yearly maintenance.png" style="height:40px;width:45px" alt=""> &nbsp;&nbsp;&nbsp;
+                        <h3><a href="">Yearly Maintainance : ₹999</a></h3>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section><!-- End Features Section -->
+    <br>
+
+    <section class="registerform " id="form">
+
+        <div class="container-fluid services">
+            <h4><span>Fill This Form To </span> Register <span> Your Service Center</span></h4>
+            <p> by Filling This form You Will be Working With Us </p>
+        </div>
+        <div class="container-fluid heading" id="ourfeatures" style="margin-bottom:-120px;">
+            <h4><span>Fill This Form To</span> Register <span></span></h4>
+
+        </div>
+        <hr id="borderregister" style="border-bottom: 2px solid black;">
+
+        <div class="page-content">
+            <div class="form-v4-content">
+
+                <form class="form-detail" action="#" method="post" id="myform">
+
+                    <h2>Owner Information</h2>
+                    <div class="form-group">
+                        <div class="form-row form-row-1">
+                            <label for="first_name">First Name</label>
+                            <input type="text" name="first_name" id="first_name" class="input-text">
+                        </div>
+                        <div class="form-row form-row-1">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" name="last_name" id="last_name" class="input-text">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-row form-row-1">
+                            <label for="first_name">Mobile No 1</label>
+                            <input type="text" name="first_name" id="first_name" class="input-text">
+                        </div>
+                        <div class="form-row form-row-1">
+                            <label for="last_name">Mobile No 2</label>
+                            <input type="text" name="last_name" id="last_name" class="input-text">
+                        </div>
+                    </div>
+
+
+                    <hr style="border:2px solid #2f73a3;">
+                    <h2 class="pt-4">Service Center Details</h2>
+                    <div class="form-row">
+                        <label for="your_email">Center Name :</label>
+                        <input type="text" name="your_email" id="your_email" class="input-text" required
+                            pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
+                    </div>
+                    <div class="form-row">
+                        <label for="your_email">Select Type :</label>
+                        <select class="custom-select ">
+                            <option selected>Authorized Dealer</option>
+                            <option value="1">Local Dealer</option>
+                   
+                        </select>
+                    </div>
+                    <div class="form-row pt-4">
+                        <label for="your_email">Brand :</label>
+                        <input type="text" name="your_email" id="your_email" class="input-text" required
+                            pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
+                    </div>
+                    <div class="form-row ">
+                        <label for="your_email">Select Type :</label>
+                        <select class="custom-select ">
+                            <option selected>Two Wheeler</option>
+                            <option value="1">Three Wheeler</option>
+                            <option value="2">Four Wheeler</option>
+                            <option value="3">More Wheeler</option>
+                        </select>
+                    </div>
+
+
+                    <div class="form-group pt-4">
+                        <div class="form-row form-row-1">
+                            <label for="first_name">Pincode : </label>
+                            <input type="text" name="first_name" id="first_name" class="input-text">
+                        </div>
+                        <div class="form-row form-row-1">
+                            <label for="last_name">City : </label>
+                            <input type="text" name="last_name" id="last_name" class="input-text">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <label for="exampleFormControlTextarea1">Center Address In Detail</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <div class="form-row pt-4">
+                        <label for="your_email">Center Photos : ( Min : 6 and Max: 10 )</label>
+                        <input type="file" name="your_email" id="your_email" class="input-text" required
+                            pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
+                    </div>
+                    <div class="form-group">
+                        <div class="form-row form-row-1">
+                            <label for="first_name">Birth Year : </label>
+                            <input type="text" name="last_name" id="last_name" class="input-text">
+                        </div>
+                        <div class="form-row form-row-1">
+                            <label for="last_name">No of Workers : </label>
+                            <input type="text" name="last_name" id="last_name" class="input-text">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="form-row form-row-1">
+                            <label for="first_name">Opening Time : </label>
+                            <input type="text" name="first_name" id="first_name" class="input-text">
+                        </div>
+                        <div class="form-row form-row-1">
+                            <label for="last_name">Closing Time : </label>
+                            <input type="text" name="last_name" id="last_name" class="input-text">
+                        </div>
+                        <div class="form-row form-row-1">
+                            <label for="last_name">Holiday : </label>
+                            <input type="text" name="last_name" id="last_name" class="input-text">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="last_name">Select The Services That You Provide : </label>
+                        <select multiple class="form-control" id="exampleFormControlSelect2">
+                            <option>service 1</option>
+                            <option style="margin-top:10px;">service 1</option>
+                            <option style="margin-top:10px;">service 1</option>
+                            <option style="margin-top:10px;">service 1</option>
+                        </select>
+
+
+                    </div>
+                    <hr style="border:2px solid #2f73a3;">
+                    <h2 class="pt-4">Center Location</h2>
+
+                    <div class="form-row">
+                        <label for="your_email">Center Address :</label>
+                        <input type="text" name="your_email" id="your_email" class="input-text" required
+                            pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
+                    </div>
+                    <div class="form-row">
+                        <iframe id="googlemap"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15073.234307308167!2d77.02138377450119!3d19.181720042435785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8f853c6a83fbf800!2sPurna%20Junction!5e0!3m2!1sen!2sin!4v1597152317620!5m2!1sen!2sin"
+                            frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                            tabindex="0"></iframe>
+                    </div>
+
+                    <hr style="border:2px solid #2f73a3;">
+                    <h2 class="pt-4">Login Credentials</h2>
+
+                    <div class="form-row">
+                        <label for="your_email">Mobile No :</label>
+                        <input type="text" name="your_email" id="your_email" class="input-text" required
+                            pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
+                    </div>
+                    <div class="form-group">
+                        <div class="form-row form-row-1">
+                            <label for="first_name">New Password</label>
+                            <input type="text" name="first_name" id="first_name" class="input-text">
+                        </div>
+                        <div class="form-row form-row-1">
+                            <label for="last_name">Confirm Password</label>
+                            <input type="text" name="last_name" id="last_name" class="input-text">
+                        </div>
+                    </div>
+                    <div class="form-row-last">
+                        <input type="submit" name="register" class="register" value="Register">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Login/Register</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="wrapper">
+                        <div class="container">
+                            <div class="login">Log In</div>
+                            <div class="signup">Sign Up</div>
+
+
+                            <div class="login-form">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Mobile No</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Enter Mobile Number">
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your
+                                            number with anyone else.</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1"
+                                            placeholder="Password">
+                                        <a href="">Forgot Password ?</a>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-danger btn-block">Login</button>
+                                </form>
+                            </div>
+
+                            <div class="signup-form">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Name</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Enter Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Contact No</label>
+                                        <input type="text" class="form-control" id="exampleInputPassword1"
+                                            placeholder="Mobile Number">
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your
+                                            Number with anyone else.</small>
+
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">New Password</label>
+                                        <input type="password" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Enter New Password">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Confirm Password</label>
+                                        <input type="password" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Confirm Password">
+                                    </div>
+                                    <button type="submit" class="btn btn-danger btn-block">Create Account</button>
+                                </form>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer text-muted" id="bigfooter">
+
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left mt-lg-5 mt-3">
+
+            <!-- Grid row -->
+            <div class="row mt-3 dark-grey-text justify-content-between">
+
+                <!-- Grid column -->
+                <div class="col-md-12 col-lg-2 col-xl-2 mb-4 pr-xl-2">
+
+                    <!-- Content -->
+                    <a href="index.html" class="text-uppercase font-weight-bold"> <img src="VeGo icons/logo.png"
+                            class="img-fluid" style="width:170px;" /></a>
+
+                    <p style="margin-top:16px;">Leading Organization That Provides All Type Of Automobile Services.
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 pl-xl-5">
+
+                    <!-- Links -->
+                    <div class="pl-xl-3">
+                        <h6 class="text-uppercase ">Useful Links</h6>
+                        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <a class="dark-grey-text" href="index.html">Home</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="registergarage.html">Add garage</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="registershowroom.html">Add Showroom</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="#">Contact Us
+                            </a>
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4 pl-xl-5">
+                    <div class="pl-xl-2">
+                        <!-- Links -->
+                        <h6 class="text-uppercase ">Services</h6>
+                        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <a class="dark-grey-text" href="emergencyservice.html">Emeregency Service</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="nearbyshowrooms.html">Nearby Showrooms & Shops</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="vehcilecomparison.html">Compare Vehicles</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="nearbygarages.html">Nearby Garages & Workshops</a>
+                        </p>
+
+
+                    </div>
+                </div>
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 pl-xl-0">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase ">Owner</h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a class="dark-grey-text" href="">Kunal Y. Pandharkar</a>
+                    </p>
+                    <p>
+                        <a class="dark-grey-text" href="">Adarsh Colony</a>
+                    </p>
+                    <p>
+                        <a class="dark-grey-text" href="">Purna</a>
+                    </p>
+                    <p>
+                        <a class="dark-grey-text" href="">Dist.Parbhani</a>
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mb-md-0 mb-4 pl-xl-5 contact pr-0">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase">Contact</h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <i class="fa fa-home mr-1"></i> Purna
+                    </p>
+                    <p class="contactp">
+                        <i class="fa fa-envelope mr-2"></i> workwithvego@gmail.com
+                    </p>
+                    <p>
+                        <i class="fa fa-phone fa-flip-horizontal mr-1"></i> +91 7774843561
+                    </p>
+                    <p>
+                        <i class="fa fa-phone fa-flip-horizontal mr-1"></i> +91 9561601680
+                    </p>
+
+
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+        <div class="d-flex justify-content-around">
+            <a href="#" class="fa fa-facebook socialmedia"></a>
+            <a href="#" class="fa fa-twitter socialmedia"></a>
+            <a href="#" class="fa fa-linkedin socialmedia"></a>
+            <a href="#" class="fa fa-youtube socialmedia"></a>
+            <a href="#" class="fa fa-instagram socialmedia"></a>
+        </div>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center text-black-50 py-3">
+            &copy; <span id="current-year">2020</span> Copyright:
+            <a class="text-secondary" href="#"> Vego Pvt. Ltd.</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+
+<script>
+
+    $(".signup-form").hide();
+    $(".signup").css("background", "none");
+
+    $(".login").click(function () {
+        $(".signup-form").hide();
+        $(".login-form").show();
+        $(".signup").css("background", "none");
+        $(".login").css("background", "#75e2e9");
+    });
+
+    $(".signup").click(function () {
+        $(".signup-form").show();
+        $(".login-form").hide();
+        $(".login").css("background", "none");
+        $(".signup").css("background", "#75e2e9");
+    });
+
+    $(".btn").click(function () {
+        $(".input").val("");
+    });
+
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+    }
+
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+    }
+
+</script>
+
+</html>

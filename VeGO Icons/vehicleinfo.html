@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Vego - Home </title>
+</head>
+<header id="sidebar ">
+    <div class="w3-sidebar w3-bar-block w3-animate-right fixed" style="display:none;z-index:5;width:80%;"
+        id="mySidebar">
+        <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">
+           <img src="VeGO Icons/user.png" style="width:50px" alt=""> Hello User !<i class="fa fa-window-close"
+                style="float: right;" aria-hidden="true"></i></button>
+
+        <div class="dropdown-divider" style="margin-top:60px"></div>
+        <a href="index.html" class="w3-bar-item w3-button"><i class="fa fa-home" aria-hidden="true"
+                style="margin-right: 1rem;"></i> Home</a>
+        <!---<a href="#" class="w3-bar-item w3-button">Your Orders </a> !-->
+
+        <div class="dropdown-divider"></div>
+
+        <a href="emergencyservice.html" class="w3-bar-item w3-button"><i class="fa fa-exclamation-triangle"
+                aria-hidden="true" style="margin-right: 1rem;"></i> Emergency Service</a>
+        <a href="vehcilecomparison.html" class="w3-bar-item w3-button"><i class="fa fa-balance-scale"
+                aria-hidden="true" style="margin-right: 1rem;"></i>Compare Vehicles</a>
+        <a href="nearbyshowrooms.html" class="w3-bar-item w3-button"> <i class="fa fa-car" aria-hidden="true"
+                style="margin-right: 1rem;"></i> Nearby Showrooms & Shops</a>
+        <a href="nearbygarages.html" class="w3-bar-item w3-button"><i class="fa fa-cogs" aria-hidden="true"
+                style="margin-right: 1rem;"></i> Nearby Garages & Workshops</a>
+        <div class="dropdown-divider"></div>
+        <a href="workwithus.html" class="w3-bar-item w3-button"><i class="fa fa-handshake-o"
+                aria-hidden="true" style="margin-right: 1rem;"></i>Work With Us</a>
+        <a href="aboutus.html" class="w3-bar-item w3-button">
+        <img src="VeGO Icons/about us.png" style="width:18px;margin-right: 0.7rem;" alt="">      
+          About Us</a>
+        <a href="contactus.html" class="w3-bar-item w3-button"><i class="fa fa-phone-square" aria-hidden="true"
+                style="margin-right: 1rem;"></i> Contact Us</a>
+        <div class="dropdown-divider"></div>
+        <a href="login.html" class="w3-bar-item w3-button"><i class="fa fa-sign-in" aria-hidden="true"
+                style="margin-right: 1rem;"></i> Login/Sign Up</a>
+
+        <div class="dropdown-divider"></div>
+
+
+
+    </div>
+</header>
+<body>
+    <header id="navbar">
+        <div class="navigation-wrap bg-light start-header start-style">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-md navbar-light">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="brand">
+                                <a class="navbar-brand" href="index.html"><img src="VeGo icons/logo.png" alt=""></a>
+                            </div>
+
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto py-4 py-md-0">
+
+
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+                                            role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="emergencyservice.html">Emergency Service</a>
+                                            <a class="dropdown-item" href="nearbyshowrooms.html">Nearby Showrooms &
+                                                Shops</a>
+                                            <a class="dropdown-item" href="vehcilecomparison.html">Compare Vehicles</a>
+                                            <a class="dropdown-item" href="nearbygarages.html">Nearby Garages &
+                                                Workshops</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link btn" data-toggle="modal" data-target="#myModal">Login /
+                                            Signup</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+                                            role="button" aria-haspopup="true" aria-expanded="false">Work With us</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="registergarage.html">Register Garage</a>
+                                            <a class="dropdown-item" href="registershowroom.html">Register Vehicle
+                                                Showroom and Shop</a>
+                                            <a class="dropdown-item" href="registerservicecenter.html">Register Service
+                                                Center</a>
+
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="contactus.html">Contact Us</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="aboutus.html">About Us</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <header id="mobilenavbar">
+        <!-- Just an image -->
+        <nav class="navbar  navbar-light">
+            <button class="navbar-toggler menu-icon" type="button" data-toggle="collapse" aria-expanded="false"
+                onclick="w3_open()" aria-label="Toggle navigation" style="border:none;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand" href="#">
+                <img src="VeGo icons/logo.png" width="85" height="45" alt="">
+            </a>
+
+        </nav>
+     
+   
+        <section id="ownerlocation">
+            <div class="alert alert-primary" role="alert" data-toggle="modal" data-target="#locationmodal">
+
+                <i style="font-size:20px" class="fa fa-map-marker" aria-hidden="true"></i>
+                <a id="ko" data-toggle="tooltip" title="Add Your Own Location">Purna , Parbhani-431512</a>
+            </div>
+        </section>
+
+    </header>
+
+
+    <section id="showroomcorousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="VeGo icons/s1.jpg" alt="First slide" height="500px">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Showroom 1</h2>
+                        <p>Explore the range of technical solutions to experience complete digital transformation
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="VeGo icons/s1.jpg" alt="Second slide" height="500px">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Showroom 1</h2>
+                        <p>Explore the range of technical solutions to experience complete digital transformation
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="VeGo icons/s1.jpg" alt="Third slide" height="500px">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Showroom 1</h2>
+                        <p>Explore the range of technical solutions to experience complete digital transformation
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </section>
+
+    <!-- Icons Grid -->
+    <section class="features-icons bg-light text-center">
+        <div class="container-fluid services pt-4">
+            <h4><span>Key </span> Features <span></span></h4>
+            <p> We cater an array of high-end products for Education and Government Sector </p>
+        </div>
+        <div class="container heading" style="padding-top:30px;">
+            <h4><span>Top</span> Features <span></span></h4>
+            <p>Audi 320</p>
+        </div>
+        <div class="container-fluid ">
+            <div class="row flex-container">
+                <div class="col-lg-3">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon">
+                            <img src="VeGo icons/speed.png" width="090px" alt="">
+                        </div>
+                        <h3>Feature 1</h3>
+                        <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon">
+                            <img src="VeGo icons/speed.png" width="090px" alt="">
+                        </div>
+                        <h3>Feature 2</h3>
+                        <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon">
+                            <img src="VeGo icons/speed.png" width="090px" alt="">
+                        </div>
+                        <h3>Feature 3</h3>
+                        <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon">
+                            <img src="VeGo icons/speed.png" width="090px" alt="">
+                        </div>
+                        <h3>Feature 4</h3>
+                        <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-2 flex-container">
+                <div class="col-lg-3">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon">
+                            <img src="VeGo icons/speed.png" width="090px" alt="">
+                        </div>
+                        <h3>Feature 5</h3>
+                        <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon">
+                            <img src="VeGo icons/speed.png" width="090px" alt="">
+                        </div>
+                        <h3>Feature 6</h3>
+                        <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon">
+                            <img src="VeGo icons/speed.png" width="090px" alt="">
+                        </div>
+                        <h3>Feature 7</h3>
+                        <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon">
+                            <img src="VeGo icons/speed.png" width="090px" alt="">
+                        </div>
+                        <h3>Feature 8</h3>
+                        <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-2 flex-container">
+                <div class="col-lg-3">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon">
+                            <img src="VeGo icons/speed.png" width="090px" alt="">
+                        </div>
+                        <h3>Feature 9</h3>
+                        <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon">
+                            <img src="VeGo icons/speed.png" width="090px" alt="">
+                        </div>
+                        <h3>Feature 10</h3>
+                        <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon">
+                            <img src="VeGo icons/speed.png" width="090px" alt="">
+                        </div>
+                        <h3>Feature 11</h3>
+                        <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon">
+                            <img src="VeGo icons/speed.png" width="090px" alt="">
+                        </div>
+                        <h3>Feature 12</h3>
+                        <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section>
+        <div class="container-fluid services pt-4">
+            <h4><span>Official </span> Video <span></span></h4>
+            <p> We cater an array of high-end products for Education and Government Sector </p>
+        </div>
+        <div class="container heading" style="padding-top:30px;">
+            <h4><span></span> Official <span>Video</span></h4>
+
+        </div>
+        <div class="container videos">
+
+
+
+            <iframe class="responsive-iframe" width="560" height="315" src="https://www.youtube.com/embed/MnPu-Ten-tk"
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+        </div>
+
+    </section>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Login/Register</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="wrapper">
+                        <div class="container">
+                            <div class="login">Log In</div>
+                            <div class="signup">Sign Up</div>
+
+
+                            <div class="login-form">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Mobile No</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Enter Mobile Number">
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your
+                                            number with anyone else.</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1"
+                                            placeholder="Password">
+                                        <a href="">Forgot Password ?</a>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-danger btn-block">Login</button>
+                                </form>
+                            </div>
+
+                            <div class="signup-form">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Name</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Enter Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Contact No</label>
+                                        <input type="text" class="form-control" id="exampleInputPassword1"
+                                            placeholder="Mobile Number">
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your
+                                            Number with anyone else.</small>
+
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">New Password</label>
+                                        <input type="password" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Enter New Password">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Confirm Password</label>
+                                        <input type="password" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Confirm Password">
+                                    </div>
+                                    <button type="submit" class="btn btn-danger btn-block">Create Account</button>
+                                </form>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="container-fluid services gallary">
+            <h4><span> Photo</span> Gallary <span></span></h4>
+            <p> We cater an array of high-end products for Education and Government Sector </p>
+        </div>
+        <div class="container heading">
+            <h4><span></span> Photo <span>Gallary</span></h4>
+
+        </div>
+
+        <div class="row text-center text-lg-left">
+
+            <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100" id="pop"  data-toggle="modal" data-target="#exampleModal3">
+                    <img class="img-fluid img-thumbnail" src="VeGo icons/car1.png" alt="" id="myImg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="VeGo icons/car3.png" alt="" id="myImg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="VeGo icons/car4.png" alt="" id="myImg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100" id="pop"  data-toggle="modal" data-target="#exampleModal3">
+                    <img class="img-fluid img-thumbnail" src="VeGo icons/car1.png" alt="" id="myImg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100"  data-toggle="modal" data-target="#exampleModal3">
+                    <img class="img-fluid img-thumbnail" src="VeGo icons/car3.png" alt="" id="myImg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100"  data-toggle="modal" data-target="#exampleModal3">
+                    <img class="img-fluid img-thumbnail" src="VeGo icons/car4.png" alt="" id="myImg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100" id="pop"  data-toggle="modal" data-target="#exampleModal3">
+                    <img class="img-fluid img-thumbnail" src="VeGo icons/car1.png" alt="" id="myImg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100"  data-toggle="modal" data-target="#exampleModal3">
+                    <img class="img-fluid img-thumbnail" src="VeGo icons/car3.png" alt="" id="myImg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100"  data-toggle="modal" data-target="#exampleModal3">
+                    <img class="img-fluid img-thumbnail" src="VeGo icons/car4.png" alt="" id="myImg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100" id="pop"  data-toggle="modal" data-target="#exampleModal3">
+                    <img class="img-fluid img-thumbnail" src="VeGo icons/car1.png" alt="" id="myImg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100"  data-toggle="modal" data-target="#exampleModal3">
+                    <img class="img-fluid img-thumbnail" src="VeGo icons/car3.png" alt="" id="myImg">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100"  data-toggle="modal" data-target="#exampleModal3">
+                    <img class="img-fluid img-thumbnail" src="VeGo icons/car4.png" alt="" id="myImg">
+                </a>
+            </div>
+
+        </div>
+        <a href="" class="badge badge-light" style="float:right;">See More <i class="fa fa-angle-double-right"
+                aria-hidden="true"></i></a>
+    </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+    <div class="modal-dialog  modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img src="VeGo icons/car1.png" alt="" style="height: 50%; width: 100%;">
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<section id="comparebutton">
+   
+<div class="text-center pb-4 pt-4">
+   <button class="btn btn-outline-primary btn-lg"  onclick="location.href='vehcilecomparison.html';">Click To Compare</button>
+</div>
+</section>
+
+    <!-- /.container -->
+    <section id="mobilefooter">
+        <footer class="mobilefooter" style="position: relative;">
+            <p class="footer-item mx-auto">© 2020-2021 VeGO</p>
+            <a style="margin: auto;" href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+
+        </footer>
+    </section>
+
+    <footer class="footer text-muted" id="bigfooter">
+
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left mt-lg-5 mt-3">
+
+            <!-- Grid row -->
+            <div class="row mt-3 dark-grey-text justify-content-between">
+
+                <!-- Grid column -->
+                <div class="col-md-12 col-lg-2 col-xl-2 mb-4 pr-xl-2">
+
+                    <!-- Content -->
+                    <a href="index.html" class="text-uppercase font-weight-bold"> <img src="VeGo icons/logo.png"
+                            class="img-fluid" style="width:170px;" /></a>
+
+                    <p style="margin-top:16px;">Leading Organization That Provides All Type Of Automobile Services.
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 pl-xl-5">
+
+                    <!-- Links -->
+                    <div class="pl-xl-3">
+                        <h6 class="text-uppercase ">Useful Links</h6>
+                        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <a class="dark-grey-text" href="index.html">Home</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="registergarage.html">Add garage</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="registershowroom.html">Add Showroom</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="#">Contact Us
+                            </a>
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4 pl-xl-5">
+                    <div class="pl-xl-2">
+                        <!-- Links -->
+                        <h6 class="text-uppercase ">Services</h6>
+                        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <a class="dark-grey-text" href="emergencyservice.html">Emeregency Service</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="nearbyshowrooms.html">Nearby Showrooms & Shops</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="vehcilecomparison.html">Compare Vehicles</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="nearbygarages.html">Nearby Garages & Workshops</a>
+                        </p>
+
+
+                    </div>
+                </div>
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 pl-xl-0">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase ">Owner</h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a class="dark-grey-text" href="">Kunal Y. Pandharkar</a>
+                    </p>
+                    <p>
+                        <a class="dark-grey-text" href="">Adarsh Colony</a>
+                    </p>
+                    <p>
+                        <a class="dark-grey-text" href="">Purna</a>
+                    </p>
+                    <p>
+                        <a class="dark-grey-text" href="">Dist.Parbhani</a>
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mb-md-0 mb-4 pl-xl-5 contact pr-0">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase">Contact</h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <i class="fa fa-home mr-1"></i> Purna
+                    </p>
+                    <p class="contactp">
+                        <i class="fa fa-envelope mr-2"></i> workwithvego@gmail.com
+                    </p>
+                    <p>
+                        <i class="fa fa-phone fa-flip-horizontal mr-1"></i> +91 7774843561
+                    </p>
+                    <p>
+                        <i class="fa fa-phone fa-flip-horizontal mr-1"></i> +91 9561601680
+                    </p>
+
+
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+        <div class="d-flex justify-content-around">
+            <a href="#" class="fa fa-facebook socialmedia"></a>
+            <a href="#" class="fa fa-twitter socialmedia"></a>
+            <a href="#" class="fa fa-linkedin socialmedia"></a>
+            <a href="#" class="fa fa-youtube socialmedia"></a>
+            <a href="#" class="fa fa-instagram socialmedia"></a>
+        </div>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center text-black-50 py-3">
+            &copy; <span id="current-year">2020</span> Copyright:
+            <a class="text-secondary" href="#"> Vego Pvt. Ltd.</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+<script>
+    $(".signup-form").hide();
+    $(".signup").css("background", "none");
+
+    $(".login").click(function () {
+        $(".signup-form").hide();
+        $(".login-form").show();
+        $(".signup").css("background", "none");
+        $(".login").css("background", "#75e2e9");
+    });
+
+    $(".signup").click(function () {
+        $(".signup-form").show();
+        $(".login-form").hide();
+        $(".login").css("background", "none");
+        $(".signup").css("background", "#75e2e9");
+    });
+
+    $(".btn").click(function () {
+        $(".input").val("");
+    });
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+    }
+
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+    }
+
+</script>
+
+</html>

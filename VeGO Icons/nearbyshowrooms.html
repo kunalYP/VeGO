@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Vego - Nearby Showrooms</title>
+</head>
+<header id="sidebar ">
+    <div class="w3-sidebar w3-bar-block w3-animate-right fixed" style="display:none;z-index:5;width:80%;"
+        id="mySidebar">
+        <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">
+           <img src="VeGO Icons/user.png" style="width:50px" alt=""> Hello User !<i class="fa fa-window-close"
+                style="float: right;" aria-hidden="true"></i></button>
+
+        <div class="dropdown-divider" style="margin-top:60px"></div>
+        <a href="index.html" class="w3-bar-item w3-button"><i class="fa fa-home" aria-hidden="true"
+                style="margin-right: 1rem;"></i> Home</a>
+        <!---<a href="#" class="w3-bar-item w3-button">Your Orders </a> !-->
+
+        <div class="dropdown-divider"></div>
+
+        <a href="emergencyservice.html" class="w3-bar-item w3-button"><i class="fa fa-exclamation-triangle"
+                aria-hidden="true" style="margin-right: 1rem;"></i> Emergency Service</a>
+        <a href="vehcilecomparison.html" class="w3-bar-item w3-button"><i class="fa fa-balance-scale"
+                aria-hidden="true" style="margin-right: 1rem;"></i>Compare Vehicles</a>
+        <a href="nearbyshowrooms.html" class="w3-bar-item w3-button"> <i class="fa fa-car" aria-hidden="true"
+                style="margin-right: 1rem;"></i> Nearby Showrooms & Shops</a>
+        <a href="nearbygarages.html" class="w3-bar-item w3-button"><i class="fa fa-cogs" aria-hidden="true"
+                style="margin-right: 1rem;"></i> Nearby Garages & Workshops</a>
+        <div class="dropdown-divider"></div>
+        <a href="workwithus.html" class="w3-bar-item w3-button"><i class="fa fa-handshake-o"
+                aria-hidden="true" style="margin-right: 1rem;"></i>Work With Us</a>
+        <a href="aboutus.html" class="w3-bar-item w3-button">
+        <img src="VeGO Icons/about us.png" style="width:18px;margin-right: 0.7rem;" alt="">      
+          About Us</a>
+        <a href="contactus.html" class="w3-bar-item w3-button"><i class="fa fa-phone-square" aria-hidden="true"
+                style="margin-right: 1rem;"></i> Contact Us</a>
+        <div class="dropdown-divider"></div>
+        <a href="login.html" class="w3-bar-item w3-button"><i class="fa fa-sign-in" aria-hidden="true"
+                style="margin-right: 1rem;"></i> Login/Sign Up</a>
+
+        <div class="dropdown-divider"></div>
+
+
+
+    </div>
+</header>
+<body>
+    <header id="navbar">
+        <div class="navigation-wrap bg-light start-header start-style">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-md navbar-light">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="brand">
+                                <a class="navbar-brand" href="index.html"><img src="VeGo icons/logo.png" alt=""></a>
+                            </div>
+
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto py-4 py-md-0">
+
+
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+                                            role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="emergencyservice.html">Emergency Service</a>
+                                            <a class="dropdown-item" href="nearbyshowrooms.html">Nearby Showrooms &
+                                                Shops</a>
+                                            <a class="dropdown-item" href="vehcilecomparison.html">Compare Vehicles</a>
+                                            <a class="dropdown-item" href="nearbygarages.html">Nearby Garages &
+                                                Workshops</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link btn" data-toggle="modal" data-target="#myModal">Login /
+                                            Signup</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+                                            role="button" aria-haspopup="true" aria-expanded="false">Work With us</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="registergarage.html">Register Garage</a>
+                                            <a class="dropdown-item" href="registershowroom.html">Register Vehicle
+                                                Showroom and Shop</a>
+                                            <a class="dropdown-item" href="registerservicecenter.html">Register Service
+                                                Center</a>
+
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="contactus.html">Contact Us</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="aboutus.html">About Us</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <header id="mobilenavbar">
+        <!-- Just an image -->
+        <nav class="navbar navbar-light navbarcolor">
+            <button class="navbar-toggler menu-icon" type="button" data-toggle="collapse" aria-expanded="false"
+                onclick="w3_open()" aria-label="Toggle navigation" style="border:none;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand" href="#">
+                <img src="VeGo icons/logo.png" width="85" height="45" alt="">
+            </a>
+
+        </nav>
+        <div class="container sticky-top" id="myHeader">
+            <div id="search">
+                <div class="fixedsearchbox">
+                    <button class="btn-menu">
+                  <img src="VeGO Icons/search bar.png" alt="" style="float:left;width:30px">
+                    </button>
+                    <input id="fixedsearch" type="text" placeholder="Search For Garage, Showroom or Location"
+                        class="search">
+                </div>
+            </div>
+
+
+
+        </div>
+
+ 
+    </header>
+    <!--
+  <section id="searchshowroommobile">
+        <div class="container-fluid showroommobile">
+            <div class="container">
+                <div class="row" id="searchrow">
+                    <div class="searchbox2">
+                        <button class="btn-menu">
+                            <img src="VeGo icons/car-1681483-1427260.webp" class="img-fluid caricon" width="80px">
+                        </button>
+                        <input id="search" type="text" placeholder="Search By Vehicle Name" name="search"
+                            class="search">
+                        <button class="btn-search">
+                            <img src="https://img.icons8.com/cotton/24/000000/search--v2.png">
+                        </button>
+                    </div>
+
+                </div>
+                <div class="row" id="searchrow">
+                    <div class="searchbox2">
+                        <button class="btn-menu">
+                            <img src="VeGo icons/car-showroom-show-shop-sell-512.png" class="img-fluid caricon"
+                                width="80px">
+                        </button>
+                        <input id="search" type="text" placeholder="Search By Showroom Name" name="search"
+                            class="search">
+                        <button class="btn-search">
+                            <img src="https://img.icons8.com/cotton/24/000000/search--v2.png">
+                        </button>
+                    </div>
+
+                </div>
+                <div class="row" id="searchrow">
+                    <div class="searchbox2">
+                        <button class="btn-menu">
+                            <img src="VeGo icons/logo-tvs-motor-company-indonesia-logo-lambang-indonesia-7.png"
+                                class="img-fluid caricon" width="80px"> </button>
+                        <input id="search" type="text" placeholder="Search By Brand Name" name="search" class="search">
+                        <button class="btn-search">
+                            <img src="https://img.icons8.com/cotton/24/000000/search--v2.png">
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    -->
+
+    <section id="showroomscardsmobile">
+       
+    
+        <section id=" filteroption">
+            <div style="float:left;font-weight:900;font-size:13px;margin-top:15px;margin-left:10px">
+                <p>20 Showrooms Found
+                <p>
+            </div>
+            <div class="alert alert-light" role="alert" style="float:right">
+                <button onclick="w3_openfilter()" class="btn btn-outline-dark btn-sm" style="width:110%"> filters <i
+                        class="fa fa-angle-down" aria-hidden="true"></i></button>
+            </div>
+           
+        </section>
+
+ 
+        <header id="sidebar ">
+            <div class="w3-sidebar w3-bar-block w3-animate-bottom fixed" style="display:none;z-index:5;width:100%;"
+                id="filtersidebar">
+                <button class="w3-bar-item w3-button w3-large" onclick="w3_closefilter()"><i class="fa fa-filter"
+                        aria-hidden="true"></i> Filters<i class="fa fa-window-close" style="float: right;"
+                        aria-hidden="true"></i></button>
+                <div class="filters text-center">
+                    <button style="border-radius: 12px;margin-top:10px;margin-right:10px" class="btn btn-outline-dark btn-sm"> Sort By Ratings</button>
+                    <button style="border-radius: 12px;margin-top:10px;margin-right:10px" class="btn btn-outline-dark btn-sm"> Show only Authorized</button>
+
+                    <button style="border-radius: 12px;margin-top:10px" class="btn btn-outline-dark btn-sm"> Sort By Distance From You</button>
+ 
+                </div>
+
+            </div>
+        </header>
+
+        <div class="servicesverticalcards">
+        
+            <a style="text-decoration: none; color:black;" href="showroominfo.html" data-name="Garage 1"
+                id="showroomcardrow">
+                <div class="row" id="showroomscardsrow">
+
+                    <div class="col showroom-cont-btm-one">
+                        <img src="VeGo icons/showroom1.jpg" alt="...">
+                    </div>
+                    <div class="col showroom-cont-btm-two">
+                        <h3>Showroom 1</h3>
+                        <p class="showroomratings">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+
+                        </p>
+
+                        <div id="distanceshowroom">
+                            <span class="distanceshowroom">2.5 KM</span>
+                        </div>
+
+                        <div id="brandimageshowroom">
+
+                            <img id="brandimage"
+                                src="VeGo icons/logo-tvs-motor-company-indonesia-logo-lambang-indonesia-7.png" alt="">
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </a>
+
+            <a style="text-decoration: none; color:black;" href="showroominfo.html" data-name="Garage 1">
+                <div class="row" id="showroomscardsrow">
+
+                    <div class="col showroom-cont-btm-one">
+                        <img src="VeGo icons/showroom4.jpg" alt="...">
+                    </div>
+                    <div class="col showroom-cont-btm-two">
+                        <h3>Showroom 2</h3>
+                        <p class="showroomratings">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+
+                        </p>
+
+                        <div id="distanceshowroom">
+                            <span class="distanceshowroom">2.5 KM</span>
+                        </div>
+
+                        <div id="brandimageshowroom">
+
+                            <img id="brandimage" src="VeGo icons/porsche-6-202887.png" alt="">
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </a>
+            <a style="text-decoration: none; color:black;" href="showroominfo.html" data-name="Garage 1">
+                <div class="row" id="showroomscardsrow">
+
+                    <div class="col showroom-cont-btm-one">
+                        <img src="VeGo icons/showroom2.jpg" alt="...">
+                    </div>
+                    <div class="col showroom-cont-btm-two">
+                        <h3>Showroom 2</h3>
+                        <p class="showroomratings">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+
+                        </p>
+
+                        <div id="distanceshowroom">
+                            <span class="distanceshowroom">2.5 KM</span>
+                        </div>
+
+                        <div id="brandimageshowroom">
+
+                            <img id="brandimage" src="VeGo icons/Mahindra-Logo-Vector.svg" alt="">
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </a>
+            <a style="text-decoration: none; color:black;" href="showroominfo.html" data-name="Garage 1">
+                <div class="row" id="showroomscardsrow">
+
+                    <div class="col showroom-cont-btm-one">
+                        <img src="VeGo icons/showroom3.jpg" alt="...">
+                    </div>
+                    <div class="col showroom-cont-btm-two">
+                        <h3>Showroom 3</h3>
+                        <p class="showroomratings">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+
+                        </p>
+
+                        <div id="distanceshowroom">
+                            <span class="distanceshowroom">2.5 KM</span>
+                        </div>
+
+                        <div id="brandimageshowroom">
+
+                            <img id="brandimage" src="VeGo icons/Honda_Logo.svg" alt="">
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </a>
+            <a style="text-decoration: none; color:black;" href="showroominfo.html" data-name="Garage 1">
+                <div class="row" id="showroomscardsrow">
+
+                    <div class="col showroom-cont-btm-one">
+                        <img src="VeGo icons/showroom4.jpg" alt="...">
+                    </div>
+                    <div class="col showroom-cont-btm-two">
+                        <h3>Showroom 4</h3>
+                        <p class="showroomratings">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+
+                        </p>
+
+                        <div id="distanceshowroom">
+                            <span class="distanceshowroom">2.5 KM</span>
+                        </div>
+
+                        <div id="brandimageshowroom">
+
+                            <img id="brandimage" src="VeGo icons/audi-vector-4.png" alt="">
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </a>
+            <a href="showroominfo.html" style="text-decoration: none;color:black;">
+                <div class="search-showrm-cont-outer" id="carandshowroom">
+                    <div class="search-showrm-cont-inner">
+                        <div class="search-showrm-cont-one-1">
+                            <img src="VeGo icons/showroom2.jpg" alt="">
+                        </div>
+                        <div class="search-showrm-cont-two">
+                            <small class="showroom-title">Showroom 1</small>
+                            <p style="font-size: 12px;">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+
+                            </p>
+
+
+                            <div style="margin-top: -17px;">
+                                <span class="distanceshowroom">2.5 KM</span>
+                            </div>
+                            <div style="margin-top: -5px;">
+                                <img style="width:50px;height:10px;"
+                                    src="VeGo icons/logo-tvs-motor-company-indonesia-logo-lambang-indonesia-7.png" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search-showrm-cont-inner">
+                        <div class="search-showrm-cont-one-1">
+                            <img src="VeGo icons/car3.png" alt="">
+                        </div>
+                        <div class="search-showrm-cont-two">
+                            <small class="showroom-title">Honda City</small>
+
+                            <div>
+                                <span class="distanceshowroom" style="color: rgb(31, 18, 211);">₹ 1,48,90,000 </span>
+                            </div>
+                            <span style="color: #238505;font-size:13px;font-weight:500;">
+                                Available
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a id="carandshowroom" href="showroominfo.html" style="text-decoration: none;color:black;">
+                <div class="search-showrm-cont-outer" id="carandshowroom">
+                    <div class="search-showrm-cont-inner">
+                        <div class="search-showrm-cont-one-1">
+                            <img src="VeGo icons/showroom3.jpg" alt="">
+                        </div>
+                        <div class="search-showrm-cont-two">
+                            <small class="showroom-title">Showroom 2</small>
+                            <p style="font-size: 12px;">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+
+                            </p>
+
+
+                            <div style="margin-top: -17px;">
+                                <span class="distanceshowroom">2.5 KM</span>
+                            </div>
+                            <div style="margin-top: -5px;">
+                                <img style="width:50px;height:10px;" src="VeGo icons/Mahindra-Logo-Vector.svg" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search-showrm-cont-inner">
+                        <div class="search-showrm-cont-one-1">
+                            <img src="VeGo icons/mahindratractor.jpg" alt="">
+                        </div>
+                        <div class="search-showrm-cont-two">
+                            <small class="showroom-title">Mahindra Tractor</small>
+
+                            <div>
+                                <span class="distanceshowroom" style="color: rgb(31, 18, 211);">₹ 1,48,90,000 </span>
+                            </div>
+                            <span style="color: #238505;font-size:13px;font-weight:500;">
+                                Available
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a id="carandshowroom" href="showroominfo.html" style="text-decoration: none;color:black;">
+                <div class="search-showrm-cont-outer" id="carandshowroom">
+                    <div class="search-showrm-cont-inner">
+                        <div class="search-showrm-cont-one-1">
+                            <img src="VeGo icons/showroom4.jpg" alt="">
+                        </div>
+                        <div class="search-showrm-cont-two">
+                            <small class="showroom-title">Showroom 3</small>
+                            <p style="font-size: 12px;">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+
+                            </p>
+
+
+                            <div style="margin-top: -17px;">
+                                <span class="distanceshowroom">2.5 KM</span>
+                            </div>
+                            <div style="margin-top: -5px;">
+                                <img style="width:50px;height:10px;" src="VeGo icons/Honda_Logo.svg" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search-showrm-cont-inner">
+                        <div class="search-showrm-cont-one-1">
+                            <img src="VeGo icons/hondacar.jpg" alt="">
+                        </div>
+                        <div class="search-showrm-cont-two">
+                            <small class="showroom-title">Honda Sedan 2012</small>
+
+                            <div>
+                                <span class="distanceshowroom" style="color: rgb(31, 18, 211);">₹ 1,48,90,000 </span>
+                            </div>
+                            <span style="color: #238505;font-size:13px;font-weight:500;">
+                                Available
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+    </section>
+
+    <section id="mobilefooter">
+        <footer class="mobilefooter" style="position: relative;">
+            <p class="footer-item mx-auto">© 2020-2021 VeGO</p>
+            <a style="margin: auto;" href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+
+        </footer>
+    </section>
+
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Login/Register</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="wrapper">
+                        <div class="container">
+                            <div class="login">Log In</div>
+                            <div class="signup">Sign Up</div>
+
+
+                            <div class="login-form">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Mobile No</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Enter Mobile Number">
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your
+                                            number with anyone else.</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1"
+                                            placeholder="Password">
+                                        <a href="">Forgot Password ?</a>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-danger btn-block">Login</button>
+                                </form>
+                            </div>
+
+                            <div class="signup-form">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Name</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Enter Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Contact No</label>
+                                        <input type="text" class="form-control" id="exampleInputPassword1"
+                                            placeholder="Mobile Number">
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your
+                                            Number with anyone else.</small>
+
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">New Password</label>
+                                        <input type="password" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Enter New Password">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Confirm Password</label>
+                                        <input type="password" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Confirm Password">
+                                    </div>
+                                    <button type="submit" class="btn btn-danger btn-block">Create Account</button>
+                                </form>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="nearbyshowroomscardsdesktop">
+
+        <div class="container-fluid nearbyshowroom  ">
+            <div class="container">
+                <div class="container-fluid services ">
+                    <h4><span style="color: white;">Search Nearby</span> Showrooms</h4>
+
+                </div>
+
+                <div class="row">
+                    <div class="searchbox2">
+                        <button class="btn-menu nearby2">
+                            <img src="VeGo icons/car-showroom-show-shop-sell-512.png" class="img-fluid caricon"
+                                width="80px">
+                        </button>
+                        <input id="search" type="text" placeholder="Search By Showorom Name" name="search"
+                            class="search">
+                        <button class="btn-search nearby2">
+                            <img src="https://img.icons8.com/cotton/24/000000/search--v2.png">
+                        </button>
+                    </div>
+                    <div class="searchbox2">
+                        <button class="btn-menu nearby2">
+                            <img src="VeGo icons/car-1681483-1427260.webp" class="img-fluid caricon" width="80px">
+                        </button>
+                        <input id="search" type="text" placeholder="Search By Vehicle Name" name="search"
+                            class="search">
+                        <button class="btn-search nearby2">
+                            <img src="https://img.icons8.com/cotton/24/000000/search--v2.png">
+                        </button>
+                    </div>
+
+                </div>
+                <div class="row pt-4">
+                    <div class="searchbox2">
+                        <button class="btn-menu">
+                            <img src="VeGo icons/logo-tvs-motor-company-indonesia-logo-lambang-indonesia-7.png"
+                                class="img-fluid caricon" width="80px">
+                        </button>
+                        <input id="search" type="text" placeholder="Search By Brand Name" name="search" class="search">
+                        <button class="btn-search nearby2">
+                            <img src="https://img.icons8.com/cotton/24/000000/search--v2.png">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-fluid services" id="showroomtop">
+        <h4>Showrooms <span>Nearby You</span></h4>
+
+        <div class="d-flex justify-content-around ">
+            <div class="card" style="width: 18rem;">
+                <div class="inner">
+                    <img class="card-img-top" src="VeGo icons/showroom1.jpg" alt="Card image cap">
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title">Showroom 1</h5>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <ul class="list-group list-group-flush pt-2">
+                        <li class="list-group-item"> <img
+                                src="VeGo icons/logo-tvs-motor-company-indonesia-logo-lambang-indonesia-7.png"
+                                class="img-fluid " width="80px">
+                        </li>
+                        <li class="list-group-item">+91 7774843561</li>
+                        <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+                        <a href="showroominfo.html">
+                            <li class="list-group-item"><span class="distance">See Info <i
+                                        class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="inner">
+                    <img class="card-img-top" src="VeGo icons/showroom2.jpg" alt="Card image cap">
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title"> Showroom 2</h5>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <ul class="list-group list-group-flush pt-2">
+                        <li class="list-group-item"> <img src="VeGo icons/Honda_Logo.svg" class="img-fluid " width="40px">
+                        </li>
+                        <li class="list-group-item">+91 7774843561</li>
+                        <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+                        <a href="showroominfo.html">
+                            <li class="list-group-item"><span class="distance">See Info <i
+                                        class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="inner">
+                    <img class="card-img-top" src="VeGo icons/showroom3.jpg" alt="Card image cap">
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title">Showroom 3</h5>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <ul class="list-group list-group-flush pt-2">
+                        <ul class="list-group list-group-flush pt-2">
+                            <li class="list-group-item"> <img src="VeGo icons/Mahindra-Logo-Vector.svg" class="img-fluid "
+                                    width="60px">
+                            </li>
+                            <li class="list-group-item">+91 7774843561</li>
+                            <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+                            <a href="showroominfo.html">
+                                <li class="list-group-item"><span class="distance">See Info <i
+                                            class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
+                            </a>
+                        </ul>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="inner">
+                    <img class="card-img-top" src="VeGo icons/showroom4.jpg" alt="Card image cap">
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title">Showroom 4</h5>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <ul class="list-group list-group-flush pt-2">
+                        <ul class="list-group list-group-flush pt-2">
+                            <li class="list-group-item"> <img src="VeGo icons/audi-vector-4.png" class="img-fluid"
+                                    width="60px">
+                            </li>
+                            <li class="list-group-item">+91 7774843561</li>
+                            <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+
+                            <a href="showroominfo.html">
+                                <li class="list-group-item"><span class="distance">See Info <i
+                                            class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
+                            </a>
+                        </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="d-flex justify-content-around pt-4">
+            <div class="card" style="width: 18rem;">
+                <div class="inner">
+                    <img class="card-img-top" src="VeGo icons/showroom1.jpg" alt="Card image cap">
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title">Showroom 1</h5>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <ul class="list-group list-group-flush pt-2">
+                        <li class="list-group-item"> <img
+                                src="VeGo icons/logo-tvs-motor-company-indonesia-logo-lambang-indonesia-7.png"
+                                class="img-fluid" width="80px">
+                        </li>
+                        <li class="list-group-item"> <img src="VeGo icons/tvsbike.jpg" class="img-fluid" width="80px">
+                            <h3>₹90,000</h3>
+                        </li>
+                        <li class="list-group-item">+91 7774843561</li>
+                        <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+
+                        <a href="showroominfo.html">
+                            <li class="list-group-item"><span class="distance">See Info <i
+                                        class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="inner">
+                    <img class="card-img-top" src="VeGo icons/showroom1.jpg" alt="Card image cap">
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title">Showroom 2</h5>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <ul class="list-group list-group-flush pt-2">
+                        <li class="list-group-item"> <img src="VeGo icons/Honda_Logo.svg" class="img-fluid " width="40px">
+                        </li>
+                        <li class="list-group-item"> <img src="VeGo icons/hondacar.jpg" class="img-fluid" width="80px">
+                            <h3>₹3,90,000</h3>
+                        </li>
+                        <li class="list-group-item">+91 7774843561</li>
+                        <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+
+                        <a href="showroominfo.html">
+                            <li class="list-group-item"><span class="distance">See Info <i
+                                        class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="inner">
+                    <img class="card-img-top" src="VeGo icons/showroom1.jpg" alt="Card image cap">
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title">Showroom 3</h5>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <ul class="list-group list-group-flush pt-2">
+                        <li class="list-group-item"> <img src="VeGo icons/Mahindra-Logo-Vector.svg" class="img-fluid"
+                                width="60px">
+                        </li>
+                        <li class="list-group-item"> <img src="VeGo icons/mahindratractor.jpg" class="img-fluid"
+                                width="80px">
+                            <h3>₹5,90,000</h3>
+                        </li>
+                        <li class="list-group-item">+91 7774843561</li>
+                        <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+
+                        <a href="showroominfo.html">
+                            <li class="list-group-item"><span class="distance">See Info <i
+                                        class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="inner">
+                    <img class="card-img-top" src="VeGo icons/showroom1.jpg" alt="Card image cap">
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title">Showroom 4</h5>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <ul class="list-group list-group-flush pt-2">
+                        <li class="list-group-item"> <img src="VeGo icons/audi-vector-4.png" class="img-fluid "
+                                width="60px">
+                        </li>
+                        <li class="list-group-item"> <img src="VeGo icons/audicar.webp" class="img-fluid " width="80px">
+                            <h3>₹9,00,00,000</h3>
+                        </li>
+                        <li class="list-group-item">+91 7774843561</li>
+                        <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+
+                        <a href="showroominfo.html">
+                            <li class="list-group-item"><span class="distance">See Info <i
+                                        class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="d-flex justify-content-around pt-4">
+            <div class="card" style="width: 18rem;">
+                <div class="inner">
+                    <img class="card-img-top" src="VeGo icons/showroom1.jpg" alt="Card image cap">
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title">Showroom 1</h5>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <ul class="list-group list-group-flush pt-2">
+                        <li class="list-group-item"> <img
+                                src="VeGo icons/logo-tvs-motor-company-indonesia-logo-lambang-indonesia-7.png"
+                                class="img-fluid " width="80px">
+                        </li>
+                        <li class="list-group-item">+91 7774843561</li>
+                        <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+                        <a href="showroominfo.html">
+                            <li class="list-group-item"><span class="distance">See Info <i
+                                        class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="inner">
+                    <img class="card-img-top" src="VeGo icons/showroom2.jpg" alt="Card image cap">
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title"> Showroom 2</h5>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <ul class="list-group list-group-flush pt-2">
+                        <li class="list-group-item"> <img src="VeGo icons/Honda_Logo.svg" class="img-fluid" width="40px">
+                        </li>
+                        <li class="list-group-item">+91 7774843561</li>
+                        <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+                        <a href="showroominfo.html">
+                            <li class="list-group-item"><span class="distance">See Info <i
+                                        class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="inner">
+                    <img class="card-img-top" src="VeGo icons/showroom3.jpg" alt="Card image cap">
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title">Showroom 3</h5>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <ul class="list-group list-group-flush pt-2">
+                        <ul class="list-group list-group-flush pt-2">
+                            <li class="list-group-item"> <img src="VeGo icons/Mahindra-Logo-Vector.svg" class="img-fluid "
+                                    width="60px">
+                            </li>
+                            <li class="list-group-item">+91 7774843561</li>
+                            <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+                            <a href="showroominfo.html">
+                                <li class="list-group-item"><span class="distance">See Info <i
+                                            class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
+                            </a>
+                        </ul>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="inner">
+                    <img class="card-img-top" src="VeGo icons/showroom4.jpg" alt="Card image cap">
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title">Showroom 4</h5>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <ul class="list-group list-group-flush pt-2">
+                        <ul class="list-group list-group-flush pt-2">
+                            <li class="list-group-item"> <img src="VeGo icons/audi-vector-4.png" class="img-fluid"
+                                    width="60px">
+                            </li>
+                            <li class="list-group-item">+91 7774843561</li>
+
+                            <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+                            <a href="showroominfo.html">
+                                <li class="list-group-item"><span class="distance">See Info <i
+                                            class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
+                            </a>
+                        </ul>
+                </div>
+            </div>
+
+        </div>
+        <a href="" class="badge badge-light" style="float:right;">See More <i class="fa fa-angle-double-right"
+                aria-hidden="true"></i></a>
+    </div>
+
+
+    <footer class="footer text-muted" id="bigfooter">
+
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left mt-lg-5 mt-3">
+
+            <!-- Grid row -->
+            <div class="row mt-3 dark-grey-text justify-content-between">
+
+                <!-- Grid column -->
+                <div class="col-md-12 col-lg-2 col-xl-2 mb-4 pr-xl-2">
+
+                    <!-- Content -->
+                    <a href="index.html" class="text-uppercase font-weight-bold"> <img src="VeGo icons/logo.png"
+                            class="img-fluid" style="width:170px;" /></a>
+
+                    <p style="margin-top:16px;">Leading Organization That Provides All Type Of Automobile Services.
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 pl-xl-5">
+
+                    <!-- Links -->
+                    <div class="pl-xl-3">
+                        <h6 class="text-uppercase ">Useful Links</h6>
+                        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <a class="dark-grey-text" href="index.html">Home</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="registergarage.html">Add garage</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="registershowroom.html">Add Showroom</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="#">Contact Us
+                            </a>
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4 pl-xl-5">
+                    <div class="pl-xl-2">
+                        <!-- Links -->
+                        <h6 class="text-uppercase ">Services</h6>
+                        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <a class="dark-grey-text" href="emergencyservice.html">Emeregency Service</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="nearbyshowrooms.html">Nearby Showrooms & Shops</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="vehcilecomparison.html">Compare Vehicles</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="nearbygarages.html">Nearby Garages & Workshops</a>
+                        </p>
+
+
+                    </div>
+                </div>
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 pl-xl-0">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase ">Owner</h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a class="dark-grey-text" href="">Kunal Y. Pandharkar</a>
+                    </p>
+                    <p>
+                        <a class="dark-grey-text" href="">Adarsh Colony</a>
+                    </p>
+                    <p>
+                        <a class="dark-grey-text" href="">Purna</a>
+                    </p>
+                    <p>
+                        <a class="dark-grey-text" href="">Dist.Parbhani</a>
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mb-md-0 mb-4 pl-xl-5 contact pr-0">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase">Contact</h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <i class="fa fa-home mr-1"></i> Purna
+                    </p>
+                    <p class="contactp">
+                        <i class="fa fa-envelope mr-2"></i> workwithvego@gmail.com
+                    </p>
+                    <p>
+                        <i class="fa fa-phone fa-flip-horizontal mr-1"></i> +91 7774843561
+                    </p>
+                    <p>
+                        <i class="fa fa-phone fa-flip-horizontal mr-1"></i> +91 9561601680
+                    </p>
+
+
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+        <div class="d-flex justify-content-around">
+            <a href="#" class="fa fa-facebook socialmedia"></a>
+            <a href="#" class="fa fa-twitter socialmedia"></a>
+            <a href="#" class="fa fa-linkedin socialmedia"></a>
+            <a href="#" class="fa fa-youtube socialmedia"></a>
+            <a href="#" class="fa fa-instagram socialmedia"></a>
+        </div>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center text-black-50 py-3">
+            &copy; <span id="current-year">2020</span> Copyright:
+            <a class="text-secondary" href="#"> Vego Pvt. Ltd.</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+    <div class="w3-overlay w3-animate-opacity" onclick="w3_closefilter()" style="cursor:pointer" id="myOverlay"></div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script>
+        $(".signup-form").hide();
+        $(".signup").css("background", "none");
+
+        $(".login").click(function () {
+            $(".signup-form").hide();
+            $(".login-form").show();
+            $(".signup").css("background", "none");
+            $(".login").css("background", "#75e2e9");
+        });
+
+        $(".signup").click(function () {
+            $(".signup-form").show();
+            $(".login-form").hide();
+            $(".login").css("background", "none");
+            $(".signup").css("background", "#75e2e9");
+        });
+
+        $(".btn").click(function () {
+            $(".input").val("");
+        });
+
+        window.onscroll = function () { myFunction() };
+
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+        }
+        function w3_openfilter() {
+            document.getElementById("filtersidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function w3_closefilter() {
+            document.getElementById("filtersidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>

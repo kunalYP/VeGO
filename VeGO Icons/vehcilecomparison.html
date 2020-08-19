@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="css/style2.css"> <!-- Resource style -->
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+    <title>Vego - Home </title>
+</head>
+
+<body>
+
+    <header id="mobilenavbar">
+        <!-- Just an image -->
+        <nav class="navbar  navbar-light">
+            <button class="navbar-toggler menu-icon" type="button" aria-expanded="false"
+            onclick="location.href='index.html';"  aria-label="Toggle navigation" style="border:none;">
+                <i class="fa fa-home" aria-hidden="true" style="font-size:30px"></i>
+            </button>
+
+            <a class="navbar-brand" href="#">
+                <img src="VeGo icons/logo.png" width="85" height="45" alt="">
+            </a>
+
+        </nav>
+       
+
+    </header>
+
+    <section id="comparevehiclesdesktop">
+        <div class="container-fluid services pt-4">
+            <h4><span>Compare Multiple</span> Vehicles <span></span></h4>
+            <p> We cater an array of high-end products for Education and Government Sector </p>
+        </div>
+
+    </section>
+
+    <div class="container heading" id="comparevehiclesmobile">
+        <h4><span>Compare</span> Vehicles <span></span></h4>
+        <div class="comparearea">
+            <div class="row comparebox">
+                <div class="col circle1 text-center">
+                    <div data-toggle="modal" data-target="#addvehiclemodel">
+
+                        <i class="fa fa-plus-square-o addvehicle" aria-hidden="true"></i>
+                        <p>Add Vehicle</p>
+                    </div> <!-- .top-info -->
+                </div>
+
+              <span><img src="VeGO Icons/vs.png" style="width:20px;margin-top:180%" alt=""></span>
+
+                <div class="col circle2 text-center">
+                    <div data-toggle="modal" data-target="#addvehiclemodel">
+
+                        <i class="fa fa-plus-square-o addvehicle" aria-hidden="true"></i>
+                        <p>Add Vehicle</p>
+                    </div> <!-- .top-info -->
+                </div>
+            </div>
+        </div>
+        <div class="comparebuttondiv" ">
+            <button class=" btn btn-danger btn-block comparebutton">Compare Now</button>
+        </div>
+    </div>
+
+    <section class="features-icons bg-info text-center pb-4" id="comparevehiclesdesktop">
+        <br>
+        <div class="container-fluid garagecontact">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-4">
+                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                            <div class="features-icons-icon">
+                                <img src="VeGo icons/4wh.png" width="090px" alt="">
+                            </div>
+                            <input class="form-control form-control-lg" type="text" placeholder="Select Brand"><br>
+                            <input class="form-control form-control-lg " type="text" placeholder="Select Model"><br>
+                            <input class="form-control form-control-lg" type="text" placeholder="Select Variant">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                            <div class="features-icons-icon">
+                                <img src="VeGo icons/4wh.png" width="090px" alt="">
+                            </div>
+                            <input class="form-control form-control-lg" type="text" placeholder="Select Brand"><br>
+                            <input class="form-control form-control-lg " type="text" placeholder="Select Model"><br>
+                            <input class="form-control form-control-lg" type="text" placeholder="Select Variant">
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                            <div class="features-icons-icon">
+                                <img src="VeGo icons/4wh.png" width="090px" alt="">
+                            </div>
+                            <input class="form-control form-control-lg" type="text" placeholder="Select Brand"><br>
+                            <input class="form-control form-control-lg " type="text" placeholder="Select Model"><br>
+                            <input class="form-control form-control-lg" type="text" placeholder="Select Variant">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <section class="cd-products-comparison-table">
+        <header>
+              <div class="actions">
+                <a href="#0" class="reset btn btn-danger" class="reset">Reset</a>
+                <a href="#0" class="filter btn btn-primary">Show Only Selected</a>
+            </div>
+        </header>
+
+        <div class="cd-products-table">
+            <div class="features">
+                <div class="top-info">Models</div>
+                <ul class="cd-features-list">
+                    <li>Price</li>
+                    <li>Customer Rating</li>
+                    <li>Resolution</li>
+                    <li>Screen Type</li>
+                    <li>Display Size</li>
+                    <li>Refresh Rate</li>
+                    <li>Model Year</li>
+                    <li>Tuner Technology</li>
+                    <li>Ethernet Input</li>
+                    <li>USB Input</li>
+                    <li>Scart Input</li>
+
+                </ul>
+            </div> <!-- .features -->
+
+            <div class="cd-products-wrapper">
+                <ul class="cd-products-columns">
+                    <li class="product" id="productdesktop">
+                        <div class="top-info">
+                            <div class="check"></div>
+                            <img src="VeGo icons/car1.png" alt="product image">
+                            <h3>Honda City</h3>
+                        </div> <!-- .top-info -->
+
+                        <ul class="cd-features-list">
+                            <li>₹90,000</li>
+                            <li>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </li>
+
+                            <li>Feature 2</li>
+                            <li>Feature 3</li>
+                            <li>Feature 4</li>
+                            <li>Feature 5</li>
+                            <li>Feature 6</li>
+                            <li>Feature 7</li>
+                            <li>Feature 8</li>
+                            <li>Feature 9</li>
+                            <li>Feature 10</li>
+
+                        </ul>
+                    </li> <!-- .product -->
+
+                    <li class="product">
+                        <div class="top-info">
+                            <div class="check"></div>
+                            <img src="VeGo icons/car3.png" alt="product image">
+                            <h3>Honda City</h3>
+                        </div> <!-- .top-info -->
+
+                        <ul class="cd-features-list">
+                            <li>₹90,000</li>
+                            <li> <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </li>
+
+                            <li>Feature 2</li>
+                            <li>Feature 3</li>
+                            <li>Feature 4</li>
+                            <li>Feature 5</li>
+                            <li>Feature 6</li>
+                            <li>Feature 7</li>
+                            <li>Feature 8</li>
+                            <li>Feature 9</li>
+                            <li>Feature 10</li>
+
+                        </ul>
+                    </li> <!-- .product -->
+
+                    <li class="product">
+                        <div class="top-info">
+                            <div class="check"></div>
+                            <img src="VeGo icons/car5.jpg" alt="product image">
+                            <h3>Honda City</h3>
+                        </div> <!-- .top-info -->
+
+                        <ul class="cd-features-list">
+                            <li>₹90,000</li>
+                            <li> <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </li>
+
+                            <li>Feature 2</li>
+                            <li>Feature 3</li>
+                            <li>Feature 4</li>
+                            <li>Feature 5</li>
+                            <li>Feature 6</li>
+                            <li>Feature 7</li>
+                            <li>Feature 8</li>
+                            <li>Feature 9</li>
+                            <li>Feature 10</li>
+
+                        </ul>
+                    </li> <!-- .product -->
+                </ul> <!-- .cd-products-columns -->
+            </div> <!-- .cd-products-wrapper -->
+
+            <ul class="cd-table-navigation">
+                <li><a href="#0" class="prev inactive">Prev</a></li>
+                <li><a href="#0" class="next">Next</a></li>
+            </ul>
+        </div> <!-- .cd-products-table -->
+    </section> <!-- .cd-products-comparison-table -->
+
+    <!-- Modal -->
+    <div class="modal fade bd-example-modal-sm" id="addvehiclemodel" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"><b>Add Vehicle</b></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <input class="form-control form-control-lg" type="text" placeholder="Select Brand"><br>
+                        <input class="form-control form-control-lg " type="text" placeholder="Select Model"><br>
+                        <input class="form-control form-control-lg" type="text" placeholder="Select Variant">
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Add Vehicle</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+<script>
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+    }
+
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+    }
+</script>
+
+</html>
