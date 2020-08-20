@@ -758,7 +758,7 @@ input:focus {
 
   #hero {
     width: 100%;
-    margin-top: 30%;
+    margin-top: 10%;
     height: 70vh;
   }
   
@@ -2358,6 +2358,9 @@ font-size: 1rem;
 .features-icons-item h4{
   font-size: 1rem;
 }
+#scrollto{
+  display: none;
+}
 
 }
 
@@ -2438,7 +2441,6 @@ font-size: 1rem;
   color:white;
   justify-content: space-between;
   font-family: 'Roboto', sans-serif;
-  margin-top: 0;
 }
 
 .submitbutton{
