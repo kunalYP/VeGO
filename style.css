@@ -758,7 +758,7 @@ input:focus {
 
   #hero {
     width: 100%;
-    margin-top: 10%;
+    margin-top: 30%;
     height: 70vh;
   }
   
@@ -2308,7 +2308,7 @@ input::-webkit-input-placeholder {
   font-size:22px;
 }
 #ourfeatures{
-  margin-top:20px;
+  margin-top:20%;
 }
 #borderregister{
   display: none;
@@ -2357,9 +2357,6 @@ font-size: 1rem;
 }
 .features-icons-item h4{
   font-size: 1rem;
-}
-#scrollto{
-  display: none;
 }
 
 }
