@@ -2358,6 +2358,9 @@ font-size: 1rem;
 .features-icons-item h4{
   font-size: 1rem;
 }
+#addshowroombutton{
+  display: none;
+}
 
 }
 
@@ -2748,6 +2751,9 @@ border: none;
 #emeregencyvideo{
   padding-top:120px;
 }
+.ownershowroomcards{
+  display: none;
+}
 }
 
 
@@ -2921,7 +2927,4 @@ width:90%;
 
   color: rgba(17, 4, 3, 0.87);
   font-size : 80px;
-}
-#addshowroombutton{
-  display: none;
 }
