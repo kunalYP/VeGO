@@ -758,7 +758,7 @@ input:focus {
 
   #hero {
     width: 100%;
-    margin-top: 30%;
+    margin-top: 10%;
     height: 70vh;
   }
   
@@ -1921,7 +1921,7 @@ color: #fd1111;
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 780px) {
 #corouselhomepage{
   display: none;
 }
@@ -2496,7 +2496,7 @@ border: none;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 780px) {
 
 .start-header {
 	opacity: 1;
@@ -2915,4 +2915,13 @@ width:90%;
 
 #offer4 {
   margin-right: 18px;
+}
+
+.addvehicle{
+
+  color: rgba(17, 4, 3, 0.87);
+  font-size : 80px;
+}
+#addshowroombutton{
+  display: none;
 }

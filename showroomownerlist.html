@@ -11,10 +11,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-
-    <title>Vego - Home </title>
+    <title>Vego - Nearby Showrooms</title>
 </head>
-
 <header id="sidebar ">
     <div class="w3-sidebar w3-bar-block w3-animate-left " style="display:none;z-index:5;width:80%;"
         id="mySidebar">
@@ -124,10 +122,9 @@
             </div>
         </div>
     </header>
-
     <header id="mobilenavbar">
         <!-- Just an image -->
-        <nav class="navbar  navbar-light">
+        <nav class="navbar navbar-light navbarcolor">
             <button class="navbar-toggler menu-icon" type="button" data-toggle="collapse" aria-expanded="false"
                 onclick="w3_open()" aria-label="Toggle navigation" style="border:none;">
                 <span class="navbar-toggler-icon"></span>
@@ -138,8 +135,7 @@
             </a>
 
         </nav>
-        <div class="container  sticky-top" id="myHeader">
-
+        <div class="container sticky-top" id="myHeader">
             <div id="search">
                 <div class="fixedsearchbox">
                     <button class="btn-menu">
@@ -153,257 +149,209 @@
 
 
         </div>
-     
+
+ 
     </header>
-    <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex align-items-center" id="floatinggarage">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-                    <h1 data-aos="fade-up">Register Your Garage With Us.</h1>
-                    <h2 data-aos="fade-up" class="" data-aos-delay="400">Bring Your Garage Online And Available For
-                        Customers For 24 Hr.</h2>
-                    <div data-aos="fade-up" data-aos-delay="800">
-                        <a href="#form" class="btn-get-started scrollto">Register Now</a>
+    <!--
+  <section id="searchshowroommobile">
+        <div class="container-fluid showroommobile">
+            <div class="container">
+                <div class="row" id="searchrow">
+                    <div class="searchbox2">
+                        <button class="btn-menu">
+                            <img src="images/car-1681483-1427260.webp" class="img-fluid caricon" width="80px">
+                        </button>
+                        <input id="search" type="text" placeholder="Search By Vehicle Name" name="search"
+                            class="search">
+                        <button class="btn-search">
+                            <img src="https://img.icons8.com/cotton/24/000000/search--v2.png">
+                        </button>
                     </div>
+
                 </div>
-                <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
-                    <img src="images/garage vector.svg" class="img-fluid animated" alt="">
+                <div class="row" id="searchrow">
+                    <div class="searchbox2">
+                        <button class="btn-menu">
+                            <img src="images/car-showroom-show-shop-sell-512.png" class="img-fluid caricon"
+                                width="80px">
+                        </button>
+                        <input id="search" type="text" placeholder="Search By Showroom Name" name="search"
+                            class="search">
+                        <button class="btn-search">
+                            <img src="https://img.icons8.com/cotton/24/000000/search--v2.png">
+                        </button>
+                    </div>
+
+                </div>
+                <div class="row" id="searchrow">
+                    <div class="searchbox2">
+                        <button class="btn-menu">
+                            <img src="images/logo-tvs-motor-company-indonesia-logo-lambang-indonesia-7.png"
+                                class="img-fluid caricon" width="80px"> </button>
+                        <input id="search" type="text" placeholder="Search By Brand Name" name="search" class="search">
+                        <button class="btn-search">
+                            <img src="https://img.icons8.com/cotton/24/000000/search--v2.png">
+                        </button>
+                    </div>
+
                 </div>
             </div>
         </div>
 
-    </section><!-- End Hero -->
-    <div class="container-fluid heading" id="ourfeatures">
-        <h4><span>Our</span> Features <span></span></h4>
-
-    </div>
-    <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
-        <div class="container">
-
-            <div class="container-fluid services">
-                <h4><span>What We </span> Provide <span>To You</span></h4>
-                <p> We cater an array of high-end products for Education and Government Sector </p>
-            </div>
-
-            <div class="row" data-aos="fade-up" data-aos-delay="300">
-                <div class="col-lg-4 col-md-4">
-                    <div class="icon-box">
-                        <img src="images/bring your garage online.png" style="height:40px;width:45px" alt=""> &nbsp;&nbsp;&nbsp;
-                        <h3><a href="">Bring Your Garage Online</a></h3>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 mt-4 mt-md-0">
-                    <div class="icon-box">
-                        <img src="images/provide online service.png" style="height:40px;width:45px" alt=""> &nbsp;&nbsp;&nbsp;
-                        <h3><a href="">Provide Online Service</a></h3>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 mt-4 mt-md-0">
-                    <div class="icon-box">
-                        <img src="images/nearby customers.png" style="height:40px;width:45px" alt=""> &nbsp;&nbsp;&nbsp;
-                        <h3><a href="">Get All Nearby Customers</a></h3>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="row pt-4" data-aos="fade-up" data-aos-delay="300">
-                <div class="col-lg-4 col-md-4">
-                    <div class="icon-box">
-                        <img src="images/faster service.png" style="height:40px;width:45px" alt=""> &nbsp;&nbsp;&nbsp;
-                        <h3><a href="">Faster Service</a></h3>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 mt-4 mt-md-0">
-                    <div class="icon-box">
-                        <img src="images/24_7 working.png" style="height:40px;width:45px" alt=""> &nbsp;&nbsp;&nbsp;
-                        <h3><a href="">24 X 7 Working</a></h3>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 mt-4 mt-md-0">
-                    <div class="icon-box">
-                        <img src="images/more customers.png" style="height:40px;width:45px" alt=""> &nbsp;&nbsp;&nbsp;
-                        <h3><a href="">Get More Customers</a></h3>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="row pt-4" data-aos="fade-up" data-aos-delay="300">
-                <div class="col-lg-4 col-md-4">
-                    <div class="icon-box">
-                        <img src="images/logo.png"  style="height:40px;width:55px" alt=""> &nbsp;&nbsp;&nbsp;
-                        <h3><a href="">Be Service Provider On Vego</a></h3>
-                        <div></div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 mt-4 mt-md-0">
-                    <div class="icon-box">
-                        <img src="images/1 year .png" style="height:40px;width:45px" alt=""> &nbsp;&nbsp;&nbsp;
-                        <h3><a href="">Get 1 Yr Free Service</a></h3>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 mt-4 mt-md-0">
-                    <div class="icon-box">
-                        <img src="images/yearly maintenance.png" style="height:40px;width:45px" alt=""> &nbsp;&nbsp;&nbsp;
-                        <h3><a href="">Yearly Maintainance : ₹999</a></h3>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section><!-- End Features Section -->
-    <br>
-
-    <section class="registerform " id="form">
-
-        <div class="container-fluid services">
-            <h4><span>Fill This Form To </span> Register <span> Your Garage</span></h4>
-            <p> by Filling This form You Will be Working With Us </p>
-        </div>
-        <div class="container-fluid heading" id="ourfeatures" style="margin-bottom:-120px;">
-            <h4><span>Fill This Form To</span> Register <span></span></h4>
-
-        </div>
-        <hr id="borderregister" style="border-bottom: 2px solid black;">
-
-        <div class="page-content">
-            <div class="form-v4-content">
-
-                <form class="form-detail" action="#" method="post" id="myform">
-
-                    <h2>Owner Information</h2>
-                    <div class="form-group">
-                        <div class="form-row form-row-1">
-                            <label for="first_name">First Name</label>
-                            <input type="text" name="first_name" id="first_name" class="input-text">
-                        </div>
-                        <div class="form-row form-row-1">
-                            <label for="last_name">Last Name</label>
-                            <input type="text" name="last_name" id="last_name" class="input-text">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="form-row form-row-1">
-                            <label for="first_name">Mobile No 1</label>
-                            <input type="text" name="first_name" id="first_name" class="input-text">
-                        </div>
-                        <div class="form-row form-row-1">
-                            <label for="last_name">Mobile No 2</label>
-                            <input type="text" name="last_name" id="last_name" class="input-text">
-                        </div>
-                    </div>
-
-
-                    <hr style="border:2px solid #2f73a3;">
-                    <h2 class="pt-4">Garage Details</h2>
-                    <div class="form-row">
-                        <label for="your_email">Garage Name :</label>
-                        <input type="text" name="your_email" id="your_email" class="input-text" required
-                            pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
-                    </div>
-                    <div class="form-group">
-                        <div class="form-row form-row-1">
-                            <label for="first_name">Pincode : </label>
-                            <input type="text" name="first_name" id="first_name" class="input-text">
-                        </div>
-                        <div class="form-row form-row-1">
-                            <label for="last_name">City : </label>
-                            <input type="text" name="last_name" id="last_name" class="input-text">
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <label for="exampleFormControlTextarea1">Garage Address In Detail</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-
-                    <div class="form-row pt-4">
-                        <label for="your_email">Garage Photos : ( Min : 6 and Max: 10 )</label>
-                        <input type="file" name="your_email" id="your_email" class="input-text" required
-                            pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
-                    </div>
-                    <div class="form-group">
-                        <div class="form-row form-row-1">
-                            <label for="first_name">Birth Year : </label>
-                            <input type="text" name="last_name" id="last_name" class="input-text">
-                        </div>
-                        <div class="form-row form-row-1">
-                            <label for="last_name">No of Workers : </label>
-                            <input type="text" name="last_name" id="last_name" class="input-text">
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <div class="form-row form-row-1">
-                            <label for="first_name">Opening Time : </label>
-                            <input type="text" name="first_name" id="first_name" class="input-text">
-                        </div>
-                        <div class="form-row form-row-1">
-                            <label for="last_name">Closing Time : </label>
-                            <input type="text" name="last_name" id="last_name" class="input-text">
-                        </div>
-                        <div class="form-row form-row-1">
-                            <label for="last_name">Holiday : </label>
-                            <input type="text" name="last_name" id="last_name" class="input-text">
-                        </div>
-                    </div>
-
-                    <div class="form-row">
-                        <label for="last_name">Select The Services That You Provide : </label>
-                        <select multiple class="form-control" id="exampleFormControlSelect2">
-                            <option>service 1</option>
-                            <option style="margin-top:10px;">service 1</option>
-                            <option style="margin-top:10px;">service 1</option>
-                            <option style="margin-top:10px;">service 1</option>
-                        </select>
-
-
-                    </div>
-                    <hr style="border:2px solid #2f73a3;">
-                    <h2 class="pt-4">Garage Location</h2>
-
-                    <div class="form-row">
-                        <label for="your_email">Garage Address :</label>
-                        <input type="text" name="your_email" id="your_email" class="input-text" required
-                            pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
-                    </div>
-                    <div class="form-row">
-                        <iframe id="googlemap"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15073.234307308167!2d77.02138377450119!3d19.181720042435785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8f853c6a83fbf800!2sPurna%20Junction!5e0!3m2!1sen!2sin!4v1597152317620!5m2!1sen!2sin"
-                            frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                            tabindex="0"></iframe>
-                    </div>
-
-                    <hr style="border:2px solid #2f73a3;">
-                    <h2 class="pt-4">Login Credentials</h2>
-
-                    <div class="form-row">
-                        <label for="your_email">Mobile No :</label>
-                        <input type="text" name="your_email" id="your_email" class="input-text" required
-                            pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
-                    </div>
-                    <div class="form-group">
-                        <div class="form-row form-row-1">
-                            <label for="first_name">New Password</label>
-                            <input type="text" name="first_name" id="first_name" class="input-text">
-                        </div>
-                        <div class="form-row form-row-1">
-                            <label for="last_name">Confirm Password</label>
-                            <input type="text" name="last_name" id="last_name" class="input-text">
-                        </div>
-                    </div>
-                    <div class="form-row-last">
-                        <input type="submit" name="register" class="register" value="Register">
-                    </div>
-                </form>
-            </div>
-        </div>
     </section>
-       <!-- Modal -->
-       <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+
+
+    -->
+
+    <section id="showroomscardsmobile">
+       
+    
+        <section id=" filteroption">
+            <div style="float:left;font-weight:900;font-size:13px;margin-top:15px;margin-left:10px">
+                <p>3 Showrooms Found
+                <p>
+            </div>
+            <div class="alert alert-light" role="alert" style="float:right">
+                <button onclick="w3_openfilter()" class="btn btn-outline-dark btn-sm" style="width:110%"> filters <i
+                        class="fa fa-angle-down" aria-hidden="true"></i></button>
+            </div>
+           
+        </section>
+
+ 
+        <header id="sidebar ">
+            <div class="w3-sidebar w3-bar-block w3-animate-bottom fixed" style="display:none;z-index:5;width:100%;"
+                id="filtersidebar">
+                <button class="w3-bar-item w3-button w3-large" onclick="w3_closefilter()"><i class="fa fa-filter"
+                        aria-hidden="true"></i> Filters<i class="fa fa-window-close" style="float: right;"
+                        aria-hidden="true"></i></button>
+                <div class="filters text-center">
+                    <button style="border-radius: 12px;margin-top:10px;margin-right:10px" class="btn btn-outline-dark btn-sm"> Sort By Ratings</button>
+                    <button style="border-radius: 12px;margin-top:10px;margin-right:10px" class="btn btn-outline-dark btn-sm"> Show only Authorized</button>
+
+                    <button style="border-radius: 12px;margin-top:10px" class="btn btn-outline-dark btn-sm"> Sort By Distance From You</button>
+ 
+                </div>
+
+            </div>
+        </header>
+
+        <div class="servicesverticalcards">
+        
+            <a style="text-decoration: none; color:black;" href="showroominfo.html" data-name="Garage 1"
+                id="showroomcardrow">
+                <div class="row" id="showroomscardsrow">
+
+                    <div class="col showroom-cont-btm-one">
+                        <img src="images/showroom1.jpg" alt="...">
+                    </div>
+                    <div class="col showroom-cont-btm-two">
+                        <h3>Showroom 1</h3>
+                        <p class="showroomratings">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+
+                        </p>
+
+                        <div id="distanceshowroom">
+                          
+                            <img id="brandimage"
+                                src="images/logo-tvs-motor-company-indonesia-logo-lambang-indonesia-7.png" alt="">
+
+                        </div>
+
+                      
+
+
+
+                    </div>
+                </div>
+            </a>
+
+            <a style="text-decoration: none; color:black;" href="showroominfo.html" data-name="Garage 1">
+                <div class="row" id="showroomscardsrow">
+
+                    <div class="col showroom-cont-btm-one">
+                        <img src="images/showroom4.jpg" alt="...">
+                    </div>
+                    <div class="col showroom-cont-btm-two">
+                        <h3>Showroom 2</h3>
+                        <p class="showroomratings">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+
+                        </p>
+
+                        <div id="distanceshowroom">
+                          
+                            <img id="brandimage"
+                                src="images/logo-tvs-motor-company-indonesia-logo-lambang-indonesia-7.png" alt="">
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </a>
+            <a style="text-decoration: none; color:black;" href="showroominfo.html" data-name="Garage 1">
+                <div class="row" id="showroomscardsrow">
+
+                    <div class="col showroom-cont-btm-one">
+                        <img src="images/showroom2.jpg" alt="...">
+                    </div>
+                    <div class="col showroom-cont-btm-two">
+                        <h3>Showroom 2</h3>
+                        <p class="showroomratings">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+
+                        </p>
+
+                   
+                        <div id="distanceshowroom">
+                          
+                            <img id="brandimage"
+                                src="images/logo-tvs-motor-company-indonesia-logo-lambang-indonesia-7.png" alt="">
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </a>
+           
+            <a style="text-decoration: none; color:black;" href="registershowroom.html" data-name="Garage 1">
+                <div class="row" id="showroomscardsrow">
+
+                    <div class="col circle1 text-center">
+                        <div data-toggle="modal" data-target="#addvehiclemodel">
+    
+                            <i class="fa fa-plus-square-o addvehicle" aria-hidden="true"></i>
+                            <p style="font-weight:900">Add Showroom</p>
+                        </div> <!-- .top-info -->
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </section>
+
+  
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -501,7 +449,161 @@
             </div>
         </div>
     </div>
+ 
 
+        <section id="garagesearchboxdesktop">
+
+            <div class="container-fluid nearbyshowroom  ">
+                <div class="container">
+                    <div class="container-fluid services ">
+                        <h4><span style="color: white;">Search in Your </span>Showrooms</h4>
+    
+                    </div>
+    
+                    <div class="row">
+                        <div class="searchbox2 s">
+                            <button class="btn-menu nearby">
+                                <img src="images/img_227234.png" class="img-fluid caricon" width="80px">
+                            </button>
+                            <input id="search" type="text" placeholder="Search Showroom " name="search"
+                                class="search">
+                            <button class="btn-search nearby2">
+                                <img src="https://img.icons8.com/cotton/24/000000/search--v2.png">
+                            </button>
+                        </div>
+    
+    
+                    </div>
+    
+                </div>
+            </div>
+        </section>
+    
+
+    <div class="container-fluid services" id="showroomtop">
+        <h4>Showrooms <span>Nearby You</span></h4>
+
+        <div class="d-flex justify-content-around ">
+            <div class="card" style="width: 18rem;">
+                <div class="inner">
+                    <img class="card-img-top" src="images/showroom1.jpg" alt="Card image cap">
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title">Showroom 1</h5>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <ul class="list-group list-group-flush pt-2">
+                        <li class="list-group-item"> <img
+                                src="images/logo-tvs-motor-company-indonesia-logo-lambang-indonesia-7.png"
+                                class="img-fluid " width="80px">
+                        </li>
+                        <li class="list-group-item">+91 7774843561</li>
+                        <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+                        <a href="showroominfo.html">
+                            <li class="list-group-item"><span class="distance">See Info <i
+                                        class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="inner">
+                    <img class="card-img-top" src="images/showroom2.jpg" alt="Card image cap">
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title"> Showroom 2</h5>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <ul class="list-group list-group-flush pt-2">
+                        <li class="list-group-item"> <img src="images/Honda_Logo.svg" class="img-fluid " width="40px">
+                        </li>
+                        <li class="list-group-item">+91 7774843561</li>
+                        <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+                        <a href="showroominfo.html">
+                            <li class="list-group-item"><span class="distance">See Info <i
+                                        class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="inner">
+                    <img class="card-img-top" src="images/showroom3.jpg" alt="Card image cap">
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title">Showroom 3</h5>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <ul class="list-group list-group-flush pt-2">
+                        <ul class="list-group list-group-flush pt-2">
+                            <li class="list-group-item"> <img src="images/Mahindra-Logo-Vector.svg" class="img-fluid "
+                                    width="60px">
+                            </li>
+                            <li class="list-group-item">+91 7774843561</li>
+                            <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+                            <a href="showroominfo.html">
+                                <li class="list-group-item"><span class="distance">See Info <i
+                                            class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
+                            </a>
+                        </ul>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="inner">
+                    <img class="card-img-top" src="images/showroom4.jpg" alt="Card image cap">
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title">Showroom 4</h5>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <ul class="list-group list-group-flush pt-2">
+                        <ul class="list-group list-group-flush pt-2">
+                            <li class="list-group-item"> <img src="images/audi-vector-4.png" class="img-fluid"
+                                    width="60px">
+                            </li>
+                            <li class="list-group-item">+91 7774843561</li>
+                            <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+
+                            <a href="showroominfo.html">
+                                <li class="list-group-item"><span class="distance">See Info <i
+                                            class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
+                            </a>
+                        </ul>
+                </div>
+            </div>
+
+        </div>
+ 
+    </div>
+
+    <div id="addshowroombutton" class="row" style="margin-top:4%;margin-left:10%;margin-right:10%;margin-bottom:5%" onclick="location.href='registershowroom.html';" >
+
+        <button class="btn btn-outline-danger btn-block btn-lg"><i class="fa fa-plus" aria-hidden="true"></i>  Add New Showroom</button>
+
+    </div>
+    <section id="mobilefooter">
+        <footer class="mobilefooter" style="position: relative;">
+            <p class="footer-item mx-auto">© 2020-2021 VeGO</p>
+            <a style="margin: auto;" href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+
+        </footer>
+    </section>
     <footer class="footer text-muted" id="bigfooter">
 
 
@@ -634,6 +736,7 @@
         <!-- Copyright -->
     </footer>
     <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+    <div class="w3-overlay w3-animate-opacity" onclick="w3_closefilter()" style="cursor:pointer" id="myOverlay"></div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -646,46 +749,54 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-
-</body>
-
-<script>
-
-    $(".signup-form").hide();
-    $(".signup").css("background", "none");
-
-    $(".login").click(function () {
+    <script>
         $(".signup-form").hide();
-        $(".login-form").show();
         $(".signup").css("background", "none");
-        $(".login").css("background", "#75e2e9");
-    });
 
-    $(".signup").click(function () {
-        $(".signup-form").show();
-        $(".login-form").hide();
-        $(".login").css("background", "none");
-        $(".signup").css("background", "#75e2e9");
-    });
+        $(".login").click(function () {
+            $(".signup-form").hide();
+            $(".login-form").show();
+            $(".signup").css("background", "none");
+            $(".login").css("background", "#75e2e9");
+        });
 
-    $(".btn").click(function () {
-        $(".input").val("");
-    });
-    function w3_open() {
+        $(".signup").click(function () {
+            $(".signup-form").show();
+            $(".login-form").hide();
+            $(".login").css("background", "none");
+            $(".signup").css("background", "#75e2e9");
+        });
+
+        $(".btn").click(function () {
+            $(".input").val("");
+        });
+
+      
+        function w3_open() {
    
-        document.getElementById("mySidebar").style.display = "block";
-        document.getElementById("myOverlay").style.display = "block";
-        var x = document.getElementById("search");
-        x.style.display = "none";
-        
-    }
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+            var x = document.getElementById("search");
+            x.style.display = "none";
+            
+        }
+    
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+            var x = document.getElementById("search");
+            x.style.display = "block";
+        }
+        function w3_openfilter() {
+            document.getElementById("filtersidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
 
-    function w3_close() {
-        document.getElementById("mySidebar").style.display = "none";
-        document.getElementById("myOverlay").style.display = "none";
-        var x = document.getElementById("search");
-        x.style.display = "block";
-    }
-</script>
+        function w3_closefilter() {
+            document.getElementById("filtersidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+        }
+    </script>
+</body>
 
 </html>
