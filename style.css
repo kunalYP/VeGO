@@ -2928,3 +2928,25 @@ width:90%;
   color: rgba(17, 4, 3, 0.87);
   font-size : 80px;
 }
+#notification {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0.1rem;
+
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  border: 2px solid rgb(235, 232, 232);
+  box-shadow: 2px 2px 2px rgb(232, 240, 241);
+
+  border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+  background-color: #93f7a0;
+  position:fixed; 
+  top: 0px; 
+  left: 0px; 
+  width: 100%;
+  z-index:9999; 
+  border-radius:0px
+
+}
