@@ -2932,7 +2932,7 @@ width:90%;
   display: flex;
   flex-wrap: nowrap;
   padding: 0.1rem;
-
+   text-align: center;
   width: 100%;
   margin: auto;
   justify-content: center;
@@ -2947,6 +2947,17 @@ width:90%;
   left: 0px; 
   width: 100%;
   z-index:9999; 
-  border-radius:0px
+  border-radius:0px;
+}
+.seemoreinfo{
+  margin-top: -5px;
+  text-align: center;
+  padding: 0;
+  font-size: 0.7rem;
+  margin-bottom: 2px;
+  font-weight: 500;
+  color: white;
+  background-color: #A60523;
 
+  justify-content: center;
 }
