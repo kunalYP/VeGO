@@ -2362,51 +2362,27 @@ font-size: 1rem;
   display: none;
 }
 .notification {
-  
-  position: fixed;
   display: flex;
-
+  flex-wrap: nowrap;
   padding: 0.1rem;
   padding-bottom: 10px;
-  width: 85%;
-  top:35%;
+  width: 90%;
+  margin: auto;
   justify-content: center;
   border: 2px solid rgb(235, 232, 232);
   box-shadow: 2px 2px 2px rgb(232, 240, 241);
+
   border-top-left-radius: 3px;
     border-top-right-radius: 3px;
-  background-color: #8efa73;
+  background-color: #71f077;
   padding-top: 10px;
-  height:200px;
+  top:0;
+position: fixed;
+margin-top:55%;
 
 }
 
-#notification{
-  margin-left:7.5%;
 
-
-}
-.icon{
-   text-align: center;
-    font-size:3rem;
-
-}
-.msg {
-
-
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin-left: 10px;
-  width:90%;
-  margin-top:-19%;
-}
-.msg h3 {
-  font-size: 1.1rem;
-  font-weight: 500;
-  color: #06192D;
-  text-align: center;
-}
 }
 
 
@@ -2799,48 +2775,25 @@ border: none;
 .ownershowroomcards{
   display: none;
 }
-
 .notification {
-  
-  position: fixed;
+  display: flex;
+  flex-wrap: nowrap;
   padding: 0.1rem;
   padding-bottom: 10px;
-  width: 85%;
-  top:35%;
+  width: 90%;
+  margin: auto;
   justify-content: center;
   border: 2px solid rgb(235, 232, 232);
   box-shadow: 2px 2px 2px rgb(232, 240, 241);
+
   border-top-left-radius: 3px;
     border-top-right-radius: 3px;
-  background-color: #8efa73;
+  background-color: #71f077;
   padding-top: 10px;
-  height:200px;
+  top:0;
+position: fixed;
+margin-top:20%;
 
-}
-
-#notification{
-  margin-left:7.5%;
-
-
-}
-.icon{
-margin-left:4%;
-    font-size:5rem;
-
-}
-.msg {
-
-
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width:90%;
-}
-.msg h3 {
-  font-size: 1.5rem;
-  font-weight: 500;
-  color: #06192D;
-  text-align: center;
 }
 }
 
@@ -3042,4 +2995,25 @@ width:90%;
 #ownerlocation
 {
   background: #5db6e9;
+}
+
+
+.tick {
+  display: flex;
+  text-align: center;
+   
+}
+.msg {
+
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 1rem;
+
+}
+.msg h3 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #06192D;
 }
