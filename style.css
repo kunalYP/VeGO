@@ -2975,3 +2975,8 @@ width:90%;
     border-top-right-radius: 5px;
 
 }
+.garagestatus{
+  color:rgb(9, 129, 29);
+  font-weight: 900;
+  font-size:0.9rem;
+}
