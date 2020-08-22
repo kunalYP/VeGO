@@ -2936,7 +2936,7 @@ width:90%;
   padding: 0.1rem;
   padding-bottom: 10px;
   width: 85%;
-  top:50%;
+  top:35%;
   justify-content: center;
   border: 2px solid rgb(235, 232, 232);
   box-shadow: 2px 2px 2px rgb(232, 240, 241);
@@ -2954,12 +2954,7 @@ width:90%;
 
 }
 .icon{
-  
- 
-
-
-    display: flex;
-    justify-content: center;
+   text-align: center;
     font-size:3rem;
 
 }
