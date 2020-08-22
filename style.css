@@ -2958,6 +2958,22 @@ width:90%;
     font-size:3rem;
 
 }
+.msg {
+
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 10px;
+  width:90%;
+  margin-top:-19%;
+}
+.msg h3 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #06192D;
+  text-align: center;
+}
 .owneritem {
   display: inline-block;
   background: #f6f6f6;
