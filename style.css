@@ -2780,7 +2780,7 @@ border: none;
   flex-wrap: nowrap;
   padding: 0.1rem;
   padding-bottom: 10px;
-  width: 90%;
+  width: 30%;
   margin: auto;
   justify-content: center;
   border: 2px solid rgb(235, 232, 232);
@@ -2791,8 +2791,9 @@ border: none;
   background-color: #71f077;
   padding-top: 10px;
   top:0;
+  right:0;
 position: fixed;
-margin-top:20%;
+margin-top:6%;
 
 }
 }
