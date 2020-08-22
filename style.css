@@ -2361,7 +2361,52 @@ font-size: 1rem;
 #addshowroombutton{
   display: none;
 }
+.notification {
+  
+  position: fixed;
+  display: flex;
 
+  padding: 0.1rem;
+  padding-bottom: 10px;
+  width: 85%;
+  top:35%;
+  justify-content: center;
+  border: 2px solid rgb(235, 232, 232);
+  box-shadow: 2px 2px 2px rgb(232, 240, 241);
+  border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+  background-color: #8efa73;
+  padding-top: 10px;
+  height:200px;
+
+}
+
+#notification{
+  margin-left:7.5%;
+
+
+}
+.icon{
+   text-align: center;
+    font-size:3rem;
+
+}
+.msg {
+
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 10px;
+  width:90%;
+  margin-top:-19%;
+}
+.msg h3 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #06192D;
+  text-align: center;
+}
 }
 
 
@@ -2754,6 +2799,49 @@ border: none;
 .ownershowroomcards{
   display: none;
 }
+
+.notification {
+  
+  position: fixed;
+  padding: 0.1rem;
+  padding-bottom: 10px;
+  width: 85%;
+  top:35%;
+  justify-content: center;
+  border: 2px solid rgb(235, 232, 232);
+  box-shadow: 2px 2px 2px rgb(232, 240, 241);
+  border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+  background-color: #8efa73;
+  padding-top: 10px;
+  height:200px;
+
+}
+
+#notification{
+  margin-left:7.5%;
+
+
+}
+.icon{
+margin-left:4%;
+    font-size:5rem;
+
+}
+.msg {
+
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width:90%;
+}
+.msg h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #06192D;
+  text-align: center;
+}
 }
 
 
@@ -2928,52 +3016,7 @@ width:90%;
   color: rgba(17, 4, 3, 0.87);
   font-size : 80px;
 }
-.notification {
-  
-  position: fixed;
-  display: flex;
 
-  padding: 0.1rem;
-  padding-bottom: 10px;
-  width: 85%;
-  top:35%;
-  justify-content: center;
-  border: 2px solid rgb(235, 232, 232);
-  box-shadow: 2px 2px 2px rgb(232, 240, 241);
-  border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-  background-color: #8efa73;
-  padding-top: 10px;
-  height:200px;
-
-}
-
-#notification{
-  margin-left:7.5%;
-
-
-}
-.icon{
-   text-align: center;
-    font-size:3rem;
-
-}
-.msg {
-
-
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin-left: 10px;
-  width:90%;
-  margin-top:-19%;
-}
-.msg h3 {
-  font-size: 1.1rem;
-  font-weight: 500;
-  color: #06192D;
-  text-align: center;
-}
 .owneritem {
   display: inline-block;
   background: #f6f6f6;
