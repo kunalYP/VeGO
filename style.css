@@ -2378,8 +2378,7 @@ font-size: 1rem;
   padding-top: 10px;
   top:0;
 position: fixed;
-margin-top:55%;
-
+margin-top:5px;
 }
 
 
@@ -3010,7 +3009,7 @@ width:90%;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
 
 }
 .msg h3 {
