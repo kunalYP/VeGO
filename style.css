@@ -2342,6 +2342,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 .features-icons-icon img{
   width:30%;
 }
+
 .teamwork{
   width:65%;
   margin-left:30px;
@@ -2380,6 +2381,13 @@ font-size: 1rem;
 position: fixed;
 margin-top:5px;
 }
+#contacticons {
+  font-size: 4rem;
+  }
+
+  #contactdata{
+font-size:0.9rem;
+  }
 
 
 }
@@ -2795,6 +2803,11 @@ position: fixed;
 margin-top:6%;
 
 }
+#contacticons {
+  font-size: 4rem;
+  }
+
+
 }
 
 
