@@ -2460,7 +2460,7 @@ margin-top:5px;
   background-color: #06192D;
   color:white;
   justify-content: space-between;
-  
+  position:absolute;
 }
 
 .submitbutton{
