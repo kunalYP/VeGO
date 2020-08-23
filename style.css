@@ -2366,7 +2366,7 @@ font-size: 1rem;
   flex-wrap: nowrap;
   padding: 0.1rem;
   padding-bottom: 10px;
-  width: 90%;
+  width: 91%;
   margin: auto;
   justify-content: center;
   border: 2px solid rgb(235, 232, 232);
@@ -2460,7 +2460,7 @@ margin-top:5px;
   background-color: #06192D;
   color:white;
   justify-content: space-between;
-  font-family: 'Roboto', sans-serif;
+  
 }
 
 .submitbutton{
