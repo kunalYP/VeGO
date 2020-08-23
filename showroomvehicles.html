@@ -596,31 +596,18 @@
 
         document.getElementById("mySidebar").style.display = "block";
         document.getElementById("myOverlay").style.display = "block";
-        var x = document.getElementById("search");
-        x.style.display = "none";
+      
 
     }
 
     function w3_close() {
         document.getElementById("mySidebar").style.display = "none";
         document.getElementById("myOverlay").style.display = "none";
-        var x = document.getElementById("search");
-        x.style.display = "block";
+       
     }
 
 
-    window.onscroll = function () { myFunction() };
-
-    var header = document.getElementById("myHeader");
-    var sticky = header.offsetTop;
-
-    function myFunction() {
-        if (window.pageYOffset > sticky) {
-            header.classList.add("sticky");
-        } else {
-            header.classList.remove("sticky");
-        }
-    }
+   
 
     $(function () {
         $("#ko").tooltip("show");
