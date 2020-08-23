@@ -2394,6 +2394,55 @@ font-size:0.9rem;
 #aboutshowroom{
   margin-top:20px;
 }
+
+
+
+#vehicleimg1{
+  border:1px solid black;
+  border-right:none;
+}
+#vehicleimg2{
+  border:1px solid black;
+}
+#vehicleinfo{
+  border:1px solid black;
+  border-top:none;
+}
+.vehicleinshowroomcard{
+  width:80%;
+  margin-bottom:10px;
+}
+#vehicleinfo h3{
+ font-size:1.2rem;
+ font-weight:900;
+}
+.vehiclename{
+  margin-top:5px;
+}
+.vehicleprice{
+  margin-top:5px;
+  
+}
+.vehicleprice h5{
+  font-weight: 900;
+  color: rgb(41, 18, 175);
+}
+.statusvehicle{
+  font-weight:900;
+  color:green;
+  margin-bottom:10px;
+}
+.vehicleinshowroomcard{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
+margin-bottom:25px;
+}
+
+
+
+
+
+
+
 }
 
 
@@ -2811,6 +2860,56 @@ margin-top:6%;
   font-size: 4rem;
   }
 
+  #vehicleimg1{
+    border:1px solid black;
+    border-right:none;
+  }
+  #vehicleimg2{
+    border:1px solid black;
+  }
+  #vehicleinfo{
+    border:1px solid black;
+    border-top:none;
+  }
+  .vehicleinshowroomcard{
+    width:30%;
+    margin-bottom:10px;
+  
+  }
+  #vehicleinfo h3{
+   font-size:1.2rem;
+   font-weight:900;
+  }
+  .vehiclename{
+    margin-top:5px;
+  }
+  .vehicleprice{
+    margin-top:5px;
+    
+  }
+  .vehicleprice h5{
+    font-weight: 900;
+    color: rgb(41, 18, 175);
+  }
+  .statusvehicle{
+    font-weight:900;
+    color:green;
+    margin-bottom:10px;
+  }
+  .vehicleinshowroomcard{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom:25px;
+  margin-top:30px;
+ 
+  }
+#vehiclecardsshowroom {
+  margin-top:10%;
+}
+
+#vehiclecardsflex{
+display: flex;
+
+}
 
 }
 
@@ -3034,42 +3133,6 @@ width:90%;
   font-weight: 500;
   color: #06192D;
 }
-#vehicleimg1{
-  border:1px solid black;
-  border-right:none;
-}
-#vehicleimg2{
-  border:1px solid black;
-}
-#vehicleinfo{
-  border:1px solid black;
-  border-top:none;
-}
-.vehicleinshowroomcard{
-  width:80%;
-  margin-bottom:10px;
-}
-#vehicleinfo h3{
- font-size:1.2rem;
- font-weight:900;
-}
-.vehiclename{
-  margin-top:5px;
-}
-.vehicleprice{
-  margin-top:5px;
-  
-}
-.vehicleprice h5{
-  font-weight: 900;
-  color: rgb(41, 18, 175);
-}
-.statusvehicle{
-  font-weight:900;
-  color:green;
-  margin-bottom:10px;
-}
-.vehicleinshowroomcard{
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
-margin-bottom:25px;
+#itemshowroom{
+  margin: 5px 10px 0px 10px;
 }
