@@ -3136,3 +3136,52 @@ width:90%;
 #itemshowroom{
   margin: 5px 10px 0px 10px;
 }
+
+
+#garageinforow{
+
+border-top: 1px solid black;
+}
+#garageimg1{
+margin:0;
+margin-top:10px;
+margin-bottom:10px;
+}
+
+#garageimg3{
+  margin:0;
+  margin-top:10px;
+margin-bottom:10px;
+}
+
+#garageownercontainer{
+  width:80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
+ background-color:rgba(247, 245, 252, 0.993);
+ 
+}
+
+.imagegarage img{
+  width:100%;
+  height:100px;
+}
+.garagename h3{
+  font-weight: 700;
+  font-size: 24px;
+}
+.garagename{
+  margin-top:10px;
+}
+.garageadress p{
+  font-size: 15px;
+  font-weight:500;
+}
+
+.ratingsgarage{
+  margin-top:-10px;
+}
+.garagestatus h5{
+  font-weight: 900;
+  margin-top:5px;
+   font-size:1rem;
+}
