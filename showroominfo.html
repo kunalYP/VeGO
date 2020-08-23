@@ -14,10 +14,9 @@
     <title>Vego - Home </title>
 </head>
 <header id="sidebar ">
-    <div class="w3-sidebar w3-bar-block w3-animate-left " style="display:none;z-index:5;width:80%;"
-        id="mySidebar">
+    <div class="w3-sidebar w3-bar-block w3-animate-left " style="display:none;z-index:5;width:80%;" id="mySidebar">
         <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">
-           <img src="images/user.png" style="width:50px" alt=""> Hello User !<i class="fa fa-window-close"
+            <img src="images/user.png" style="width:50px" alt=""> Hello User !<i class="fa fa-window-close"
                 style="float: right;" aria-hidden="true"></i></button>
 
         <div class="dropdown-divider" style="margin-top:20px"></div>
@@ -29,18 +28,18 @@
 
         <a href="emergencyservice.html" class="w3-bar-item w3-button"><i class="fa fa-exclamation-triangle"
                 aria-hidden="true" style="margin-right: 1rem;"></i> Emergency Service</a>
-        <a href="vehcilecomparison.html" class="w3-bar-item w3-button"><i class="fa fa-balance-scale"
-                aria-hidden="true" style="margin-right: 1rem;"></i>Compare Vehicles</a>
+        <a href="vehcilecomparison.html" class="w3-bar-item w3-button"><i class="fa fa-balance-scale" aria-hidden="true"
+                style="margin-right: 1rem;"></i>Compare Vehicles</a>
         <a href="nearbyshowrooms.html" class="w3-bar-item w3-button"> <i class="fa fa-car" aria-hidden="true"
                 style="margin-right: 1rem;"></i> Nearby Showrooms & Shops</a>
         <a href="nearbygarages.html" class="w3-bar-item w3-button"><i class="fa fa-cogs" aria-hidden="true"
                 style="margin-right: 1rem;"></i> Nearby Garages & Workshops</a>
         <div class="dropdown-divider"></div>
-        <a href="workwithus.html" class="w3-bar-item w3-button"><i class="fa fa-handshake-o"
-                aria-hidden="true" style="margin-right: 1rem;"></i>Work With Us</a>
+        <a href="workwithus.html" class="w3-bar-item w3-button"><i class="fa fa-handshake-o" aria-hidden="true"
+                style="margin-right: 1rem;"></i>Work With Us</a>
         <a href="aboutus.html" class="w3-bar-item w3-button">
-        <img src="images/about us.png" style="width:18px;margin-right: 0.7rem;" alt="">      
-          About Us</a>
+            <img src="images/about us.png" style="width:18px;margin-right: 0.7rem;" alt="">
+            About Us</a>
         <a href="contactus.html" class="w3-bar-item w3-button"><i class="fa fa-phone-square" aria-hidden="true"
                 style="margin-right: 1rem;"></i> Contact Us</a>
         <div class="dropdown-divider"></div>
@@ -53,6 +52,7 @@
 
     </div>
 </header>
+
 <body>
     <header id="navbar">
         <div class="navigation-wrap bg-light start-header start-style">
@@ -122,6 +122,7 @@
             </div>
         </div>
     </header>
+
     <header id="mobilenavbar">
         <!-- Just an image -->
         <nav class="navbar  navbar-light">
@@ -130,18 +131,32 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img src="images/logo.png" width="85" height="45" alt="">
             </a>
 
         </nav>
- 
-     
-        <section id="ownerlocation">
-            <div class="alert alert-primary" role="alert" data-toggle="modal" data-target="#locationmodal">
+        <div class="container sticky-top" id="myHeader">
 
-                <i style="font-size:20px" class="fa fa-map-marker" aria-hidden="true"></i>
-                <a id="ko" data-toggle="tooltip" title="Add Your Own Location">Purna , Parbhani-431512</a>
+            <div id="search">
+                <div class="fixedsearchbox">
+                    <button class="btn-menu">
+                        <img src="images/search bar.png" alt="" style="float:left;width:30px">
+                    </button>
+                    <input id="fixedsearch" type="text" placeholder="Search For Garage, Showroom or Location"
+                        class="search">
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <section id="ownerlocation">
+            <div class="alert" role="alert" data-toggle="modal" data-target="#locationmodal">
+
+                <i style="font-size:18px" class="fa fa-location-arrow" aria-hidden="true"></i>
+                <a id="ko"> Kunal - Parbhani 431512 <i class="fa fa-angle-down" aria-hidden="true"></i></a>
             </div>
         </section>
 
@@ -150,11 +165,7 @@
 
     <section id="showroomcorousel">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
+
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="images/s1.jpg" alt="First slide" height="500px">
@@ -195,7 +206,7 @@
 
 
 
-<section id="searchinshowroom">
+    <!-- <section id="searchinshowroom">
     <div class="container-fluid">
         <div class="row">
             <div class="searchbox2 sv">
@@ -213,9 +224,9 @@
         </div>
     </div>
  
-</section>
+</section> -->
 
-<section id="vehiclesinshowroom">
+    <!-- <section id="vehiclesinshowroom">
     <div id="horizontalscrolling">
         <div class="scroll">
             <div class="horizontal-scroll">
@@ -338,7 +349,129 @@
     </div>
  
 
-</section>
+</section> -->
+    <div class="container heading" style="padding-top:30px;">
+        <h4><span></span> Vehicles <span>In Showroom</span></h4>
+        <p>KP Showroom</p>
+
+
+    </div>
+
+    <section id="vehiclesinshowroom">
+        <div class="bg-light pt-4">
+
+            <div class="text-center">
+                <div class="item2" id="item5" onclick="location.href='vehicleinfo.html';">
+                    <img src="images/car1.png" alt="">
+                    <div>
+                        <h1 class="scroll-cap text-center">Vehicle 5</h1>
+                    </div>
+                    <div>
+                        <h1 class="scroll-cap2 text-center">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </h1>
+                    </div>
+                    <div class="address">
+
+                        <p class="scroll-cap3 text-center text-success">
+                            <span class="text-primary"> ₹90,000</span>
+                            Available
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="item2" id="" onclick="location.href='vehicleinfo.html';">
+                    <img src="images/car1.png" alt="">
+                    <div>
+                        <h1 class="scroll-cap text-center">Vehicle 2</h1>
+                    </div>
+                    <div>
+                        <h1 class="scroll-cap2 text-center">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </h1>
+                    </div>
+                    <div class="address">
+
+                        <p class="scroll-cap3 text-center text-danger">
+                            <span class="text-primary"> ₹90,000</span>
+                            Not Available
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center pt-4">
+
+                <div class="item2" id="item5" onclick="location.href='vehicleinfo.html';">
+                    <img src="images/car3.png" alt="">
+                    <div>
+                        <h1 class="scroll-cap text-center">Vehicle 3</h1>
+                    </div>
+                    <div>
+                        <h1 class="scroll-cap2 text-center">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </h1>
+                    </div>
+                    <div class="address">
+
+                        <p class="scroll-cap3 text-center text-success">
+                            <span class="text-primary"> ₹90,000</span>
+                            Available
+                        </p>
+                    </div>
+                </div>
+                <div class="item2" id="" onclick="location.href='vehicleinfo.html';">
+                    <img src="images/car1.png" alt="">
+                    <div>
+                        <h1 class="scroll-cap text-center">Vehicle 5</h1>
+                    </div>
+                    <div>
+                        <h1 class="scroll-cap2 text-center">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </h1>
+                    </div>
+                    <div class="address">
+
+                        <p class="scroll-cap3 text-center text-success">
+                            <span class="text-primary"> ₹90,000</span>
+                            Available
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <a style="text-decoration: none; color:black;" href="registergarage.html" data-name="Garage 1">
+                <div class="row bg-white" id="showroomscardsrow">
+
+                    <div class="col circle1 text-center">
+                        <div class="row" style="margin-top:4%;margin-left:10%;margin-right:10%;margin-bottom:5%"
+                            onclick="location.href='registergarage.html';">
+
+                            <button class="btn btn-dark btn-block btn-lg"> See All Vehicles </button>
+
+                        </div>
+                        <!-- .top-info -->
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
 
     <div class="container-fluid showroominfo  ">
         <div class="container">
@@ -493,7 +626,7 @@
                 aria-hidden="true"></i></a>
     </div>
 
-    <section class="features-icons bg-light text-center pt-4">
+    <section class="features-icons  text-center pt-4">
         <div class="container-fluid services pt-4">
             <h4><span>About </span> Showroom <span></span></h4>
             <p> We cater an array of high-end products for Education and Government Sector </p>
@@ -502,8 +635,8 @@
             <h4><span>About</span> Showroom <span></span></h4>
             <p>Ahemadnagar</p>
         </div>
-        <div class="container ">
-            <div class="row flex-container">
+        <div class="container bg-light">
+            <div class="row flex-container pt-4">
                 <div class="col-lg-3">
                     <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                         <div class="features-icons-icon">
@@ -516,7 +649,7 @@
                 <div class="col-lg-3">
                     <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                         <div class="features-icons-icon">
-                            <img src="images/rating star.png" style="height:37%;width:37%"  alt="">
+                            <img src="images/rating star.png" style="height:37%;width:37%" alt="">
                         </div>
                         <h3>Ratings</h3>
                         <p class="lead mb-0"> <span class="fa fa-star checked"></span>
@@ -529,19 +662,19 @@
                 <div class="col-lg-3">
                     <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                         <div class="features-icons-icon">
-                            <img src="images/showroom workers.png" style="height:37%;width:37%"  alt="">
+                            <img src="images/showroom workers.png" style="height:37%;width:37%" alt="">
                         </div>
                         <h3>Workers</h3>
-                        <h4 class="font-weight-bold" style="color: rgb(245, 21, 21);">12+</h4>
+                        <h4 class="font-weight-bold" >12+</h4>
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                         <div class="features-icons-icon">
-                            <img src="images/holiday.png" style="height:37%;width:37%"  alt="">
+                            <img src="images/holiday.png" style="height:37%;width:37%" alt="">
                         </div>
                         <h3>Holiday</h3>
-                        <h4 class="font-weight-bold" >Sunday</h4>
+                        <h4 class="font-weight-bold" style="color: rgb(245, 21, 21);">Sunday</h4>
                     </div>
                 </div>
             </div>
@@ -558,7 +691,7 @@
                 <div class="col-lg-3">
                     <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                         <div class="features-icons-icon">
-                            <img src="images/working time.png" style="height:37%;width:37%"   alt="">
+                            <img src="images/working time.png" style="height:37%;width:37%" alt="">
                         </div>
                         <h3>Working Time</h3>
                         <h4 class="font-weight-bold" style="color: rgb(245, 21, 21);">6 AM - 10 PM</h4>
@@ -567,123 +700,127 @@
                 <div class="col-lg-3">
                     <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                         <div class="features-icons-icon">
-                            <img src="images/since.png" style="height:37%;width:37%"  alt="">
+                            <img src="images/since.png" style="height:37%;width:37%" alt="">
                         </div>
                         <h3>Since</h3>
-                        <h4 class="font-weight-bold" style="color: rgb(245, 21, 21);">2001</h4>
+                        <h4 class="font-weight-bold" >2001</h4>
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                         <div class="features-icons-icon">
-                            <img src="images/Honda_Logo.svg" style="height:40%;width:45%"  alt="">
+                            <img src="images/Honda_Logo.svg" style="height:40%;width:45%" alt="">
                         </div>
                         <h3>Brand</h3>
-                        <h4 class="font-weight-bold" style="color: rgb(245, 21, 21);">TVS</h4>
+                        <h4 class="font-weight-bold" >TVS</h4>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-          <!-- Modal -->
-          <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Sign In</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp" placeholder="Email ID">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp" placeholder="Mobile Number">
-                            </div>
-                            <div class="form-group">
-                                <input type="password" class="form-control" id="exampleInputPassword1"
-                                    placeholder="Password">
-                            </div>
-    
-                            <button type="submit" class="btn btn-dark btn-signin" style="width: 100%;">Sign In</button>
-                            <hr>
-                            <div class="form-group">
-                                <a href="" style="color:black" data-toggle="modal" data-target="#exampleModal2">Don't Have an Account ? Register
-                                </a>
-                            </div>
-    
-                            <button type="submit" class="btn btn-danger btn-block"><i class="fa fa-google" aria-hidden="true"></i>
-                                Sign In with Google</button>
-                            <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-facebook-square"
-                                    aria-hidden="true"></i> Sign In with Facebook </button>
-    
-                        </form>
-                    </div>
-                    <!-- <div class="modal-footer">
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sign In</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Email ID">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Mobile Number">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Password">
+                        </div>
+
+                        <button type="submit" class="btn btn-dark btn-signin" style="width: 100%;">Sign In</button>
+                        <hr>
+                        <div class="form-group">
+                            <a href="" style="color:black" data-toggle="modal" data-target="#exampleModal2">Don't Have
+                                an Account ? Register
+                            </a>
+                        </div>
+
+                        <button type="submit" class="btn btn-danger btn-block"><i class="fa fa-google"
+                                aria-hidden="true"></i>
+                            Sign In with Google</button>
+                        <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-facebook-square"
+                                aria-hidden="true"></i> Sign In with Facebook </button>
+
+                    </form>
+                </div>
+                <!-- <div class="modal-footer">
                         <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
                         <button type="button" class="btn btn-dark">Save changes</button>
                     </div> -->
-                </div>
             </div>
         </div>
-        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Register</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp" placeholder="Email ID">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp" placeholder="Mobile Number">
-                            </div>
-                            <hr>
-                            <div class="form-group">
-                                <input type="password" class="form-control" id="exampleInputPassword1"
-                                    placeholder="Password">
-                            </div>
-                            <div class="form-group">
-                                <input type="password" class="form-control" id="exampleInputPassword1"
-                                    placeholder="Confirm Password">
-                            </div>
-    
-                            <button type="submit" class="btn btn-dark btn-signin"
-                                style="width: 100%; margin-bottom: 10px;">Register</button>
-    
-                            <div class="form-group">
-    
-                                <a href="" style="color:black" data-toggle="modal" data-target="#exampleModal2">Already Have an Account ? Sign
-                                    In
-                                </a>
-                            </div>
-                            <hr>
-                            <button type="submit" class="btn btn-danger btn-block"><i class="fa fa-google" aria-hidden="true"></i>
-                                Sign In with Google</button>
-                            <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-facebook-square"
-                                    aria-hidden="true"></i> Sign In with Facebook </button>
-    
-                        </form>
-                    </div>
-                    <!-- <div class="modal-footer">
+    </div>
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Register</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Email ID">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Mobile Number">
+                        </div>
+                        <hr>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Confirm Password">
+                        </div>
+
+                        <button type="submit" class="btn btn-dark btn-signin"
+                            style="width: 100%; margin-bottom: 10px;">Register</button>
+
+                        <div class="form-group">
+
+                            <a href="" style="color:black" data-toggle="modal" data-target="#exampleModal2">Already Have
+                                an Account ? Sign
+                                In
+                            </a>
+                        </div>
+                        <hr>
+                        <button type="submit" class="btn btn-danger btn-block"><i class="fa fa-google"
+                                aria-hidden="true"></i>
+                            Sign In with Google</button>
+                        <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-facebook-square"
+                                aria-hidden="true"></i> Sign In with Facebook </button>
+
+                    </form>
+                </div>
+                <!-- <div class="modal-footer">
                         <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
                         <button type="button" class="btn btn-dark">Save changes</button>
                     </div> -->
-                </div>
             </div>
         </div>
+    </div>
 
     <section class="features-icons bg-light text-center">
         <br>
@@ -692,43 +829,45 @@
                 <div class="row flex-container">
                     <div class="col-lg-3">
                         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                            <div class="features-icons-icon">
-                                <img src="images/call-answer.png" width="090px" alt="">
+                            <div class="features-icons-icon" id="contacticons">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
                             </div>
                             <h3>Mobile No 1</h3>
-                            <p class="lead mb-0 num" style="font-size:1rem">7774843561</p>
+                            <p id="contactdata" class="lead mb-0">7774843561</p>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                            <div class="features-icons-icon">
-                                <img src="images/call-answer.png" width="090px" alt="">
+                            <div class="features-icons-icon" id="contacticons">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
                             </div>
                             <h3>Mobile No 2</h3>
-                            <p class="lead mb-0" style="font-size:1rem">9561601680</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                            <div class="features-icons-icon">
-                                <img src="images/call-answer.png" width="090px" alt="">
-                            </div>
-                            <h3>Mobile No 3</h3>
-                            <p class="lead mb-0" style="font-size:1rem">9561601680</p>
+                            <p id="contactdata" class="lead mb-0">9561601680</p>
                         </div>
                     </div>
 
-                     <div class="col-lg-3">
+                    <div class="col-lg-3">
                         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                            <div class="features-icons-icon">
-                                <img src="images/call-answer.png" width="090px" alt="">
+                            <div class="features-icons-icon" id="contacticons">
+                                <i class="fa fa-whatsapp" aria-hidden="true"></i>
                             </div>
-                            <h3>Mobile No 4</h3>
-                            <p class="lead mb-0" style="font-size:1rem">9561601680</p>
+                            <h3>Whatsapp</h3>
+                            <p id="contactdata" class="lead mb-0">9561601680</p>
                         </div>
                     </div>
+                    <div class="col-lg-3">
+                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                            <div class="features-icons-icon" id="contacticons">
+                                <i class="fa fa-facebook-official" aria-hidden="true"></></i>
+                            </div>
+                            <h3 id="">Facebook</h3>
+                            <p id="contactdata" class="lead mb-0">Kunal Pandharkar</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+
     </section>
     <section id="mobilefooter">
         <footer class="mobilefooter" style="position: relative;">
@@ -778,9 +917,9 @@
                         </p>
                         <p>
                             <a class="dark-grey-text" href="#">Contact Us
-                                </a>
+                            </a>
                         </p>
-                   
+
                     </div>
                 </div>
 
@@ -868,9 +1007,9 @@
         </div>
         <!-- Copyright -->
     </footer>
-        <!-- Optional JavaScript -->
+    <!-- Optional JavaScript -->
 
-        <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+    <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -892,7 +1031,7 @@
         $(".signup-form").hide();
         $(".login-form").show();
         $(".signup").css("background", "none");
-        $(".login").css("background","#75e2e9");
+        $(".login").css("background", "#75e2e9");
     });
 
     $(".signup").click(function () {
@@ -906,18 +1045,21 @@
         $(".input").val("");
     });
     function w3_open() {
-   
+
         document.getElementById("mySidebar").style.display = "block";
         document.getElementById("myOverlay").style.display = "block";
-     
-        
+        var x = document.getElementById("search");
+        x.style.display = "none";
+
     }
 
     function w3_close() {
         document.getElementById("mySidebar").style.display = "none";
         document.getElementById("myOverlay").style.display = "none";
-       
+        var x = document.getElementById("search");
+        x.style.display = "block";
     }
+
 
 </script>
 
