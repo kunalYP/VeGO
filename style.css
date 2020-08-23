@@ -3032,3 +3032,37 @@ width:90%;
   font-weight: 500;
   color: #06192D;
 }
+#vehicleimg1{
+  border:1px solid black;
+  border-right:none;
+}
+#vehicleimg2{
+  border:1px solid black;
+}
+#vehicleinfo{
+  border:1px solid black;
+  border-top:none;
+}
+.vehicleinshowroomcard{
+  width:80%;
+  margin-bottom:10px;
+}
+#vehicleinfo h3{
+ font-size:1.2rem;
+ font-weight:900;
+}
+.vehiclename{
+  margin-top:5px;
+}
+.vehicleprice{
+  margin-top:5px;
+  
+}
+.vehicleprice h5{
+  font-weight: 900;
+  color: rgb(41, 18, 175);
+}
+.statusvehicle{
+  font-weight:900;
+  color:green;
+}
