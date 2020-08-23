@@ -2338,6 +2338,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .flex-container > div {
   flex-basis: 50%;
+  margin-top:10px;
 }
 .features-icons-icon img{
   width:30%;
