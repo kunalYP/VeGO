@@ -2910,7 +2910,9 @@ margin-top:6%;
 display: flex;
 
 }
-
+#showroomtopinfo{
+  display:none;
+}
 }
 
 
@@ -3184,4 +3186,22 @@ margin-bottom:10px;
   font-weight: 900;
   margin-top:5px;
    font-size:1rem;
+}
+.showroomname h3{
+  font-weight:900;
+  margin-left:30px;
+}
+.showroomaddresstop{
+  margin-left:30px;
+}
+.ratingshowroomm{
+  margin-left:30px;
+  margin-top:-10px;
+  margin-bottom:15px;
+}
+#showroominfocardtop{
+  margin-top:10px;
+  border-bottom: 2px solid rgb(235, 232, 232);
+box-shadow: 2px 2px 2px rgb(232, 240, 241);
+
 }
