@@ -3284,4 +3284,46 @@ margin:7px;
 
 
 
+   /* vehicles in showroom */
+   .vehicle-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.vehicle-item {
+    padding: 0.5rem;
+    padding-bottom: 0.7rem;
+    width: 33%;
+    border: 0.5px solid rgb(240, 239, 239);
+    box-shadow: 0.5px 0.5px 3px rgb(240, 239, 239);
+    margin-bottom: 0.5rem;
+}
+
+.vehicle-item:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+.vehicle-item-img {
+    height: 50%;
+}
+
+.vehicle-item-img img {
+    height: 90%;
+    width: 100%;
+    transition: width 2s ease, height 2s ease;
+}
+
+.vehicle-item-txt1 p{
+  font-size:0.7rem;
+  margin-bottom: 0;
+}
+.vehicle-item-txt2 span {
+    font-size: 0.5rem;
+    margin-bottom: 0;
+}
+
+
+
 
