@@ -3232,7 +3232,7 @@ box-shadow: 2px 2px 2px rgb(232, 240, 241);
 .showroom-item img {
 
   width: 100%;
-  border-radius: 5px;
+  
 }
 #showroomimageslidermobile{
   margin-top:5px;
@@ -3244,10 +3244,13 @@ margin : 0 auto;
 margin-top:-30px;
 }
 .showroomdot{
-height: 10px;
-width: 10px;
-background-color: rgba(245, 239, 228, 0.925);
+height: 8px;
+width: 8px;
+border:1px solid rgb(236, 229, 216);
 border-radius: 50%;
 display: inline-block;
-margin:5px;
+margin:7px;
+}
+.checkeddots{
+  background-color: rgb(110, 95, 95);
 }
