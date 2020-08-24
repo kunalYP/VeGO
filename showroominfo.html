@@ -151,23 +151,27 @@
 
         </div>
 
-        <section id="ownerlocation">
+        <!-- <section id="ownerlocation">
             <div class="alert" role="alert" data-toggle="modal" data-target="#locationmodal">
 
                 <i style="font-size:18px" class="fa fa-location-arrow" aria-hidden="true"></i>
                 <a id="ko"> Kunal - Parbhani 431512 <i class="fa fa-angle-down" aria-hidden="true"></i></a>
             </div>
-        </section>
+        </section> -->
 
     </header>
 
 
     <section id="showroomcorousel">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/showroom1.jpg" alt="First slide" height="500px">
+                    <img class="d-block w-100" src="images/showroom1.jpg" alt="First slide" style="width:100%;height:600px;">
                     <div class="carousel-caption d-none d-md-block">
                         <h2>Showroom 1</h2>
                         <p>Explore the range of technical solutions to experience complete digital transformation
@@ -175,7 +179,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="images/showroom1.jpg" alt="Second slide" height="500px">
+                    <img class="d-block w-100" src="images/showroom1.jpg" alt="Second slide" style="width:100%;height:600px;">
                     <div class="carousel-caption d-none d-md-block">
                         <h2>Showroom 1</h2>
                         <p>Explore the range of technical solutions to experience complete digital transformation
@@ -183,7 +187,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="images/showroom1.jpg" alt="Third slide" height="500px">
+                    <img class="d-block w-100" src="images/showroom1.jpg" alt="Third slide" style="width:100%;height:600px;">
                     <div class="carousel-caption d-none d-md-block">
                         <h2>Showroom 1</h2>
                         <p>Explore the range of technical solutions to experience complete digital transformation
@@ -201,6 +205,32 @@
             </a>
         </div>
 
+    </section>
+
+
+    <section id="showroomimageslidermobile">
+        <div class="offer-cont-outer">
+            <div class="horizontal-scrollshowroomimg">
+                <div class="scroll-container">
+                    <div class="showroom-item">
+                        <img id="" src="images/showroom1.jpg" alt="">
+                        <img id="" src="images/showroom1.jpg" alt="">
+                        <img id="" src="images/showroom1.jpg" alt="">
+                        <img id="" src="images/showroom1.jpg" alt="">
+                      
+                    </div>
+                 
+                </div>
+             
+            </div>
+            <div id="showroomdots" class="sticky-top">
+                <span class="showroomdot checkeeddot"></span>
+                <span class="showroomdot"></span>
+                <span class="showroomdot"></span>
+                <span class="showroomdot "></span>
+                <span class="showroomdot "></span>
+              </div>
+        </div>
     </section>
 
   <section class="container pt-2" id="showroomtopinfo">
@@ -347,7 +377,7 @@
 
 </section> -->
     <div class="container heading" style="padding-top:30px;">
-        <h4><span></span> Vehicles <span>In Showroom</span></h4>
+        <h4><span></span>  <span>Top Rated Deals</span></h4>
         <p>KP Showroom</p>
 
 
@@ -629,7 +659,7 @@
             <p> We cater an array of high-end products for Education and Government Sector </p>
         </div>
         <div class="container-fluid heading">
-            <h4><span>About</span> Showroom <span></span></h4>
+            <h4><span>About Showroom</span>  <span></span></h4>
             <p>KP Showroom</p>
         </div>
         <div class="container bg-light">

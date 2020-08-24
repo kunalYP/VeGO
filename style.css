@@ -2409,8 +2409,9 @@ font-size:0.9rem;
   border-top:none;
 }
 .vehicleinshowroomcard{
-  width:60%;
+  width:90%;
   margin-bottom:10px;
+ 
 }
 #vehicleinfo h3{
  font-size:1.2rem;
@@ -2436,8 +2437,12 @@ font-size:0.9rem;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
 margin-bottom:25px;
 }
-
-
+#showroomcorousel{
+  display: none;
+}
+#garagecorousel{
+  display: none;
+}
 
 
 
@@ -2477,11 +2482,11 @@ margin-bottom:25px;
 .heading h4 {
   position: relative;
   padding: 0;
-  color: #f91942;
+  
   line-height: 40px;
   letter-spacing: 0.3px;
   font-size: 24px;
-  font-weight: 500 !important;
+  font-weight: 700 !important;
   text-align: center;
   text-transform: none;
   margin-bottom: 20px;
@@ -2862,7 +2867,11 @@ margin-top:6%;
 
   #vehicleimg1{
     border:1px solid black;
-    border-right:none;
+    
+  }
+  #vehicleimg1 img{
+    width:100%;
+    height:210px;
   }
   #vehicleimg2{
     border:1px solid black;
@@ -2912,6 +2921,9 @@ display: flex;
 }
 #showroomtopinfo{
   display:none;
+}
+#showroomimageslidermobile{
+  display: none;
 }
 }
 
@@ -3209,4 +3221,33 @@ margin-bottom:10px;
   border-bottom: 2px solid rgb(235, 232, 232);
 box-shadow: 2px 2px 2px rgb(232, 240, 241);
 
+}
+
+.horizontal-scrollshowroomimg {
+  display: block;
+  width: 100%;
+  overflow-x: scroll;
+  box-sizing: border-box;
+}
+.showroom-item img {
+
+  width: 100%;
+  border-radius: 5px;
+}
+#showroomimageslidermobile{
+  margin-top:5px;
+}
+#showroomdots{
+display: flex;
+justify-content: center;
+margin : 0 auto;
+margin-top:-30px;
+}
+.showroomdot{
+height: 10px;
+width: 10px;
+background-color: rgba(245, 239, 228, 0.925);
+border-radius: 50%;
+display: inline-block;
+margin:5px;
 }
