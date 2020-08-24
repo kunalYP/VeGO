@@ -2399,7 +2399,7 @@ font-size:0.9rem;
 
 #vehicleimg1{
   border:1px solid black;
-  border-right:none;
+  
 }
 #vehicleimg2{
   border:1px solid black;
@@ -2409,7 +2409,7 @@ font-size:0.9rem;
   border-top:none;
 }
 .vehicleinshowroomcard{
-  width:80%;
+  width:60%;
   margin-bottom:10px;
 }
 #vehicleinfo h3{
@@ -3190,6 +3190,8 @@ margin-bottom:10px;
 .showroomname h3{
   font-weight:900;
   margin-left:30px;
+  letter-spacing: 0.3px;
+  font-size: 24px;
 }
 .showroomaddresstop{
   margin-left:30px;
