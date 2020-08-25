@@ -2397,55 +2397,7 @@ font-size:0.9rem;
 
 
 
-#vehicleimg1{
-  border:1px solid black;
-  border-right:none;
 
-}
-#vehicleimg1 img{
-  padding-top:20%;
-  width:100%;
-
-  
-}
-#vehicleimg2{
-  border:1px solid black;
-}
-#vehicleinfo{
-  border:1px solid black;
-}
-
-
-
-.vehicleinshowroomcard{
-  width:98%;
-  margin-bottom:10px;
- 
-}
-#vehicleinfo h3{
- font-size:1rem;
- font-weight:700;
-}
-.vehiclename{
-  margin-top:5px;
-}
-.vehicleprice{
-  margin-top:5px;
-  
-}
-.vehicleprice h5{
-  font-weight: 900;
-
-}
-.statusvehicle{
-  font-weight:900;
-  color:green;
-  margin-bottom:10px;
-}
-.vehicleinshowroomcard{
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
-margin-bottom:25px;
-}
 #showroomcorousel{
   margin-top:1px;
 } 
@@ -2881,60 +2833,9 @@ margin-top:6%;
   font-size: 4rem;
   }
 
-  #vehicleimg1{
-    border:1px solid black;
-    
-  }
-  #vehicleimg1 img{
-    width:100%;
-    height:210px;
-  }
-  #vehicleimg2{
-    border:1px solid black;
-  }
-  #vehicleinfo{
-    border:1px solid black;
-    border-top:none;
-  }
-  .vehicleinshowroomcard{
-    width:30%;
-    margin-bottom:10px;
-  
-  }
-  #vehicleinfo h3{
-   font-size:1.2rem;
-   font-weight:900;
-  }
-  .vehiclename{
-    margin-top:5px;
-  }
-  .vehicleprice{
-    margin-top:5px;
-    
-  }
-  .vehicleprice h5{
-    font-weight: 900;
-    color: rgb(41, 18, 175);
-  }
-  .statusvehicle{
-    font-weight:900;
-    color:green;
-    margin-bottom:10px;
-  }
-  .vehicleinshowroomcard{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom:25px;
-  margin-top:30px;
+
  
-  }
-#vehiclecardsshowroom {
-  margin-top:10%;
-}
 
-#vehiclecardsflex{
-display: flex;
-
-}
 #showroomtopinfo{
   display:none;
 }
@@ -3224,13 +3125,14 @@ margin-bottom:10px;
   font-weight:650;
   margin-left:5px;
   letter-spacing: 0.3px;
-  font-size: 24px;
+  font-size: 20px;
 }
 .showroomaddresstop{
   margin-left:5px;
 }
 .showroomaddresstop{
-  font-weight: 400;
+  font-weight: 500;
+  font-size:13px;
 }
 .ratingshowroomm{
   margin-left:5px;
@@ -3238,11 +3140,10 @@ margin-bottom:10px;
 
 }
 #showroominfocardtop{
-  
-  margin-top:10px;
+  border-top: 2px solid rgb(235, 232, 232);
+  margin-top:0px;
   border-bottom: 2px solid rgb(235, 232, 232);
 box-shadow: 2px 2px 2px rgb(232, 240, 241);
-
 }
 
 .horizontal-scrollshowroomimg {
@@ -3393,4 +3294,50 @@ margin:7px;
   text-align:center;
   font-size:1rem;
   font-weight:600;
+}
+
+
+
+#vehimagecol img{
+  width:100%;
+  margin-top:30px;
+}
+
+
+.vehname h5{
+  margin:8px 0px 0px 0px;
+  font-size:1rem;
+  font-weight:700;
+}
+.modalveh p{
+  margin:2px 0px 0px 0px;
+  font-size:0.9rem;
+}
+.vehyr p{
+  margin:2px 0px 0px 0px;
+  font-size:0.9rem;
+}
+.petrolordiesel p{
+  margin:2px 0px 0px 0px;
+  font-size:0.9rem;
+}
+.enginecc p{
+  margin:2px 0px 0px 0px;
+  font-size:0.9rem;
+}
+
+.ratingsveh p{
+  margin:2px 0px 0px 0px;
+  font-size:0.9rem;
+}
+.vehprice h5{
+  margin:5px 0px 8px 0px;
+  font-size:1rem;
+  font-weight: 700;
+  margin-bottom:10px;
+}
+#vehcards{
+  border-top: 1.5px solid rgb(240, 239, 239);
+  border-bottom:1.5px solid rgb(240, 239, 239);
+  box-shadow: 0.5px 0.5px 3px rgb(240, 239, 239);
 }
