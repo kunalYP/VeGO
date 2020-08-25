@@ -2416,6 +2416,52 @@ font-size:0.9rem;
   display: none;
 }
 
+
+
+#vehimagecol img{
+  width:100%;
+  margin-top:30px;
+}
+
+
+.vehname h5{
+  margin:8px 0px 0px 0px;
+  font-size:1rem;
+  font-weight:700;
+}
+.modalveh p{
+  margin:2px 0px 0px 0px;
+  font-size:0.9rem;
+}
+.vehyr p{
+  margin:2px 0px 0px 0px;
+  font-size:0.9rem;
+}
+.petrolordiesel p{
+  margin:2px 0px 0px 0px;
+  font-size:0.9rem;
+}
+.enginecc p{
+  margin:2px 0px 0px 0px;
+  font-size:0.9rem;
+}
+
+.ratingsveh p{
+  margin:2px 0px 0px 0px;
+  font-size:0.9rem;
+}
+.vehprice h5{
+  margin:5px 0px 8px 0px;
+  font-size:1rem;
+  font-weight: 700;
+  margin-bottom:10px;
+}
+#vehcards{
+  border-top: 1.5px solid rgb(240, 239, 239);
+  border-bottom:1.5px solid rgb(240, 239, 239);
+  box-shadow: 0.5px 0.5px 3px rgb(240, 239, 239);
+}
+
 }
 
 
@@ -2847,6 +2893,70 @@ margin-top:6%;
   width:100%;
   height:600px;
 }
+
+
+
+
+
+
+#vehimagecol img{
+  width:100%;
+  margin-top:5%;
+}
+#vehinfocol{
+  margin-top:6%;
+}
+
+.vehname h5{
+  margin:8px 0px 0px 0px;
+  font-size:2rem;
+  font-weight:700;
+}
+.modalveh p{
+  margin:2px 0px 0px 0px;
+  font-size:1rem;
+}
+.vehyr p{
+  margin:2px 0px 0px 0px;
+  font-size:1rem;
+}
+.petrolordiesel p{
+  margin:2px 0px 0px 0px;
+  font-size:1rem;
+}
+.enginecc p{
+  margin:2px 0px 0px 0px;
+  font-size:1rem;
+}
+
+.ratingsveh p{
+  margin:2px 0px 0px 0px;
+  font-size:1rem;
+}
+.vehprice h5{
+  margin:5px 0px 8px 0px;
+  font-size:1.5rem;
+  font-weight: 700;
+  margin-bottom:10px;
+}
+#vehcards{
+  border-top: 1.5px solid rgb(240, 239, 239);
+  border-bottom:1.5px solid rgb(240, 239, 239);
+  box-shadow: 0.5px 0.5px 3px rgb(240, 239, 239);
+  width:100%;
+
+}
+
+#vehcards:hover{
+  background-color: rgb(214, 209, 209);
+}
+
+
+
+
+
+
+
 }
 
 
@@ -3294,50 +3404,4 @@ margin:7px;
   text-align:center;
   font-size:1rem;
   font-weight:600;
-}
-
-
-
-#vehimagecol img{
-  width:100%;
-  margin-top:30px;
-}
-
-
-.vehname h5{
-  margin:8px 0px 0px 0px;
-  font-size:1rem;
-  font-weight:700;
-}
-.modalveh p{
-  margin:2px 0px 0px 0px;
-  font-size:0.9rem;
-}
-.vehyr p{
-  margin:2px 0px 0px 0px;
-  font-size:0.9rem;
-}
-.petrolordiesel p{
-  margin:2px 0px 0px 0px;
-  font-size:0.9rem;
-}
-.enginecc p{
-  margin:2px 0px 0px 0px;
-  font-size:0.9rem;
-}
-
-.ratingsveh p{
-  margin:2px 0px 0px 0px;
-  font-size:0.9rem;
-}
-.vehprice h5{
-  margin:5px 0px 8px 0px;
-  font-size:1rem;
-  font-weight: 700;
-  margin-bottom:10px;
-}
-#vehcards{
-  border-top: 1.5px solid rgb(240, 239, 239);
-  border-bottom:1.5px solid rgb(240, 239, 239);
-  box-shadow: 0.5px 0.5px 3px rgb(240, 239, 239);
 }
