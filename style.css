@@ -3212,7 +3212,7 @@ margin-bottom:10px;
    font-size:1rem;
 }
 .showroomname h3{
-  font-weight:700;
+  font-weight:650;
   margin-left:5px;
   letter-spacing: 0.3px;
   font-size: 24px;
@@ -3281,10 +3281,10 @@ margin:7px;
 
 
 
+/* 
 
 
-
-   /* vehicles in showroom */
+   /* vehicles in showroom 
    .vehicle-cont {
     display: flex;
     flex-wrap: wrap;
@@ -3322,8 +3322,63 @@ margin:7px;
 .vehicle-item-txt2 span {
     font-size: 0.5rem;
     margin-bottom: 0;
+} */
+
+
+
+
+#showroomvehiclecard{
+
+  border: 0.5px solid rgb(240, 239, 239);
+  box-shadow: 0.5px 0.5px 3px rgb(240, 239, 239);
 }
+.carimageshowroom img{
+ width:100%;
+ height:5rem;
 
+}
+.carnameshowroom{
+  margin-top:5px;
+  width:100%;
+}
+.carnameshowroom h5{
+  font-size:0.8rem;
+  font-weight:700;
+  text-align: center;
+  
+}
+.caryear{
 
+  width:100%;
+}
+.caryear p{
+  margin:0;
 
-
+  font-size:0.8rem;
+  text-align:center;
+}
+.variant{
+  
+  width:100%;
+}
+.variant p{
+  margin:3px 0px 0px 0px;
+  text-align:center;
+  font-size:0.8rem;
+}
+.fueltype p{
+  margin:3px 0px 0px 0px;
+  text-align:center;
+  font-size:0.8rem;
+}
+.cc p{
+  margin:3px 0px 0px 0px;
+  text-align:center;
+  font-size:0.8rem;
+}
+.price h5{
+  margin:3px 0px 0px 0px;
+  text-align:center;
+  font-size:1rem;
+  font-weight:600;
+}
