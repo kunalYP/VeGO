@@ -362,7 +362,7 @@ div.card {
                       
                   }
                   .getintouch {
-                    border-radius: 30px;
+                    border-radius: 0px;
                     border: 2px solid white;
                     padding: 8px 20px 8px 20px;
                     color: #fbffd4;
@@ -372,7 +372,7 @@ div.card {
                     color: white;
                 }
                     .getintouch:hover .fa-angle-right {
-                        -webkit-transform: rotate(360deg);
+                        -webkit-transform: rotate(90deg);
                         -webkit-transition: -webkit-transform 0.25s ease-in-out;
                         color: #fff;
                         -webkit-text-fill-color: #fff;
@@ -447,7 +447,7 @@ div.card {
 }
 
 .readmore {
-    border-radius: 30px;
+    border-radius: 0px;
     border: 2px solid #eb2106;
     padding: 8px 20px 8px 20px;
     background-image: linear-gradient(90deg, #e69316, #e49012 20%,#df4d21b9);
@@ -473,7 +473,7 @@ div.card {
         transition: all 0.8s ease;
     }
         .readmore:hover .fa-angle-right {
-            -webkit-transform: rotate(360deg);
+            -webkit-transform: rotate(90deg);
             -webkit-transition: -webkit-transform 0.25s ease-in-out;
             color: #fff;
             -webkit-text-fill-color: #fff;
