@@ -3405,3 +3405,54 @@ margin:7px;
   font-size:1rem;
   font-weight:600;
 }
+#review{
+  
+  margin-bottom: 10px;
+  border-top: 2px solid rgb(235, 232, 232);
+  margin-top:6px;
+  border-bottom: 2px solid rgb(235, 232, 232);
+  box-shadow: 2px 2px 2px rgb(232, 240, 241);
+}
+#customerrev h3{
+   font-weight:600;
+   font-size:1.4rem;
+   margin:10px 0px 0px 10px;
+}
+#customerrev2 p{
+  font-weight:700;
+  margin:10px 0px 0px 0px;
+}
+#customerrev3 p{
+  font-size:1rem;
+  margin:10px 0px 10px 0px;
+}
+#customerrev4 p{
+ float:Right;
+ font-size:25px;
+}
+.topreviews{
+  margin-bottom: 10px;
+
+
+  border-bottom: 2px solid rgb(235, 232, 232);
+}
+.topreviews h5{
+  font-weight:650;
+  font-size:1rem;
+  margin:10px 0px 0px 0px;
+}
+.topreviews span{
+   font-size: 0.7rem;
+   margin:0px 0px 0px 0px;
+}
+#ctime{
+  font-size:0.6rem;
+  margin:-12px 0px 0px 0px;
+}
+#comment{
+  font-size:0.8rem;
+  margin:5px 0px 10px 0px;
+}
+#ndc{
+  border-top: 2px solid rgb(235, 232, 232);
+}
