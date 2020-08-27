@@ -3413,18 +3413,28 @@ margin:7px;
   border-bottom: 2px solid rgb(235, 232, 232);
   box-shadow: 2px 2px 2px rgb(232, 240, 241);
 }
+#customerrev{
+  margin:10px 0px 0px 0px;
+}
+
 #customerrev h3{
    font-weight:600;
    font-size:1.4rem;
-   margin:10px 0px 0px 15px;
+   margin:0px 0px 0px 0px;
+}
+#customerrev2{
+  margin:10px 0px 0px 0px
 }
 #customerrev2 p{
   font-weight:700;
-  margin:10px 0px 0px 0px;
+  margin:0px 0px 0px 0px;
+}
+#customerrev3{
+  margin:10px 0px 10px 0px;
 }
 #customerrev3 p{
   font-size:1rem;
-  margin:10px 0px 10px 0px;
+  margin:0px 0px 0px 0px;
 }
 #customerrev4 p{
  float:Right;
@@ -3437,7 +3447,7 @@ margin:7px;
   border-bottom: 2px solid rgb(235, 232, 232);
 }
 .topreviews h5{
-  font-weight:550;
+  font-weight:500;
   font-size:1rem;
   margin:10px 0px 0px 0px;
 }
