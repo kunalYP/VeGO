@@ -3416,7 +3416,7 @@ margin:7px;
 #customerrev h3{
    font-weight:600;
    font-size:1.4rem;
-   margin:10px 0px 0px 10px;
+   margin:10px 0px 0px 15px;
 }
 #customerrev2 p{
   font-weight:700;
@@ -3437,7 +3437,7 @@ margin:7px;
   border-bottom: 2px solid rgb(235, 232, 232);
 }
 .topreviews h5{
-  font-weight:650;
+  font-weight:550;
   font-size:1rem;
   margin:10px 0px 0px 0px;
 }
