@@ -15,10 +15,9 @@
 </head>
 
 <header id="sidebar ">
-    <div class="w3-sidebar w3-bar-block w3-animate-left " style="display:none;z-index:5;width:80%;"
-        id="mySidebar">
+    <div class="w3-sidebar w3-bar-block w3-animate-left " style="display:none;z-index:5;width:80%;" id="mySidebar">
         <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">
-           <img src="images/user.png" style="width:50px" alt=""> Hello User !<i class="fa fa-window-close"
+            <img src="images/user.png" style="width:50px" alt=""> Hello User !<i class="fa fa-window-close"
                 style="float: right;" aria-hidden="true"></i></button>
 
         <div class="dropdown-divider" style="margin-top:20px"></div>
@@ -30,18 +29,18 @@
 
         <a href="emergencyservice.html" class="w3-bar-item w3-button"><i class="fa fa-exclamation-triangle"
                 aria-hidden="true" style="margin-right: 1rem;"></i> Emergency Service</a>
-        <a href="vehcilecomparison.html" class="w3-bar-item w3-button"><i class="fa fa-balance-scale"
-                aria-hidden="true" style="margin-right: 1rem;"></i>Compare Vehicles</a>
+        <a href="vehcilecomparison.html" class="w3-bar-item w3-button"><i class="fa fa-balance-scale" aria-hidden="true"
+                style="margin-right: 1rem;"></i>Compare Vehicles</a>
         <a href="nearbyshowrooms.html" class="w3-bar-item w3-button"> <i class="fa fa-car" aria-hidden="true"
                 style="margin-right: 1rem;"></i> Nearby Showrooms & Shops</a>
         <a href="nearbygarages.html" class="w3-bar-item w3-button"><i class="fa fa-cogs" aria-hidden="true"
                 style="margin-right: 1rem;"></i> Nearby Garages & Workshops</a>
         <div class="dropdown-divider"></div>
-        <a href="workwithus.html" class="w3-bar-item w3-button"><i class="fa fa-handshake-o"
-                aria-hidden="true" style="margin-right: 1rem;"></i>Work With Us</a>
+        <a href="workwithus.html" class="w3-bar-item w3-button"><i class="fa fa-handshake-o" aria-hidden="true"
+                style="margin-right: 1rem;"></i>Work With Us</a>
         <a href="aboutus.html" class="w3-bar-item w3-button">
-        <img src="images/about us.png" style="width:18px;margin-right: 0.7rem;" alt="">      
-          About Us</a>
+            <img src="images/about us.png" style="width:18px;margin-right: 0.7rem;" alt="">
+            About Us</a>
         <a href="contactus.html" class="w3-bar-item w3-button"><i class="fa fa-phone-square" aria-hidden="true"
                 style="margin-right: 1rem;"></i> Contact Us</a>
         <div class="dropdown-divider"></div>
@@ -54,6 +53,7 @@
 
     </div>
 </header>
+
 <body>
 
     <header id="navbar">
@@ -139,12 +139,12 @@
             </a>
 
         </nav>
-        <div class="container  sticky-top" id="myHeader">
+        <div class="container" id="myHeader">
 
             <div id="search">
                 <div class="fixedsearchbox">
                     <button class="btn-menu">
-                  <img src="images/search bar.png" alt="" style="float:left;width:30px">
+                        <img src="images/search bar.png" alt="" style="float:left;width:30px">
                     </button>
                     <input id="fixedsearch" type="text" placeholder="Search For Garage, Showroom or Location"
                         class="search">
@@ -154,12 +154,12 @@
 
 
         </div>
-      
-        <section id="ownerlocation">
-            <div class="alert alert-primary" role="alert" data-toggle="modal" data-target="#locationmodal">
 
-                <i style="font-size:20px" class="fa fa-map-marker" aria-hidden="true"></i>
-                <a id="ko" data-toggle="tooltip" title="Add Your Own Location">Purna , Parbhani-431512</a>
+        <section id="ownerlocation">
+            <div class="alert" role="alert" data-toggle="modal" data-target="#locationmodal">
+
+                <i style="font-size:18px" class="fa fa-location-arrow" aria-hidden="true"></i>
+                <a id="ko"> Kunal - Parbhani 431512 <i class="fa fa-angle-down" aria-hidden="true"></i></a>
             </div>
         </section>
 
@@ -167,81 +167,107 @@
 
 
 
-    <section>
-        <div class="container" id="emeregencyvideo">
-            <video width="100%" height="240px" controls autoplay>
-                <source src="images/VeGOApp.mp4" type="video/mp4">
-                <source src="images/VeGOApp.mp4" type="video/ogg">
-                Your browser does not support the video tag.
-            </video>
-          
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center pb-4" id="floatinggarage">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                    <h1 data-aos="fade-up">VeGO Emergency Service.</h1>
+                    <h2 data-aos="fade-up" class="" data-aos-delay="400">
+                        Repair Your Vehicle Anytime & Anywhere In Just 15Mins.
+                    </h2>
+
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
+                    <img src="images/service1.png" class="img-fluid animated" alt="">
+                </div>
+            </div>
         </div>
 
+    </section><!-- End Hero -->
+    <div class="container-fluid services pt-4">
+        <h4><span>Just </span> 4 <span>Clicks</span></h4>
+        <p> We cater an array of high-end products for Education and Government Sector </p>
+    </div>
+    <div class="container-fluid heading pt-4">
+        <h4><span></span>Just 4 Clicks <span></span></h4>
+
+    </div>
+
+
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+        <div class="container">
+
+
+
+            <div class="row" data-aos="fade-up" data-aos-delay="300">
+                <div class="col-lg-12 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <p id="numberstep">1</p>
+                        <h3><a href="">Click on Emeregency Service</a></h3>
+                   
+                    </div>
+                    <div class="imagebox">
+                        <img src="images/ss1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-4 mt-4 mt-md-0">
+                    <div class="icon-box">
+                        <p id="numberstep">2</p>
+                        <h3><a href="">Select The type Of Vehicle</a></h3>
+                    </div>
+                    <div class="imagebox">
+                        <img src="images/ss2.jpg" alt="">
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-lg-12 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <p id="numberstep">3</p>
+                        <h3><a href="">Select The Location</a></h3>
+                    </div>
+                    <div class="imagebox">
+                        <img src="images/ss3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-4 mt-4 mt-md-0 pb-4">
+                    <div class="icon-box">
+                        <p id="numberstep">4</p>
+                        <h3><a href="">Select The Garage</a></h3>
+                    </div>
+                    <div class="imagebox">
+                        <img src="images/ss4.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section><!-- End Features Section -->
+
+
+
+
+
+
+
+
+
+
+    <section id="mobilefooter">
+        <footer class="mobilefooter" style="position: relative;">
+            <p class="footer-item mx-auto">© 2020-2021 VeGO</p>
+            <a style="margin: auto;" href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+
+        </footer>
     </section>
-
-<!-- ======= Features Section ======= -->
-<section id="stepsofemergencyservice" class="features">
-    <div class="container heading" style="padding-top:30px;">
-        <h4><span>Service </span> Steps <span></span></h4>
-        <p>Emregency Service</p>
-    </div>
-    <div class="container-fluid services">
-        <h4><span>Emergency Service</span> Steps <span></span></h4>
-        <p> Emergency |Service </p>
-    </div>
-    <div class="container  ">
-        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="300">
-            <div class="col-lg-6 col-md-4">
-                <div class="icon-box ">
-                    <img src="images/service1.png" height="40px" width="60px" alt=""> &nbsp;&nbsp;&nbsp;
-                    <h3><a href="">Click On Emergency Service</a></h3>
-                </div>
-            </div>
-        </div>
-        <div class="row pt-4 justify-content-center" data-aos="fade-up" data-aos-delay="300">
-            <div class="col-lg-6 col-md-4">
-                <div class="icon-box ">
-                    <img src="images/typeofvehicle.jpg" height="40px" width="60px" alt=""> &nbsp;&nbsp;&nbsp;
-                    <h3><a href="">Select The Type Of Vehicle</a></h3>
-                </div>
-            </div>
-        </div>
-        <div class="row pt-4 justify-content-center" data-aos="fade-up" data-aos-delay="300">
-            <div class="col-lg-6 col-md-4">
-                <div class="icon-box ">
-                    <img src="images/locationupdate.jpg" height="40px" width="60px" alt=""> &nbsp;&nbsp;&nbsp;
-                    <h3><a href="">Set The Location</a></h3>
-                </div>
-            </div>
-        </div>
-        <div class="row pt-4 justify-content-center" data-aos="fade-up" data-aos-delay="300">
-            <div class="col-lg-6 col-md-4">
-                <div class="icon-box ">
-                    <img src="images/selectgarage.jpg" height="40px" width="60px" alt=""> &nbsp;&nbsp;&nbsp;
-                    <h3><a href="">Select The Garage</a></h3>
-                </div>
-            </div>
-        </div>
-        <div class="row pt-4 pb-4 justify-content-center" data-aos="fade-up" data-aos-delay="300">
-            <div class="col-lg-6 col-md-4">
-                <div class="icon-box j">
-                    <img src="images/done.jpg" height="40px" width="60px" alt=""> &nbsp;&nbsp;&nbsp;
-                    <h3><a href="">Boom ! Thats it.</a></h3>
-                </div>
-            </div>
-        </div>
-    
-
-      
-    </div>
-</section><!-- End Features Section -->
-<section id="mobilefooter">
-    <footer class="mobilefooter" style="position: relative;">
-        <p class="footer-item mx-auto">© 2020-2021 VeGO</p>
-        <a style="margin: auto;" href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
-
-    </footer>
-</section>
 
 
     <footer class="footer text-muted" id="bigfooter">
@@ -397,12 +423,12 @@
 
 
     function w3_open() {
-   
+
         document.getElementById("mySidebar").style.display = "block";
         document.getElementById("myOverlay").style.display = "block";
         var x = document.getElementById("search");
         x.style.display = "none";
-        
+
     }
 
     function w3_close() {
@@ -412,18 +438,7 @@
         x.style.display = "block";
     }
 
-    window.onscroll = function () { myFunction() };
 
-    var header = document.getElementById("myHeader");
-    var sticky = header.offsetTop;
-
-    function myFunction() {
-        if (window.pageYOffset > sticky) {
-            header.classList.add("sticky");
-        } else {
-            header.classList.remove("sticky");
-        }
-    }
 
     $(function () {
         $("#ko").tooltip("show");

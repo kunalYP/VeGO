@@ -2952,7 +2952,11 @@ margin-top:6%;
 }
 
 
-
+.imagebox img{
+  border:2px solid black;
+  width:20%;
+  
+}
 
 
 
@@ -3465,4 +3469,12 @@ margin:7px;
 }
 #ndc{
   border-top: 2px solid rgb(235, 232, 232);
+}
+
+#numberstep{
+  font-size:3rem;
+  margin-right:10px;
+}
+.imagebox img{
+  border:2px solid black;
 }
