@@ -2461,7 +2461,9 @@ font-size:0.9rem;
   border-bottom:1.5px solid rgb(240, 239, 239);
   box-shadow: 0.5px 0.5px 3px rgb(240, 239, 239);
 }
-
+.dimagebox{
+  display: none;
+}
 }
 
 
@@ -2952,13 +2954,11 @@ margin-top:6%;
 }
 
 
-.imagebox img{
-  border:2px solid black;
-  width:20%;
-  
+
+
+#mobileimagebox{
+  display: none;
 }
-
-
 
 
 }
@@ -3476,5 +3476,10 @@ margin:7px;
   margin-right:10px;
 }
 .imagebox img{
+  border:1px solid black;
+  margin-bottom:10px;
+}
+.dimagebox{
+  margin-bottom:20px;
   border:1px solid black;
 }
