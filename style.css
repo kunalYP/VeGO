@@ -3483,3 +3483,6 @@ margin:7px;
   margin-bottom:20px;
   border:1px solid black;
 }
+.imageoffer img{
+  border-radius: 5px;
+}
