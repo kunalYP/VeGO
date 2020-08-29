@@ -3476,10 +3476,10 @@ margin:7px;
   margin-right:10px;
 }
 .imagebox img{
-  border:1px solid black;
+  border:0.5px solid black;
   margin-bottom:10px;
-  width:50%;
-  margin-left:25%;
+  width:70%;
+  margin-left:15%;
   margin-top:5px;
 }
 .dimagebox{
