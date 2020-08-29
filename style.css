@@ -3478,6 +3478,9 @@ margin:7px;
 .imagebox img{
   border:1px solid black;
   margin-bottom:10px;
+  width:50%;
+  margin-left:25%;
+  margin-top:5px;
 }
 .dimagebox{
   margin-bottom:20px;
