@@ -19,7 +19,7 @@
         <link rel="shortcut icon" href="images/pp.jpg" type="/x-icon" />
     
     
-        <title>VeGO - Online Vehicle Repair Service</title>
+        <title>VeGO - Aapka Apna Garage</title>
     </head>
 <style>
  
@@ -61,7 +61,7 @@
   }
 
 </style>
-<body>
+<body onload="myFunction()">
 
             <div class="preloaderBg" id="preloader" onload="preloader()">
                 <div class="preloader">
@@ -92,7 +92,13 @@
  
 
 
+  function myFunction() {
+    setTimeout(function () {
+      location.replace("index.html")
+  }, 4000);
 
+
+  }
     
    
 </script>
