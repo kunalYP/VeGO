@@ -3489,3 +3489,12 @@ margin:7px;
 .imageoffer img{
   border-radius: 5px;
 }
+.alreadyimgs{
+  margin: -15px 0px 0px 0px;
+}
+.alreadyimgs img{
+  width:100%;
+  height:90px;
+  margin:0px 0px 10px 0px;
+  border-radius: 5px;
+}
