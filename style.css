@@ -3696,11 +3696,9 @@ ul.thumb-Images li {
   background-color: #3f3939;
 }
 #deletevehicle{
-
-
   margin:10px 0px 10px 0px;
   border-radius: 4px;
-  cursor: pointer;
+   border:2px solid;
 }
 #editvehicle{
   background-color: #1d0e11;
