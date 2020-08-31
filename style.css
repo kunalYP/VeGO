@@ -2464,6 +2464,76 @@ font-size:0.9rem;
 .dimagebox{
   display: none;
 }
+
+
+
+#showroomvehiclecard{
+
+  border: 0.5px solid rgb(240, 239, 239);
+  box-shadow: 0.5px 0.5px 3px rgb(240, 239, 239);
+}
+#showroomvehiclecard:hover {
+  border:1px solid rgb(151, 132, 132);
+}
+.carimageshowroom img{
+ width:100%;
+ height:5rem;
+
+}
+.carnameshowroom{
+  margin-top:5px;
+  width:100%;
+}
+.carnameshowroom h5{
+  font-size:0.8rem;
+  font-weight:700;
+  text-align: center;
+  
+}
+.caryear{
+
+  width:100%;
+}
+.caryear p{
+  margin:0;
+
+  font-size:0.8rem;
+  text-align:center;
+}
+.variant{
+  
+  width:100%;
+}
+.variant p{
+  margin:3px 0px 0px 0px;
+  text-align:center;
+  font-size:0.8rem;
+}
+.fueltype p{
+  margin:3px 0px 0px 0px;
+  text-align:center;
+  font-size:0.8rem;
+}
+.cc p{
+  margin:3px 0px 0px 0px;
+  text-align:center;
+  font-size:0.8rem;
+}
+.price h5{
+  margin:3px 0px 0px 0px;
+  text-align:center;
+  font-size:1rem;
+  font-weight:600;
+}
+
+
+
+
+
+
+
+
+
 }
 
 
@@ -2966,6 +3036,77 @@ margin-top:6%;
   width:90%;
   height:150px;
 }
+
+
+
+#showroomvehiclecard{
+  border: 0.5px solid rgb(240, 239, 239);
+  box-shadow: 0.5px 0.5px 3px rgb(240, 239, 239);
+}
+#showroomvehiclecard:hover {
+  border:1px solid rgb(151, 132, 132);
+}
+.carimageshowroom img{
+ width:50%;
+ height:10rem;
+ margin-left:25 %;
+}
+.carnameshowroom{
+  margin-top:5px;
+  width:100%;
+}
+.carnameshowroom h5{
+  font-size:0.8rem;
+  font-weight:700;
+  text-align: center;
+  
+}
+.caryear{
+
+  width:100%;
+}
+.caryear p{
+  margin:0;
+
+  font-size:0.8rem;
+  text-align:center;
+}
+.variant{
+  
+  width:100%;
+}
+.variant p{
+  margin:3px 0px 0px 0px;
+  text-align:center;
+  font-size:0.8rem;
+}
+.fueltype p{
+  margin:3px 0px 0px 0px;
+  text-align:center;
+  font-size:0.8rem;
+}
+.cc p{
+  margin:3px 0px 0px 0px;
+  text-align:center;
+  font-size:0.8rem;
+}
+.price h5{
+  margin:3px 0px 0px 0px;
+  text-align:center;
+  font-size:1rem;
+  font-weight:600;
+}
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
@@ -3354,66 +3495,6 @@ margin:7px;
 } */
 
 
-
-
-#showroomvehiclecard{
-
-  border: 0.5px solid rgb(240, 239, 239);
-  box-shadow: 0.5px 0.5px 3px rgb(240, 239, 239);
-}
-#showroomvehiclecard:hover {
-  border:1px solid rgb(151, 132, 132);
-}
-.carimageshowroom img{
- width:100%;
- height:5rem;
-
-}
-.carnameshowroom{
-  margin-top:5px;
-  width:100%;
-}
-.carnameshowroom h5{
-  font-size:0.8rem;
-  font-weight:700;
-  text-align: center;
-  
-}
-.caryear{
-
-  width:100%;
-}
-.caryear p{
-  margin:0;
-
-  font-size:0.8rem;
-  text-align:center;
-}
-.variant{
-  
-  width:100%;
-}
-.variant p{
-  margin:3px 0px 0px 0px;
-  text-align:center;
-  font-size:0.8rem;
-}
-.fueltype p{
-  margin:3px 0px 0px 0px;
-  text-align:center;
-  font-size:0.8rem;
-}
-.cc p{
-  margin:3px 0px 0px 0px;
-  text-align:center;
-  font-size:0.8rem;
-}
-.price h5{
-  margin:3px 0px 0px 0px;
-  text-align:center;
-  font-size:1rem;
-  font-weight:600;
-}
 #review{
   
   margin-bottom: 10px;
@@ -3601,4 +3682,37 @@ ul.thumb-Images li {
   margin-left:43%;
   font-size:1.3rem;
 
+}
+#subjectadd {
+  background-color: #1d0e11;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#subjectadd:hover {
+  background-color: #3f3939;
+}
+#deletevehicle{
+
+
+  margin:10px 0px 10px 0px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#editvehicle{
+  background-color: #1d0e11;
+  color: white;
+  margin:15px 0px 0px 0px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  height:28px;
+}
+.headlineofnew h3{
+  font-size:1.3rem;
+  font-weight:700;
+  margin-bottom: 30px;
 }

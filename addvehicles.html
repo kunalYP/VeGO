@@ -179,121 +179,166 @@
 
     <section>
         <div class="container heading" style="padding-top:10px;">
-            <h4><span>Edit</span> <span>Showroom 1</span></h4>
+            <h4><span>Edit</span> <span>Vehicles</span></h4>
             <p>Ahemadnagar</p>
         </div>
         <div class="container-fluid services" id="ownershowroomdesk">
-            <h4><span>Edit</span> Showroom <span>Details</span></h4>
+            <h4><span>Edit</span> Vehicles <span>Details</span></h4>
             <p> We cater an array of high-end products for Education and Government Sector </p>
         </div>
+
+
+
+
+
+
+     
+
+    
         <div class="container editdata bg-light">
-            <form action="addvehicles.html">
+            <div class="headlineofnew">
+                <h3>Add New Vehicles</h3>
+            </div>
+            <form action="">
+                <label class="" for="fname">Brand</label>
+                <input type="text" id="fname" name="firstname" Value="Honda">
 
-                <!--To give the control a modern look, I have applied a stylesheet in the parent span.-->
+                <label for="lname">Model</label>
+                <input type="text" id="fname" name="lastname" value="City">
 
-                <label for="fname">Showroom Photos</label>
-                <input type="file" name="files[]" id="files" multiple accept="image/jpeg, image/png, image/gif,"
-                    class="imageupload"><br />
-                </span>
-                <output id="Filelist"></output>
-
-                <div class="alreadyimgs">
-                    <div class="row">
-                        <div class="col imgal">
-
-                            <i class="fa fa-times " aria-hidden="true"></i>
-                            <img src="images/showroom1.jpg" id="imgaldesk" alt="">
-
-                        </div>
-                        <div class="col imgal">
-                            <i class="fa fa-times " aria-hidden="true"></i>
-                            <img src="images/showroom2.jpg" id="imgaldesk" alt="">
-
-                        </div>
-                        <div class="col imgal">
-                            <i class="fa fa-times " aria-hidden="true"></i>
-                            <img src="images/showroom3.jpg" id="imgaldesk" alt="">
-
-                        </div>
-                    </div>
-                    <div class="row pt-2">
-                        <div class="col imgal">
-
-                            <i class="fa fa-times " aria-hidden="true"></i>
-                            <img src="images/showroom1.jpg" id="imgaldesk" alt="">
-                        </div>
-                        <div class="col imgal">
-                            <i class="fa fa-times " aria-hidden="true"></i>
-                            <img src="images/showroom2.jpg" id="imgaldesk" alt="">
-
-                        </div>
-                        <div class="col imgal">
-                            <i class="fa fa-times " aria-hidden="true"></i>
-                            <img src="images/showroom3.jpg" id="imgaldesk" alt="">
-
-                        </div>
-                    </div>
-
-                </div>
-
-                <hr>
-                <label class="pt-4" for="fname">Showroom Name</label>
-                <input type="text" id="fname" name="firstname" Value="Kp Showroom">
-
-                <label for="lname">Owner Name</label>
-                <input type="text" id="fname" name="lastname" value="Kunal Pandharkar">
-
-                <label for="lname">Brand</label>
-                <input type="text" id="fname" name="lastname" value="Honda">
-
-
-                <label for="subject">Address</label>
-                <textarea name="subject"
-                    style="height:100px">Kunal Niwas, Adarsh Colony, Purna , Dist. Parbhani</textarea>
-
-                <label for="lname">Working Time</label>
-                <input type="time" id="time1" name="appt" min="00:00" max="24:00" >
-                <span>To</span>
-                <input type="time" id="time2" name="appt" min="09:00" max="18:00" >
-
-                <br>
-                <label for="country">Holiday</label>
-                <select id="country" name="country">
-                    <option value="australia">Monday</option>
-                    <option value="canada">Tuesday</option>
-                    <option value="usa">Wednesday</option>
-                    <option value="usa">Thursday</option>
-                    <option value="usa">Friday</option>
-                    <option value="usa">Saturday</option>
-                    <option value="usa">Sunday</option>
-                </select>
-
-                <label for="lname">Mobile No 1</label>
-                <input type="text" id="fname" name="lastname" value="7774843561">
-
-                <label for="lname">Mobile No 2</label>
-                <input type="text" id="fname" name="lastname" value="9561601680">
-
-                <label for="lname">Whatsapp No</label>
-                <input type="text" id="fname" name="lastname" value="7774843561">
-
-                <label for="lname">Facebook Name</label>
-                <input type="text" id="fname" name="lastname" value="KunalPandharkar">
+                <label for="lname">Variant</label>
+                <input type="text" id="fname" name="lastname" value="200">
 
 
                 <div class="pb-4">
-                    <button class="btn btn-block" id="subjectadd" onclick="location.href='addvehicles.html';"> <i class="fa fa-plus" aria-hidden="true"></i>  Add Vehicles </button>
+                    <input type="submit" value="Add" id="subjectadd" class="btn-block">
                 </div>
-
-
 
 
                 <input type="submit" value="Submit" id="subject">
             </form>
         </div>
-
+        
+        <div class="container pt-4">
+            <div class="row">
+                <div class="col bg-light" id="showroomvehiclecard" style="margin-left:10px;margin-right:10px;">
+                    <div class="carimageshowroom">
+                        <img src="images/car1.png" alt="">
+                    </div>
+                    <div class="carnameshowroom">
+                        <h5>Honda City 200</h5>
+                    </div>
+                    <div class="caryear">
+                        <p>2001</p>
+                    </div>
+                    <div class="variant">
+                        <p>Top Modal</p>
+                    </div>
+                    <div class="fueltype">
+                        <p>Petrol</p>
+                    </div>
+                    <div class="cc">
+                        <p>1500cc</p>
+                    </div>
+                    <div class="price">
+                        <h5> ₹ 80-90 Lakh</h5>
+                    </div>
+                    <div class="editdelete bg-white">
+                        <input type="submit" value="Edit" id="editvehicle" class="btn-block">
+                        <input type="submit" value="Delete" id="deletevehicle"  class="btn-block btn-outline-danger">
+                    </div>
+                </div>
+           
+                <div class="col  bg-light" id="showroomvehiclecard" style="margin-right:10px;">
+                    <div class="carimageshowroom">
+                        <img src="images/car3.png" alt="">
+                    </div>
+                    <div class="carnameshowroom">
+                        <h5>Honda City 200</h5>
+                    </div>
+                    <div class="caryear">
+                        <p>2001</p>
+                    </div>
+                    <div class="variant">
+                        <p>Top Modal</p>
+                    </div>
+                    <div class="fueltype">
+                        <p>Petrol</p>
+                    </div>
+                    <div class="cc">
+                        <p>1500cc</p>
+                    </div>
+                    <div class="price">
+                        <h5> ₹ 80-90 Lakh</h5>
+                    </div>
+                    <div class="editdelete bg-white">
+                        <input type="submit" value="Edit" id="editvehicle" class="btn-block">
+                        <input type="submit" value="Delete" id="deletevehicle"  class="btn-block btn-outline-danger">
+                    </div>
+                </div>
+    
+    
+            </div>
+            <div class="row pt-3">
+                <div class="col  bg-light" id="showroomvehiclecard" style="margin-left:10px;margin-right:10px;">
+                    <div class="carimageshowroom">
+                        <img src="images/car4.png" alt="">
+                    </div>
+                    <div class="carnameshowroom">
+                        <h5>Honda City 200</h5>
+                    </div>
+                    <div class="caryear">
+                        <p>2001</p>
+                    </div>
+                    <div class="variant">
+                        <p>Top Modal</p>
+                    </div>
+                    <div class="fueltype">
+                        <p>Petrol</p>
+                    </div>
+                    <div class="cc">
+                        <p>1500cc</p>
+                    </div>
+                    <div class="price">
+                        <h5> ₹ 80-90 Lakh</h5>
+                    </div>
+                    <div class="editdelete bg-white">
+                        <input type="submit" value="Edit" id="editvehicle" class="btn-block">
+                        <input type="submit" value="Delete" id="deletevehicle"  class="btn-block btn-outline-danger">
+                    </div>
+                </div>
+                <div class="col  bg-light" id="showroomvehiclecard" style="margin-right:10px;">
+                    <div class="carimageshowroom">
+                        <img src="images/car5.jpg" alt="">
+                    </div>
+                    <div class="carnameshowroom">
+                        <h5>Honda City 200</h5>
+                    </div>
+                    <div class="caryear">
+                        <p>2001</p>
+                    </div>
+                    <div class="variant">
+                        <p>Top Modal</p>
+                    </div>
+                    <div class="fueltype">
+                        <p>Petrol</p>
+                    </div>
+                    <div class="cc">
+                        <p>1500cc</p>
+                    </div>
+                    <div class="price">
+                        <h5> ₹ 80-90 Lakh</h5>
+                    </div>
+                    <div class="editdelete bg-white">
+                        <input type="submit" value="Edit" id="editvehicle" class="btn-block">
+                        <input type="submit" value="Delete" id="deletevehicle"  class="btn-block btn-outline-danger">
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
+   
 
 
 
