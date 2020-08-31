@@ -3596,3 +3596,9 @@ ul.thumb-Images li {
   margin-bottom: 16px;
   resize: vertical;
 }
+
+.imgal i{
+  margin-left:43%;
+  font-size:1.3rem;
+
+}
