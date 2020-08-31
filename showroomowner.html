@@ -66,86 +66,6 @@
 
 <body>
     <style>
-        #files,
-        #fname,
-        select,
-        textarea {
-            width: 100%;
-            padding: 12px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-            margin-top: 6px;
-            margin-bottom: 16px;
-            resize: vertical;
-        }
-
-        #subject {
-            background-color: #A60523;
-            color: white;
-            padding: 12px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        #subject:hover {
-            background-color: #A60523;
-        }
-
-        .editdata {
-            border-radius: 5px;
-  
-            padding: 20px;
-        }
-
-
-
-
-        .thumb {
-            height: 80px;
-            width: 100px;
-            border-radius: 5px;
-        }
-
-        ul.thumb-Images li {
-            width: 100px;
-            display: inline-block;
-            vertical-align: top;
-            height: 120px;
-            margin: 3px;
-        }
-
-        .img-wrap {
-            position: relative;
-            display: inline-block;
-            font-size: 0;
-        }
-
-        .img-wrap .close {
-            position: absolute;
-            top: 2px;
-            right: 2px;
-            z-index: 100;
-            background-color: #d0e5f5;
-            padding: 5px 2px 2px;
-            color: #000;
-            font-weight: bolder;
-            cursor: pointer;
-            opacity: 0.5;
-            font-size: 23px;
-            line-height: 10px;
-            border-radius: 50%;
-        }
-
-        .img-wrap:hover .close {
-            opacity: 1;
-            background-color: #ff0000;
-        }
-
-        .FileNameCaptionStyle {
-            font-size: 12px;
-        }
     </style>
     <header id="navbar">
         <div class="navigation-wrap bg-light start-header start-style">
@@ -262,42 +182,47 @@
             <h4><span>Edit</span> <span>Showroom 1</span></h4>
             <p>Ahemadnagar</p>
         </div>
-
+        <div class="container-fluid services" id="ownershowroomdesk">
+            <h4><span>Edit</span> Showroom <span>Details</span></h4>
+            <p> We cater an array of high-end products for Education and Government Sector </p>
+        </div>
         <div class="container editdata bg-light">
             <form action="">
 
                 <!--To give the control a modern look, I have applied a stylesheet in the parent span.-->
 
                 <label for="fname">Showroom Photos</label>
-                <input type="file" name="files[]" id="files" multiple accept="image/jpeg, image/png, image/gif," class="imageupload"><br />
+                <input type="file" name="files[]" id="files" multiple accept="image/jpeg, image/png, image/gif,"
+                    class="imageupload"><br />
                 </span>
                 <output id="Filelist"></output>
 
                 <div class="alreadyimgs">
                     <div class="row">
-                        <div class="col imgal ">
-                            
-                            <img src="images/showroom1.jpg" alt="">
+                        <div class="col imgal">
+
+                            <img src="images/showroom1.jpg" id="imgaldesk" alt="">
                         </div>
                         <div class="col imgal">
-                            <img src="images/showroom2.jpg" alt="">
+                            <img src="images/showroom2.jpg" id="imgaldesk"  alt="">
                         </div>
                         <div class="col imgal">
-                            <img src="images/showroom3.jpg" alt="">
+                            <img src="images/showroom3.jpg" id="imgaldesk"  alt="">
                         </div>
                     </div>
-                   <div class="row pt-2">
-                    <div class="col imgal">
-                        <img src="images/showroom4.jpg" alt="">
+                    <div class="row pt-2">
+                        <div class="col imgal">
+
+                            <img src="images/showroom1.jpg" id="imgaldesk" alt="">
+                        </div>
+                        <div class="col imgal">
+                            <img src="images/showroom2.jpg" id="imgaldesk"  alt="">
+                        </div>
+                        <div class="col imgal">
+                            <img src="images/showroom3.jpg" id="imgaldesk"  alt="">
+                        </div>
                     </div>
-                    <div class="col imgal">
-                        <img src="images/showroom4.jpg" alt="">
-                    </div>
-                    <div class="col imgal">
-                        <img src="images/showroom4.jpg" alt="">
-                    </div>
-                   </div>
-                  
+
                 </div>
 
                 <hr>
@@ -316,8 +241,11 @@
                     style="height:100px">Kunal Niwas, Adarsh Colony, Purna , Dist. Parbhani</textarea>
 
                 <label for="lname">Working Time</label>
-                <input type="text" id="fname" name="lastname" value="6 To 10">
+                <input type="time" id="time1" name="appt" min="00:00" max="24:00" required>
+                <span>To</span>
+                <input type="time" id="time2" name="appt" min="09:00" max="18:00" required>
 
+                <br>
                 <label for="country">Holiday</label>
                 <select id="country" name="country">
                     <option value="australia">Monday</option>

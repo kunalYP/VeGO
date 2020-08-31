@@ -95,7 +95,7 @@
 
         .editdata {
             border-radius: 5px;
-  
+
             padding: 20px;
         }
 
@@ -262,42 +262,46 @@
             <h4><span>Edit</span> <span>Garage 1</span></h4>
             <p>Ahemadnagar</p>
         </div>
-
+        <div class="container-fluid services" id="ownershowroomdesk">
+            <h4><span>Edit</span> Garage <span>Details</span></h4>
+            <p> We cater an array of high-end products for Education and Government Sector </p>
+        </div>
         <div class="container editdata bg-light">
             <form action="">
 
                 <!--To give the control a modern look, I have applied a stylesheet in the parent span.-->
 
                 <label for="fname">Garage Photos</label>
-                <input type="file" name="files[]" id="files" multiple accept="image/jpeg, image/png, image/gif," class="imageupload"><br />
+                <input type="file" name="files[]" id="files" multiple accept="image/jpeg, image/png, image/gif,"
+                    class="imageupload"><br />
                 </span>
                 <output id="Filelist"></output>
 
                 <div class="alreadyimgs">
                     <div class="row">
                         <div class="col imgal ">
-                            
-                            <img src="images/showroom1.jpg" alt="">
+
+                            <img src="images/showroom1.jpg" id="imgaldesk" alt="">
                         </div>
                         <div class="col imgal">
-                            <img src="images/showroom2.jpg" alt="">
+                            <img src="images/showroom2.jpg" id="imgaldesk" alt="">
                         </div>
                         <div class="col imgal">
-                            <img src="images/showroom3.jpg" alt="">
+                            <img src="images/showroom3.jpg" id="imgaldesk" alt="">
                         </div>
                     </div>
-                   <div class="row pt-2">
-                    <div class="col imgal">
-                        <img src="images/showroom4.jpg" alt="">
+                    <div class="row pt-2">
+                        <div class="col imgal">
+                            <img src="images/showroom4.jpg" id="imgaldesk" alt="">
+                        </div>
+                        <div class="col imgal">
+                            <img src="images/showroom4.jpg" id="imgaldesk" alt="">
+                        </div>
+                        <div class="col imgal">
+                            <img src="images/showroom4.jpg" id="imgaldesk" alt="">
+                        </div>
                     </div>
-                    <div class="col imgal">
-                        <img src="images/showroom4.jpg" alt="">
-                    </div>
-                    <div class="col imgal">
-                        <img src="images/showroom4.jpg" alt="">
-                    </div>
-                   </div>
-                  
+
                 </div>
 
                 <hr>
@@ -313,16 +317,20 @@
                     <option value="canada">3-Wheeler</option>
                     <option value="usa">4-Wheeler</option>
                     <option value="usa">+ 4-Wheeler</option>
-            
+
                 </select>
 
                 <label for="subject">Address</label>
                 <textarea name="subject"
                     style="height:100px">Kunal Niwas, Adarsh Colony, Purna , Dist. Parbhani</textarea>
 
-                <label for="lname">Working Time</label>
-                <input type="text" id="fname" name="lastname" value="6 To 10">
 
+                <label for="lname">Working Time</label>
+                <input type="time" id="time1" name="appt" min="09:00" max="18:00" required>
+                <span>To</span>
+                <input type="time" id="time2" name="appt" min="09:00" max="18:00" required>
+
+                <br>
                 <label for="country">Holiday</label>
                 <select id="country" name="country">
                     <option value="australia">Monday</option>
