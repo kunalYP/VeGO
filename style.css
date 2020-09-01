@@ -2527,10 +2527,50 @@ font-size:0.9rem;
 }
 
 
+/* multistep form */
+   /* Hide all steps by default: */
+   .tab {
+    display: none;
+}
+ /* Make circles that indicate the steps of the form: */
+ .step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #e21414;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
 
+.step.active {
+  opacity: 1;
+}
 
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #11cf17;
+}
+#nextBtn {
+  background-color: #1d0e11;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
-
+#prevBtn {
+  background-color: #A60523;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+  border-radius: 4px;
+}
 
 
 
@@ -3049,7 +3089,7 @@ margin-top:6%;
 .carimageshowroom img{
  width:50%;
  height:10rem;
- margin-left:25 %;
+ margin-left:25%;
 }
 .carnameshowroom{
   margin-top:5px;
@@ -3098,7 +3138,9 @@ margin-top:6%;
 }
 
 
-
+#nextBtn{
+  display: none;
+}
 
 
 
@@ -3714,3 +3756,4 @@ ul.thumb-Images li {
   font-weight:700;
   margin-bottom: 30px;
 }
+
