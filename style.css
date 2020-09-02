@@ -3851,3 +3851,26 @@ ul.thumb-Images li {
 #m1{
   margin:5px;
 }
+#or{
+  font-size: 1rem;
+  font-weight:700;
+  margin:10px 0px 10px 0px;
+}
+
+#crtacc {
+  background-color: #9e0303;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#crtacc:hover {
+  background-color: #3f3939;
+}
+#ownerdetails{
+  border:none;
+  font-size: 1.1rem;
+  font-weight:900;
+}
