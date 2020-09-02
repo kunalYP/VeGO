@@ -1104,7 +1104,7 @@ input:focus {
 	width: 100%;
 }
 .form-v4-content .form-detail h2 {
-	color: #3786bd;
+	color: #A60523;
 }
 .form-v4-content .form-detail .form-group {
 	display: flex;
@@ -1240,7 +1240,7 @@ input:focus {
    	top: 1px;
     width: 3px;
     height: 8px;
-    border: 1px solid #3786bd;
+    border: 1px solid #A60523;
     border-width: 0 2px 2px 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -1260,7 +1260,7 @@ input:focus {
 }
 .form-v4-content .form-detail .form-checkbox .text {
 	font-weight: 700;
-	color: #3786bd;
+	color: #A60523;
 	text-decoration: underline;
 }
 .form-v4-content .form-detail .register {
@@ -1285,7 +1285,7 @@ input:focus {
 /* Responsive */
 @media screen and (max-width: 991px) {
 	.form-v4-content {
-		margin: 180px 20px;
+		margin: 0px 20px;
 		flex-direction:  column;
 		-o-flex-direction:  column;
 		-ms-flex-direction:  column;
@@ -2529,23 +2529,20 @@ font-size:0.9rem;
 
 /* multistep form */
    /* Hide all steps by default: */
+   #regdeskbt{
+     display: none;
+   }
    .tab {
     display: none;
 }
  /* Make circles that indicate the steps of the form: */
  .step {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #e21414;
-  border: none;
-  border-radius: 50%;
-  display: inline-block;
-  opacity: 0.5;
+  color:rgb(12, 10, 10); padding:4px; font-weight:bold;
 }
 
 .step.active {
-  opacity: 1;
+  color:white;
+  background-color: #A60523;
 }
 
 /* Mark the steps that are finished and valid: */
@@ -3757,3 +3754,15 @@ ul.thumb-Images li {
   margin-bottom: 30px;
 }
 
+#clickhereform {
+  background-color: #A60523;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#clickhereform:hover {
+  background-color: #3f3939;
+}
