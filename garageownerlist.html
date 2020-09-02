@@ -143,7 +143,7 @@
             <div id="search">
                 <div class="fixedsearchbox">
                     <button class="btn-menu">
-                  <img src="images/search bar.png" alt="" style="float:left;width:30px">
+                        <img src="images/search bar.png" alt="" style="float:left;width:30px">
                     </button>
                     <input id="fixedsearch" type="text" placeholder="Search For Garage, Showroom or Location"
                         class="search">
@@ -153,12 +153,12 @@
 
 
         </div>
-      
+
         <section id="ownerlocation">
             <div class="alert" role="alert" data-toggle="modal" data-target="#locationmodal">
 
-                <i style="font-size:18px" class="fa fa-location-arrow"  aria-hidden="true"></i>
-                <a id="ko" > Kunal - Parbhani 431512 <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                <i style="font-size:18px" class="fa fa-location-arrow" aria-hidden="true"></i>
+                <a id="ko"> Kunal - Parbhani 431512 <i class="fa fa-angle-down" aria-hidden="true"></i></a>
             </div>
         </section>
 
@@ -188,309 +188,114 @@
     </section>
         --->
 
-    <section id="showroomscardsmobile">
+    <section id="ownergarages">
         <!-- <div class="container heading" style="margin-top:20px">
             <h4><span></span> Garages <span>In Your City</span></h4>
         </div> -->
 
 
 
-        <header id="sidebar ">
-            <div class="w3-sidebar w3-bar-block w3-animate-bottom fixed" style="display:none;z-index:5;width:100%;"
-                id="filtersidebar">
-                <button class="w3-bar-item w3-button w3-large" onclick="w3_closefilter()"><i class="fa fa-filter"
-                        aria-hidden="true"></i> Filters<i class="fa fa-window-close" style="float: right;"
-                        aria-hidden="true"></i></button>
-                <div class="filters text-center">
-                    <button style="border-radius: 12px;margin-top:10px;margin-right:10px"
-                        class="btn btn-outline-dark btn-sm"> Sort By Ratings</button>
-                    <button style="border-radius: 12px;margin-top:10px;margin-right:10px"
-                        class="btn btn-outline-dark btn-sm"> Show only Authorized</button>
-
-                    <button style="border-radius: 12px;margin-top:10px" class="btn btn-outline-dark btn-sm"> Sort By
-                        Distance From You</button>
-
-                </div>
-
-            </div>
-        </header>
+        
 
 
 
 
         <div class="container heading" style="padding-top:30px;">
-            <h4><span>Your Garages</span>  <span></span></h4>
+            <h4><span>Your Garages</span> <span></span></h4>
             <p>Kunal Pandharkar</p>
         </div>
 
-        <!-- <div class="">
+     
 
+        <div class="garageownercards pb-4">
 
+            <div class="garageownercards pb-4" onclick="location.href='garageowner.html';">
+                <div class="container" id="garageownercontainer">
+                    <div class="row" id="garageimagerow1">
+                        <div class="col" id="garageimg1">
+                            <div class="imagegarage">
+                                <img src="images/garage1 (3).jpg" alt="">
+                            </div>
+                        </div>
 
-        <div class="text-center">
-            <div class="item" onclick="location.href='garageinfo.html';" style="margin:3%;margin-top:0px">
-                <img src="images/garage1 (1).jpg" alt="">
-                <div>
-                    <h1 class="scroll-cap text-center">Garage 1</h1>
-                </div>
-                <div>
-                    <h1 class="scroll-cap2 text-center">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                    </h1>
-                </div>
-                <div class="address">
-                    <p class="scroll-cap3 text-center">
-                        Kunal Niwas , Adarsh Colony , Purna , Dist.Parbhani
-                    </p>
-                </div>
-                <div id="distance">
-                    <span class="garagestatus" style="color: red;">Offline</span>
+                    </div>
+                    <div class="row" id="garageimagerow2">
+                        <div class="col " id="garageimg3">
+                            <div class="imagegarage">
+                                <img src="images/garage1 (4).jpg" alt="">
+                            </div>
+                        </div>
 
+                    </div>
+                    <div class="row" id="garageinforow">
+                        <div class="col">
+                            <div class="garagename">
+                                <h3>Garage 1</h3>
+                            </div>
+                            <div class="garageadress">
+                                <p>Kunal Niwas , Adarsh Colony , Purna , Dist. Parbhani</p>
+                            </div>
+                            <div class="ratingsgarage">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <div class="garagestatus">
+                                <h5>Online</h5>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
             </div>
 
-            <div class="item" onclick="location.href='garageinfo.html';" style="margin:2%;">
-                <img src="images/garage1 (2).jpg" alt="">
-                <div>
-                    <h1 class="scroll-cap text-center">Garage 2</h1>
-                </div>
-                <div>
-                    <h1 class="scroll-cap2 text-center">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                    </h1>
-                </div>
-                <div class="address">
-                    <p class="scroll-cap3 text-center">
-                        Kunal Niwas , Adarsh Colony , Purna , Dist.Parbhani
-                    </p>
-                </div>
-                <div id="distance">
-                    <span class="garagestatus" >Online</span>
+            <div class="garageownercards pb-4" onclick="location.href='garageowner.html';">
+                <div class="container" id="garageownercontainer">
+                    <div class="row" id="garageimagerow1">
+                        <div class="col" id="garageimg1">
+                            <div class="imagegarage">
+                                <img src="images/garage1 (1).jpg" alt="">
+                            </div>
+                        </div>
 
-                </div>
-            </div>
-        </div>
-        <div class="text-center">
-            <div class="item" onclick="location.href='garageinfo.html';" style="margin:3%;">
-                <img src="images/garage1 (3).jpg" alt="">
-                <div>
-                    <h1 class="scroll-cap text-center">Garage 3</h1>
-                </div>
-                <div>
-                    <h1 class="scroll-cap2 text-center">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                    </h1>
-                </div>
-                <div class="address">
-                    <p class="scroll-cap3 text-center">
-                        Kunal Niwas , Adarsh Colony , Purna , Dist.Parbhani
-                    </p>
-                </div>
-                <div id="distance">
-                    <span class="garagestatus">Online</span>
+                    </div>
+                    <div class="row" id="garageimagerow2">
+                        <div class="col " id="garageimg3">
+                            <div class="imagegarage">
+                                <img src="images/garage1 (3).jpg" alt="">
+                            </div>
+                        </div>
 
+                    </div>
+                    <div class="row" id="garageinforow">
+                        <div class="col">
+                            <div class="garagename">
+                                <h3>Garage 2</h3>
+                            </div>
+                            <div class="garageadress">
+                                <p>Kunal Niwas , Adarsh Colony , Purna , Dist. Parbhani</p>
+                            </div>
+                            <div class="ratingsgarage">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <div class="garagestatus">
+                                <h5 style="color:red;">Offline</h5>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="item" onclick="location.href='garageinfo.html';" style="margin:2%;">
-                <img src="images/garage1 (4).jpg" alt="">
-                <div>
-                    <h1 class="scroll-cap text-center">Garage 4</h1>
-                </div>
-                <div>
-                    <h1 class="scroll-cap2 text-center">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                    </h1>
-                </div>
-                <div class="address">
-                    <p class="scroll-cap3 text-center">
-                        Kunal Niwas , Adarsh Colony , Purna , Dist.Parbhani
-                    </p>
-                </div>
-                <div id="distance">
-                    <span class="garagestatus" style="color: red;">Offline</span>
-
-                </div>
             </div>
         </div>
-        <a style="text-decoration: none; color:black;" href="registergarage.html" data-name="Garage 1">
-            <div class="row" id="showroomscardsrow">
 
-                <div class="col circle1 text-center">
-                    <div class="row" style="margin-top:4%;margin-left:10%;margin-right:10%;margin-bottom:5%"
-                        onclick="location.href='registergarage.html';">
-
-                        <button class="btn btn-outline-danger btn-block btn-lg"><i class="fa fa-plus"
-                                aria-hidden="true"></i> Add New
-                            Garage</button>
-
-                    </div>
-                 
-                </div>
-            </div>
-        </a>
-    </div> -->
-
-        <div class="garageownercards pb-4" >
-            <div class="container" id="garageownercontainer"  onclick="location.href='garageowner.html';">
-                <div class="row" id="garageimagerow1">
-                    <div class="col" id="garageimg1">
-                        <div class="imagegarage">
-                            <img src="images/garage1 (1).jpg" alt="">
-                        </div>
-                    </div>
-                   
-                </div>
-                <div class="row" id="garageimagerow2">
-                    <div class="col " id="garageimg3">
-                        <div class="imagegarage" >
-                            <img src="images/garage1 (1).jpg" alt="">
-                        </div>
-                    </div>
-                   
-                </div>
-                <div class="row" id="garageinforow">
-                    <div class="col">
-                        <div class="garagename">
-                            <h3>Garage 1</h3>
-                        </div>
-                        <div class="garageadress">
-                            <p>Kunal Niwas , Adarsh Colony , Purna , Dist. Parbhani</p>
-                        </div>
-                        <div class="ratingsgarage">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                        </div>
-                        <div class="garagestatus">
-                            <h5>Online</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-         
-        </div>
-        <div class="garageownercards pb-4" onclick="location.href='garageowner.html';">
-            <div class="container" id="garageownercontainer">
-                <div class="row" id="garageimagerow1">
-                    <div class="col" id="garageimg1">
-                        <div class="imagegarage">
-                            <img src="images/garage1 (3).jpg" alt="">
-                        </div>
-                    </div>
-                   
-                </div>
-                <div class="row" id="garageimagerow2">
-                    <div class="col " id="garageimg3">
-                        <div class="imagegarage" >
-                            <img src="images/garage1 (4).jpg" alt="">
-                        </div>
-                    </div>
-                   
-                </div>
-                <div class="row" id="garageinforow">
-                    <div class="col">
-                        <div class="garagename">
-                            <h3>Garage 2</h3>
-                        </div>
-                        <div class="garageadress">
-                            <p>Kunal Niwas , Adarsh Colony , Purna , Dist. Parbhani</p>
-                        </div>
-                        <div class="ratingsgarage">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                        </div>
-                        <div class="garagestatus">
-                            <h5>Online</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-         
-        </div>
-
-        <div class="garageownercards pb-4" onclick="location.href='garageowner.html';">
-            <div class="container" id="garageownercontainer">
-                <div class="row" id="garageimagerow1">
-                    <div class="col" id="garageimg1">
-                        <div class="imagegarage">
-                            <img src="images/garage1 (1).jpg" alt="">
-                        </div>
-                    </div>
-                   
-                </div>
-                <div class="row" id="garageimagerow2">
-                    <div class="col " id="garageimg3">
-                        <div class="imagegarage" >
-                            <img src="images/garage1 (3).jpg" alt="">
-                        </div>
-                    </div>
-                   
-                </div>
-                <div class="row" id="garageinforow">
-                    <div class="col">
-                        <div class="garagename">
-                            <h3>Garage 3</h3>
-                        </div>
-                        <div class="garageadress">
-                            <p>Kunal Niwas , Adarsh Colony , Purna , Dist. Parbhani</p>
-                        </div>
-                        <div class="ratingsgarage">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                        </div>
-                        <div class="garagestatus">
-                            <h5 style="color:red;">Offline</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-         
-        </div>
     </section>
 
-    <div class="heading">
-        <a style="text-decoration: none; color:black;" href="registergarage.html" data-name="Garage 1">
-            <div class="row" id="showroomscardsrow">
-
-                <div class="col circle1 text-center">
-                    <div class="row" style="margin-top:4%;margin-left:10%;margin-right:10%;margin-bottom:5%"
-                        onclick="location.href='registergarage.html';">
-
-                        <button class="btn btn-outline-danger btn-block btn-lg"><i class="fa fa-plus"
-                                aria-hidden="true"></i> Add New
-                            Garage</button>
-
-                    </div>
-                 
-                </div>
-            </div>
-        </a>
-    </div>
 
 
 
@@ -632,12 +437,13 @@
     <div class="container-fluid services" id="servicecentersheading">
 
 
-        <h4> <span>Your Garages</span>  <span></span></h4>
+        <h4> <span>Your Garages</span> <span></span></h4>
 
         <div class="d-flex justify-content-around pt-4">
             <div class="card" style="width: 18rem;">
                 <div class="inner">
-                    <img class="card-img-top" src="images/showroom1.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="images/showroom1.jpg" alt="Card image cap"
+                        style="width:100%;height:150px">
                 </div>
 
                 <div class="card-body">
@@ -651,6 +457,7 @@
 
                         <li class="list-group-item">+91 7774843561</li>
                         <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+                        <li class="list-group-item"><span class="distance" style="color:green">Online</span></li>
                         <a href="garageinfo.html">
                             <li class="list-group-item"><span class="distance">See Info <i
                                         class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
@@ -660,7 +467,8 @@
             </div>
             <div class="card" style="width: 18rem;">
                 <div class="inner">
-                    <img class="card-img-top" src="images/showroom2.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="images/showroom2.jpg" alt="Card image cap"
+                        style="width:100%;height:150px">
                 </div>
 
                 <div class="card-body">
@@ -674,6 +482,8 @@
 
                         <li class="list-group-item">+91 7774843561</li>
                         <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+                        <li class="list-group-item"><span class="distance" style="color:green">Online</span></li>
+
                         <a href="garageinfo.html">
                             <li class="list-group-item"><span class="distance">See Info <i
                                         class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
@@ -683,7 +493,8 @@
             </div>
             <div class="card" style="width: 18rem;">
                 <div class="inner">
-                    <img class="card-img-top" src="images/showroom3.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="images/showroom3.jpg" alt="Card image cap"
+                        style="width:100%;height:150px">
                 </div>
 
                 <div class="card-body">
@@ -698,6 +509,8 @@
 
                             <li class="list-group-item">+91 7774843561</li>
                             <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+                            <li class="list-group-item"><span class="distance" style="color:black">Offline</span></li>
+
                             <a href="garageinfo.html">
                                 <li class="list-group-item"><span class="distance">See Info <i
                                             class="fa fa-angle-double-right" aria-hidden="true"></i></span></li>
@@ -707,7 +520,8 @@
             </div>
             <div class="card" style="width: 18rem;">
                 <div class="inner">
-                    <img class="card-img-top" src="images/showroom4.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="images/showroom4.jpg" alt="Card image cap"
+                        style="width:100%;height:150px">
                 </div>
 
                 <div class="card-body">
@@ -722,6 +536,7 @@
 
                             <li class="list-group-item">+91 7774843561</li>
                             <li class="list-group-item">Near Kunal Niwas , New Adarsh Colony , Purna</li>
+                            <li class="list-group-item"><span class="distance" style="color:black">Offline</span></li>
 
                             <a href="garageinfo.html">
                                 <li class="list-group-item"><span class="distance">See Info <i
@@ -738,13 +553,24 @@
 
 
 
-    <div id="addshowroombutton" class="row" style="margin-top:4%;margin-left:10%;margin-right:10%;margin-bottom:5%"
-        onclick="location.href='registergarage.html';">
 
-        <button class="btn btn-outline-danger btn-block btn-lg"><i class="fa fa-plus" aria-hidden="true"></i> Add New
-            Garage</button>
+    <a style="text-decoration: none; color:black;" href="registergarage.html" data-name="Garage 1">
+        <div class="row bg-white" id="showroomscardsrow" style="border-left:none;border-right:none;">
 
-    </div>
+            <div class="col circle1 text-center">
+                <div class="row" style="margin-top:4%;margin-left:10%;margin-right:10%;margin-bottom:5%"
+                    onclick="location.href='registergarage.html';">
+
+                    <button class="btn btn-block" id="subjectadd" style="background-color: rgb(147, 20, 220);"><i
+                            class="fa fa-plus" aria-hidden="true"></i> Add New Garage </button>
+
+                </div>
+                <!-- .top-info -->
+            </div>
+        </div>
+    </a>
+
+
     <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
     <div class="w3-overlay w3-animate-opacity" onclick="w3_closefilter()" style="cursor:pointer" id="myOverlay"></div>
     <section id="mobilefooter">

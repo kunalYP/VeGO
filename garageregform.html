@@ -15,6 +15,16 @@
     <title>Vego - Home </title>
 </head>
 
+<style>
+    ul.thumb-Images li {
+        width: 87px;
+        display: inline-block;
+        vertical-align: top;
+        height: 120px;
+        margin: 3px;
+    }
+</style>
+
 <header id="sidebar ">
     <div class="w3-sidebar w3-bar-block w3-animate-left " style="display:none;z-index:5;width:80%;" id="mySidebar">
         <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">
@@ -138,8 +148,8 @@
             </a>
 
         </nav>
-      
-        
+
+
 
     </header>
 
@@ -154,7 +164,7 @@
             <span class="step">2</span>
             <span class="step">3</span>
             <span class="step">4</span>
-
+            <span class="step">5</span>
 
         </div>
 
@@ -196,51 +206,28 @@
                             <input type="text" name="your_email" id="your_email" class="input-text" required
                                 pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
                         </div>
-                        <div class="form-group">
-                            <div class="form-row form-row-1">
-                                <label for="first_name">Pincode : </label>
-                                <input type="text" name="first_name" id="first_name" class="input-text">
-                            </div>
-                            <div class="form-row form-row-1">
-                                <label for="last_name">City : </label>
-                                <input type="text" name="last_name" id="last_name" class="input-text">
-                            </div>
-                        </div>
                         <div class="form-row">
+                            <label for="your_email">Garage Photos : ( Min : 6 and Max: 10 )</label>
+                            <input type="file" name="files[]" id="files" multiple
+                                accept="image/jpeg, image/png, image/gif," class="imageupload">
+                            <output id="Filelist"></output>
+                        </div>
+                        <div class="form-row pt-2">
                             <label for="exampleFormControlTextarea1">Garage Address In Detail</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
 
-                        <div class="form-row pt-4">
-                            <label for="your_email">Garage Photos : ( Min : 6 and Max: 10 )</label>
-                            <input type="file" name="your_email" id="your_email" class="input-text" required
-                                pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
-                        </div>
-                        <div class="form-group">
+                        <div class="form-group pt-2">
                             <div class="form-row form-row-1">
-                                <label for="first_name">Birth Year : </label>
-                                <input type="text" name="last_name" id="last_name" class="input-text">
+                                <label for="first_name">City : </label>
+                                <input type="text" name="first_name" id="first_name" class="input-text">
                             </div>
                             <div class="form-row form-row-1">
-                                <label for="last_name">No of Workers : </label>
+                                <label for="last_name">State : </label>
                                 <input type="text" name="last_name" id="last_name" class="input-text">
                             </div>
                         </div>
 
-                        <div class="form-group">
-                            <div class="form-row form-row-1">
-                                <label for="first_name">Opening Time : </label>
-                                <input type="time" name="first_name" id="first_name" class="input-text">
-                            </div>
-                            <div class="form-row form-row-1">
-                                <label for="last_name">Closing Time : </label>
-                                <input type="time" name="last_name" id="last_name" class="input-text">
-                            </div>
-                            <div class="form-row form-row-1">
-                                <label for="last_name">Holiday : </label>
-                                <input type="text" name="last_name" id="last_name" class="input-text">
-                            </div>
-                        </div>
 
                         <div class="form-row">
                             <label for="last_name">Select The Services That You Provide : </label>
@@ -251,6 +238,95 @@
                                 <option style="margin-top:10px;">service 1</option>
                             </select>
 
+
+                        </div>
+
+                        <div class="form-group pt-3">
+                            <div class="form-row form-row-1">
+                                <label for="first_name">Whatsapp No: </label>
+                                <input type="text" name="last_name" id="last_name" class="input-text">
+                            </div>
+                            <div class="form-row form-row-1">
+                                <label for="last_name">Facebook Id: </label>
+                                <input type="text" name="last_name" id="last_name" class="input-text">
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="tab">
+                        <hr style="border:2px solid #A60523;">
+                        <h2 class="pt-4">Garage Timing</h2>
+                        <div class="form-group">
+                            <div class="form-row form-row-1">
+                                <label for="first_name">Opening Time : </label>
+                                <input type="time" name="first_name" id="first_name" class="input-text">
+                            </div>
+
+                            <div class="form-row form-row-1">
+                                <label for="last_name">Closing Time : </label>
+                                <input type="time" name="last_name" id="last_name" class="input-text">
+                            </div>
+
+                        </div>
+                        <div class="row" style="">
+                            <div class=" form-checkbox" id="m1">
+                                <label class="">
+                                    <p>Monday</p>
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+
+                            </div>
+                            <div class=" form-checkbox" id="m1">
+                                <label class="">
+                                    <p>Tuesday</p>
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+
+                            </div>
+                            <div class=" form-checkbox" id="m1">
+                                <label class="">
+                                    <p>Wednesday</p>
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+
+                            </div>
+                            <div class="form-checkbox" id="m1">
+                                <label class="">
+                                    <p>Thursday</p>
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+
+                            </div>
+                            <div class=" form-checkbox" id="m1">
+                                <label class="">
+                                    <p>Friday</p>
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+
+                            </div>
+                            <div class=" form-checkbox" id="m1">
+                                <label class="">
+                                    <p>Saturday</p>
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+
+                            </div>
+                            <div class=" form-checkbox" id="m1">
+                                <label class="">
+                                    <p>Sunday</p>
+                                    <input type="checkbox" name="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+
+                            </div>
 
                         </div>
                     </div>
@@ -270,6 +346,25 @@
                                 frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
                                 tabindex="0"></iframe>
                         </div>
+
+                        <a style="text-decoration: none; color:black;"  data-name="Garage 1">
+                            <div class="row bg-white" id="showroomscardsrow"
+                                style="border-left:none;border-right:none;">
+
+                                <div class="col circle1 text-center">
+                                    <div class="row"
+                                        style="margin-top:4%;margin-left:10%;margin-right:10%;margin-bottom:5%"
+                                       >
+
+                                        <button class="btn btn-block" id="subjectadd"
+                                            style="background-color: rgb(220, 67, 20);"><i class="fa fa-location-arrow" aria-hidden="true"></i> Use Current Location </button>
+
+                                    </div>
+                                    <!-- .top-info -->
+                                </div>
+                            </div>
+                        </a>
+
                     </div>
 
                     <div class="tab">
@@ -720,6 +815,248 @@
         x[n].className += " active";
 
     }
+
+
+    //image upload
+    //I added event handler for the file upload control to access the files properties.
+    document.addEventListener("DOMContentLoaded", init, false);
+
+    //To save an array of attachments
+    var AttachmentArray = [];
+
+    //counter for attachment array
+    var arrCounter = 0;
+
+    //to make sure the error message for number of files will be shown only one time.
+    var filesCounterAlertStatus = false;
+
+    //un ordered list to keep attachments thumbnails
+    var ul = document.createElement("ul");
+    ul.className = "thumb-Images";
+    ul.id = "imgList";
+
+    function init() {
+        //add javascript handlers for the file upload event
+        document
+            .querySelector("#files")
+            .addEventListener("change", handleFileSelect, false);
+    }
+
+    //the handler for file upload event
+    function handleFileSelect(e) {
+        //to make sure the user select file/files
+        if (!e.target.files) return;
+
+        //To obtaine a File reference
+        var files = e.target.files;
+
+        // Loop through the FileList and then to render image files as thumbnails.
+        for (var i = 0, f; (f = files[i]); i++) {
+            //instantiate a FileReader object to read its contents into memory
+            var fileReader = new FileReader();
+
+            // Closure to capture the file information and apply validation.
+            fileReader.onload = (function (readerEvt) {
+                return function (e) {
+                    //Apply the validation rules for attachments upload
+                    ApplyFileValidationRules(readerEvt);
+
+                    //Render attachments thumbnails.
+                    RenderThumbnail(e, readerEvt);
+
+                    //Fill the array of attachment
+                    FillAttachmentArray(e, readerEvt);
+                };
+            })(f);
+
+            // Read in the image file as a data URL.
+            // readAsDataURL: The result property will contain the file/blob's data encoded as a data URL.
+            // More info about Data URI scheme https://en.wikipedia.org/wiki/Data_URI_scheme
+            fileReader.readAsDataURL(f);
+        }
+        document
+            .getElementById("files")
+            .addEventListener("change", handleFileSelect, false);
+    }
+
+    //To remove attachment once user click on x button
+    jQuery(function ($) {
+        $("div").on("click", ".img-wrap .close", function () {
+            var id = $(this)
+                .closest(".img-wrap")
+                .find("img")
+                .data("id");
+
+            //to remove the deleted item from array
+            var elementPos = AttachmentArray.map(function (x) {
+                return x.FileName;
+            }).indexOf(id);
+            if (elementPos !== -1) {
+                AttachmentArray.splice(elementPos, 1);
+            }
+
+            //to remove image tag
+            $(this)
+                .parent()
+                .find("img")
+                .not()
+                .remove();
+
+            //to remove div tag that contain the image
+            $(this)
+                .parent()
+                .find("div")
+                .not()
+                .remove();
+
+            //to remove div tag that contain caption name
+            $(this)
+                .parent()
+                .parent()
+                .find("div")
+                .not()
+                .remove();
+
+            //to remove li tag
+            var lis = document.querySelectorAll("#imgList li");
+            for (var i = 0; (li = lis[i]); i++) {
+                if (li.innerHTML == "") {
+                    li.parentNode.removeChild(li);
+                }
+            }
+        });
+    });
+
+    //Apply the validation rules for attachments upload
+    function ApplyFileValidationRules(readerEvt) {
+        //To check file type according to upload conditions
+        if (CheckFileType(readerEvt.type) == false) {
+            alert(
+                "The file (" +
+                readerEvt.name +
+                ") does not match the upload conditions, You can only upload jpg/png/gif files"
+            );
+            e.preventDefault();
+            return;
+        }
+
+        //To check file Size according to upload conditions
+        if (CheckFileSize(readerEvt.size) == false) {
+            alert(
+                "The file (" +
+                readerEvt.name +
+                ") does not match the upload conditions, The maximum file size for uploads should not exceed 300 KB"
+            );
+            e.preventDefault();
+            return;
+        }
+
+        //To check files count according to upload conditions
+        if (CheckFilesCount(AttachmentArray) == false) {
+            if (!filesCounterAlertStatus) {
+                filesCounterAlertStatus = true;
+                alert(
+                    "You have added more than 10 files. According to upload conditions you can upload 10 files maximum"
+                );
+            }
+            e.preventDefault();
+            return;
+        }
+    }
+
+    //To check file type according to upload conditions
+    function CheckFileType(fileType) {
+        if (fileType == "image/jpeg") {
+            return true;
+        } else if (fileType == "image/png") {
+            return true;
+        } else if (fileType == "image/gif") {
+            return true;
+        } else {
+            return false;
+        }
+        return true;
+    }
+
+    //To check file Size according to upload conditions
+    function CheckFileSize(fileSize) {
+        if (fileSize < 5000000) {
+            return true;
+        } else {
+            return false;
+        }
+        return true;
+    }
+
+    //To check files count according to upload conditions
+    function CheckFilesCount(AttachmentArray) {
+        //Since AttachmentArray.length return the next available index in the array,
+        //I have used the loop to get the real length
+        var len = 0;
+        for (var i = 0; i < AttachmentArray.length; i++) {
+            if (AttachmentArray[i] !== undefined) {
+                len++;
+            }
+        }
+        //To check the length does not exceed 10 files maximum
+        if (len > 9) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+    //Render attachments thumbnails.
+    function RenderThumbnail(e, readerEvt) {
+        var li = document.createElement("li");
+        ul.appendChild(li);
+        li.innerHTML = [
+            '<div class="img-wrap"> <span class="close">&times;</span>' +
+            '<img class="thumb" src="',
+            e.target.result,
+            '" title="',
+            escape(readerEvt.name),
+            '" data-id="',
+            readerEvt.name,
+            '"/>' + "</div>"
+        ].join("");
+
+        var div = document.createElement("div");
+        div.className = "FileNameCaptionStyle";
+        li.appendChild(div);
+        div.innerHTML = [readerEvt.name].join("");
+        document.getElementById("Filelist").insertBefore(ul, null);
+    }
+
+    //Fill the array of attachment
+    function FillAttachmentArray(e, readerEvt) {
+        AttachmentArray[arrCounter] = {
+            AttachmentType: 1,
+            ObjectType: 1,
+            FileName: readerEvt.name,
+            FileDescription: "Attachment",
+            NoteText: "",
+            MimeType: readerEvt.type,
+            Content: e.target.result.split("base64,")[1],
+            FileSizeInBytes: readerEvt.size
+        };
+        arrCounter = arrCounter + 1;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </script>
