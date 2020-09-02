@@ -200,20 +200,20 @@
 
                     <div class="tab">
                         <hr style="border:2px solid #A60523;">
-                        <h2 class="pt-4">Garage Details</h2>
+                        <h2 class="pt-4">Showroom Details</h2>
                         <div class="form-row">
-                            <label for="your_email">Garage Name :</label>
+                            <label for="your_email">Showroom Name :</label>
                             <input type="text" name="your_email" id="your_email" class="input-text" required
                                 pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
                         </div>
                         <div class="form-row">
-                            <label for="your_email">Garage Photos : ( Min : 6 and Max: 10 )</label>
+                            <label for="your_email">Showroom Photos : ( Min : 6 and Max: 10 )</label>
                             <input type="file" name="files[]" id="files" multiple
                                 accept="image/jpeg, image/png, image/gif," class="imageupload">
                             <output id="Filelist"></output>
                         </div>
                         <div class="form-row pt-2">
-                            <label for="exampleFormControlTextarea1">Garage Address In Detail</label>
+                            <label for="exampleFormControlTextarea1">Showroom Address In Detail</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
 
@@ -227,15 +227,27 @@
                                 <input type="text" name="last_name" id="last_name" class="input-text">
                             </div>
                         </div>
-
-
                         <div class="form-row">
-                            <label for="last_name">Select The Services That You Provide : </label>
+                            <label for="your_email">Brand Name :</label>
+                            <input type="text" name="your_email" id="your_email" class="input-text" required
+                                pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
+                        </div>
+                        <div class="form-row">
+                            <label for="last_name">Select The Type : </label>
                             <select multiple class="form-control" id="exampleFormControlSelect2">
-                                <option>service 1</option>
-                                <option style="margin-top:10px;">service 1</option>
-                                <option style="margin-top:10px;">service 1</option>
-                                <option style="margin-top:10px;">service 1</option>
+                                <option>Local Dealer</option>                     
+                                <option style="margin-top:10px;">Three Wheeler</option>
+                     
+                            </select>
+                        </div>
+                        <div class="form-row">
+                            <label for="last_name">Select The Type : </label>
+                            <select multiple class="form-control" id="exampleFormControlSelect2">
+                                <option>Two Wheeler</option>
+                          
+                                <option style="margin-top:10px;">Three Wheeler</option>
+                                <option style="margin-top:10px;">Four Wheeler</option>
+                                <option style="margin-top:10px;">More Wheeler</option>
                             </select>
 
 
@@ -257,7 +269,7 @@
                     </div>
                     <div class="tab">
                         <hr style="border:2px solid #A60523;">
-                        <h2 class="pt-4">Garage Timing</h2>
+                        <h2 class="pt-4">Showroom Timing</h2>
                         <div class="form-group">
                             <div class="form-row form-row-1">
                                 <label for="first_name">Opening Time : </label>
@@ -333,10 +345,10 @@
 
                     <div class="tab">
                         <hr style="border:2px solid #A60523;">
-                        <h2 class="pt-4">Garage Location</h2>
+                        <h2 class="pt-4">Showroom Location</h2>
 
                         <div class="form-row">
-                            <label for="your_email">Garage Address :</label>
+                            <label for="your_email">Showroom Address :</label>
                             <input type="text" name="your_email" id="your_email" class="input-text" required
                                 pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
                         </div>
@@ -1033,6 +1045,7 @@
         };
         arrCounter = arrCounter + 1;
     }
+
 </script>
 
 </html>

@@ -14,10 +14,9 @@
     <title>Vego - Home </title>
 </head>
 <header id="sidebar ">
-    <div class="w3-sidebar w3-bar-block w3-animate-left " style="display:none;z-index:5;width:80%;"
-        id="mySidebar">
+    <div class="w3-sidebar w3-bar-block w3-animate-left " style="display:none;z-index:5;width:80%;" id="mySidebar">
         <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">
-           <img src="images/user.png" style="width:50px" alt=""> Hello User !<i class="fa fa-window-close"
+            <img src="images/user.png" style="width:50px" alt=""> Hello User !<i class="fa fa-window-close"
                 style="float: right;" aria-hidden="true"></i></button>
 
         <div class="dropdown-divider" style="margin-top:20px"></div>
@@ -29,18 +28,18 @@
 
         <a href="emergencyservice.html" class="w3-bar-item w3-button"><i class="fa fa-exclamation-triangle"
                 aria-hidden="true" style="margin-right: 1rem;"></i> Emergency Service</a>
-        <a href="vehcilecomparison.html" class="w3-bar-item w3-button"><i class="fa fa-balance-scale"
-                aria-hidden="true" style="margin-right: 1rem;"></i>Compare Vehicles</a>
+        <a href="vehcilecomparison.html" class="w3-bar-item w3-button"><i class="fa fa-balance-scale" aria-hidden="true"
+                style="margin-right: 1rem;"></i>Compare Vehicles</a>
         <a href="nearbyshowrooms.html" class="w3-bar-item w3-button"> <i class="fa fa-car" aria-hidden="true"
                 style="margin-right: 1rem;"></i> Nearby Showrooms & Shops</a>
         <a href="nearbygarages.html" class="w3-bar-item w3-button"><i class="fa fa-cogs" aria-hidden="true"
                 style="margin-right: 1rem;"></i> Nearby Garages & Workshops</a>
         <div class="dropdown-divider"></div>
-        <a href="workwithus.html" class="w3-bar-item w3-button"><i class="fa fa-handshake-o"
-                aria-hidden="true" style="margin-right: 1rem;"></i>Work With Us</a>
+        <a href="workwithus.html" class="w3-bar-item w3-button"><i class="fa fa-handshake-o" aria-hidden="true"
+                style="margin-right: 1rem;"></i>Work With Us</a>
         <a href="aboutus.html" class="w3-bar-item w3-button">
-        <img src="images/about us.png" style="width:18px;margin-right: 0.7rem;" alt="">      
-          About Us</a>
+            <img src="images/about us.png" style="width:18px;margin-right: 0.7rem;" alt="">
+            About Us</a>
         <a href="contactus.html" class="w3-bar-item w3-button"><i class="fa fa-phone-square" aria-hidden="true"
                 style="margin-right: 1rem;"></i> Contact Us</a>
         <div class="dropdown-divider"></div>
@@ -53,6 +52,7 @@
 
     </div>
 </header>
+
 <body>
     <header id="navbar">
         <div class="navigation-wrap bg-light start-header start-style">
@@ -140,7 +140,7 @@
             <div id="search">
                 <div class="fixedsearchbox">
                     <button class="btn-menu">
-                  <img src="images/search bar.png" alt="" style="float:left;width:30px">
+                        <img src="images/search bar.png" alt="" style="float:left;width:30px">
                     </button>
                     <input id="fixedsearch" type="text" placeholder="Search For Garage, Showroom or Location"
                         class="search">
@@ -150,12 +150,12 @@
 
 
         </div>
-      
+
         <section id="ownerlocation">
             <div class="alert" role="alert" data-toggle="modal" data-target="#locationmodal">
 
-                <i style="font-size:18px" class="fa fa-location-arrow"  aria-hidden="true"></i>
-                <a id="ko" > Kunal - Parbhani 431512 <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                <i style="font-size:18px" class="fa fa-location-arrow" aria-hidden="true"></i>
+                <a id="ko"> Kunal - Parbhani 431512 <i class="fa fa-angle-down" aria-hidden="true"></i></a>
             </div>
         </section>
 
@@ -183,7 +183,7 @@
     </section><!-- End Hero -->
     <div class="container-fluid heading" style="margin-top:10%">
         <h4><span>Our</span> Features <span></span></h4>
-        
+
     </div>
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
@@ -197,7 +197,8 @@
             <div class="row" data-aos="fade-up" data-aos-delay="300">
                 <div class="col-lg-4 col-md-4">
                     <div class="icon-box">
-                        <img src="images/bring showroom online.png" style="height:40px;width:45px" alt=""> &nbsp;&nbsp;&nbsp;
+                        <img src="images/bring showroom online.png" style="height:40px;width:45px" alt="">
+                        &nbsp;&nbsp;&nbsp;
                         <h3><a href="">Bring Your Showroom Online</a></h3>
                     </div>
                 </div>
@@ -282,271 +283,134 @@
             </div>
         </div>
     </section><!-- End Features Section -->
-    <br>
-    <div id="form"></div>
-    <section class="pt-4 registerform ">
 
-        <div class="container-fluid services">
-            <h4><span>Fill This Form To </span> Register <span> Your </span>Showroom</h4>
-            <p> by Filling This form You Will be Working With Us </p>
-        </div>
-        <div class="container-fluid heading" style="margin-bottom:-130px;">
-            <h4><span>Fill This Form To</span> Register <span></span></h4>
-            
-        </div>
-        <hr id="borderregister" style="border-bottom: 2px solid black;">
 
-        <div class="page-content">
-            <div class="form-v4-content">
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sign In</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Email ID">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Mobile Number">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Password">
+                        </div>
 
-                <form class="form-detail" action="#" method="post" id="myform">
+                        <button type="submit" class="btn btn-dark btn-signin" style="width: 100%;">Sign In</button>
+                        <hr>
+                        <div class="form-group">
+                            <a href="" style="color:black" data-toggle="modal" data-target="#exampleModal2">Don't Have
+                                an Account ? Register
+                            </a>
+                        </div>
 
-                    <h2>Owner Information</h2>
-                    <div class="form-group">
-                        <div class="form-row form-row-1">
-                            <label for="first_name">First Name</label>
-                            <input type="text" name="first_name" id="first_name" class="input-text">
-                        </div>
-                        <div class="form-row form-row-1">
-                            <label for="last_name">Last Name</label>
-                            <input type="text" name="last_name" id="last_name" class="input-text">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="form-row form-row-1">
-                            <label for="first_name">Mobile No 1</label>
-                            <input type="text" name="first_name" id="first_name" class="input-text">
-                        </div>
-                        <div class="form-row form-row-1">
-                            <label for="last_name">Mobile No 2</label>
-                            <input type="text" name="last_name" id="last_name" class="input-text">
-                        </div>
-                    </div>
-                 
+                        <button type="submit" class="btn btn-danger btn-block"><i class="fa fa-google"
+                                aria-hidden="true"></i>
+                            Sign In with Google</button>
+                        <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-facebook-square"
+                                aria-hidden="true"></i> Sign In with Facebook </button>
 
-                    <hr style="border:2px solid #2f73a3;">
-                    <h2 class="pt-4">Showroom Details</h2>
-                    <div class="form-row">
-                        <label for="your_email">Showroom Name :</label>
-                        <input type="text" name="your_email" id="your_email" class="input-text" required
-                            pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
-                    </div>
-                    <div class="form-row">
-                        <label for="your_email">Select Type :</label>
-                        <select class="custom-select ">
-                            <option selected>Authorized Dealer</option>
-                            <option value="1">Local Dealer</option>
-                   
-                        </select>
-                    </div>
-                    <div class="form-row pt-4">
-                        <label for="your_email">Brand :</label>
-                        <input type="text" name="your_email" id="your_email" class="input-text" required
-                            pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
-                    </div>
-              
-                    <div class="form-row">
-                        <label for="your_email">Select Type :</label>
-                        <select class="custom-select ">
-                            <option selected>Two Wheeler</option>
-                            <option value="1">Three Wheeler</option>
-                            <option value="2">Four Wheeler</option>
-                            <option value="3">More Wheeler</option>
-                        </select>
-                    </div>
-                    <div class="form-group pt-4">
-                        <div class="form-row form-row-1">
-                            <label for="first_name">Pincode : </label>
-                            <input type="text" name="first_name" id="first_name" class="input-text">
-                        </div>
-                        <div class="form-row form-row-1">
-                            <label for="last_name">City : </label>
-                            <input type="text" name="last_name" id="last_name" class="input-text">
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <label for="exampleFormControlTextarea1">Showroom Address In Detail</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-
-                    <div class="form-row pt-4">
-                        <label for="your_email">Showroom Photo: ( Min : 6 & Max: 10 )</label>
-                        <input type="file" name="your_email" id="your_email" class="input-text" required
-                            pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
-                    </div>
-                    <div class="form-group">
-                        <div class="form-row form-row-1">
-                            <label for="first_name">Birth Year : </label>
-                            <input type="text" name="first_name" id="first_name" class="input-text">
-                        </div>
-                        <div class="form-row form-row-1">
-                            <label for="last_name">No of Workers : </label>
-                            <input type="text" name="last_name" id="last_name" class="input-text">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="form-row form-row-1">
-                            <label for="first_name">Opening Time : </label>
-                            <input type="time" name="first_name" id="first_name" class="input-text">
-                        </div>
-                        <div class="form-row form-row-1">
-                            <label for="last_name">Closing Time : </label>
-                            <input type="time" name="last_name" id="last_name" class="input-text">
-                        </div>
-                        <div class="form-row form-row-1">
-                            <label for="last_name">Holiday : </label>
-                            <input type="text" name="last_name" id="last_name" class="input-text">
-                        </div>
-                    </div>
-
-                    <hr style="border:2px solid #2f73a3;">
-                    <h2 class="pt-4">Showroom Location</h2>
-
-                    <div class="form-row">
-                        <label for="your_email">Showroom Address :</label>
-                        <input type="text" name="your_email" id="your_email" class="input-text" required
-                            pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
-                    </div>
-                    <div class="form-row">
-                        <iframe id="googlemap"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15073.234307308167!2d77.02138377450119!3d19.181720042435785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8f853c6a83fbf800!2sPurna%20Junction!5e0!3m2!1sen!2sin!4v1597152317620!5m2!1sen!2sin"
-                            frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                            tabindex="0"></iframe>
-                    </div>
-                    <hr style="border:2px solid #2f73a3;">
-                    <h2 class="pt-4">Login Credentials</h2>
-
-                    <div class="form-row">
-                        <label for="your_email">Mobile No :</label>
-                        <input type="text" name="your_email" id="your_email" class="input-text" required
-                            pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
-                    </div>
-                    <div class="form-group">
-                        <div class="form-row form-row-1">
-                            <label for="first_name">New Password</label>
-                            <input type="text" name="first_name" id="first_name" class="input-text">
-                        </div>
-                        <div class="form-row form-row-1">
-                            <label for="last_name">Confirm Password</label>
-                            <input type="text" name="last_name" id="last_name" class="input-text">
-                        </div>
-                    </div>
-                    <hr style="border:2px solid #2f73a3;">
-                  
-
-                    <div class="form-checkbox">
-                        <label class=""><p>I Have Read and Agree to Comply With and/or Be Bound by The <a href="#" class="text">Terms and Conditions</a> of Vego For Business. </p>
-                              <input type="checkbox" name="checkbox">
-                              <span class="checkmark"></span>
-                        </label>
-                    </div>c
-                    <div class="form-row-last">
-                        <input type="submit" name="register" class="register" value="Register">
-                    </div>
-                </form>
+                    </form>
+                </div>
+                <!-- <div class="modal-footer">
+                        <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-dark">Save changes</button>
+                    </div> -->
             </div>
         </div>
+    </div>
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Register</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Email ID">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Mobile Number">
+                        </div>
+                        <hr>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Confirm Password">
+                        </div>
+
+                        <button type="submit" class="btn btn-dark btn-signin"
+                            style="width: 100%; margin-bottom: 10px;">Register</button>
+
+                        <div class="form-group">
+
+                            <a href="" style="color:black" data-toggle="modal" data-target="#exampleModal2">Already Have
+                                an Account ? Sign
+                                In
+                            </a>
+                        </div>
+                        <hr>
+                        <button type="submit" class="btn btn-danger btn-block"><i class="fa fa-google"
+                                aria-hidden="true"></i>
+                            Sign In with Google</button>
+                        <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-facebook-square"
+                                aria-hidden="true"></i> Sign In with Facebook </button>
+
+                    </form>
+                </div>
+                <!-- <div class="modal-footer">
+                        <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-dark">Save changes</button>
+                    </div> -->
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row" style="margin-top:4%;margin-left:10%;margin-right:10%;margin-bottom:5%"
+            onclick="location.href='showroomregform.html';">
+
+            <button class="btn btn-block" id="clickhereform"> Click Here To Fill Registration Form </button>
+
+        </div>
+    </div>
+
+
+
+
+
+    <section id="mobilefooter">
+        <footer class="mobilefooter" style="position: relative;">
+            <p class="footer-item mx-auto">© 2020-2021 VeGO</p>
+            <a style="margin: auto;" href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+
+        </footer>
     </section>
-         <!-- Modal -->
-         <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Sign In</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp" placeholder="Email ID">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp" placeholder="Mobile Number">
-                            </div>
-                            <div class="form-group">
-                                <input type="password" class="form-control" id="exampleInputPassword1"
-                                    placeholder="Password">
-                            </div>
-    
-                            <button type="submit" class="btn btn-dark btn-signin" style="width: 100%;">Sign In</button>
-                            <hr>
-                            <div class="form-group">
-                                <a href="" style="color:black" data-toggle="modal" data-target="#exampleModal2">Don't Have an Account ? Register
-                                </a>
-                            </div>
-    
-                            <button type="submit" class="btn btn-danger btn-block"><i class="fa fa-google" aria-hidden="true"></i>
-                                Sign In with Google</button>
-                            <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-facebook-square"
-                                    aria-hidden="true"></i> Sign In with Facebook </button>
-    
-                        </form>
-                    </div>
-                    <!-- <div class="modal-footer">
-                        <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-dark">Save changes</button>
-                    </div> -->
-                </div>
-            </div>
-        </div>
-        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Register</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp" placeholder="Email ID">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp" placeholder="Mobile Number">
-                            </div>
-                            <hr>
-                            <div class="form-group">
-                                <input type="password" class="form-control" id="exampleInputPassword1"
-                                    placeholder="Password">
-                            </div>
-                            <div class="form-group">
-                                <input type="password" class="form-control" id="exampleInputPassword1"
-                                    placeholder="Confirm Password">
-                            </div>
-    
-                            <button type="submit" class="btn btn-dark btn-signin"
-                                style="width: 100%; margin-bottom: 10px;">Register</button>
-    
-                            <div class="form-group">
-    
-                                <a href="" style="color:black" data-toggle="modal" data-target="#exampleModal2">Already Have an Account ? Sign
-                                    In
-                                </a>
-                            </div>
-                            <hr>
-                            <button type="submit" class="btn btn-danger btn-block"><i class="fa fa-google" aria-hidden="true"></i>
-                                Sign In with Google</button>
-                            <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-facebook-square"
-                                    aria-hidden="true"></i> Sign In with Facebook </button>
-    
-                        </form>
-                    </div>
-                    <!-- <div class="modal-footer">
-                        <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-dark">Save changes</button>
-                    </div> -->
-                </div>
-            </div>
-        </div>
-    
+
+
     <footer class="footer text-muted" id="bigfooter">
 
 
@@ -717,12 +581,12 @@
         $(".input").val("");
     });
     function w3_open() {
-   
+
         document.getElementById("mySidebar").style.display = "block";
         document.getElementById("myOverlay").style.display = "block";
         var x = document.getElementById("search");
         x.style.display = "none";
-        
+
     }
 
     function w3_close() {
