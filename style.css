@@ -3877,3 +3877,12 @@ ul.thumb-Images li {
   overflow: scroll;
 
 }
+#headacc{
+  font-size:1.2rem;
+  font-weight:600;
+  color:#A60523;
+}
+#accd{
+  font-size:1rem;
+  font-weight:700;
+}
