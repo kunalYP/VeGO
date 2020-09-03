@@ -3870,7 +3870,10 @@ ul.thumb-Images li {
   background-color: #3f3939;
 }
 #ownerdetails{
-  border:none;
-  font-size: 1.1rem;
-  font-weight:900;
+ background-color: rgb(252, 239, 239);
+}
+#ss{
+  height:300px;
+  overflow: scroll;
+
 }
