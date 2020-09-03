@@ -3887,3 +3887,49 @@ overflow-x: hidden;
   font-weight:700;
 }
 
+
+
+
+
+
+
+#simg img{
+  width:100%;
+}
+#sinfo{
+  width:100%;
+  margin:0px 0px 0px -10px;
+}
+#sinfo h3{
+  font-size: 1rem;
+  font-weight:700;
+  margin:0px 0px 4px 0px;
+}
+#sinfo p{
+  font-size: 0.9rem;
+  margin:0px 0px 0px 0px;
+}
+#sinfo span{
+  font-size: 0.9rem;
+  margin:0px 0px 4px 0px;
+}
+#sstatus p{
+  color:green;
+  font-size:0.9rem;
+  margin:5px 0px 0px 10%;
+}
+#sdist p{
+  font-weight:800;
+  font-size:0.9rem;
+  margin:5px 0px 0px 16%;
+}
+#bimg img{
+  width:50%;
+  margin:0px 0px 0px 25%;
+  height:30px;
+}
+#bull{
+  margin: 4px 0px 0px 0px;
+  font-size: 1.1rem;
+  color: rgb(235, 232, 232);
+}
