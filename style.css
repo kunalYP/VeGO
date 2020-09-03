@@ -3875,7 +3875,7 @@ ul.thumb-Images li {
 #ss{
   height:300px;
   overflow: scroll;
-
+overflow-x: hidden;
 }
 #headacc{
   font-size:1.2rem;
