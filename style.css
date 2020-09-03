@@ -3895,6 +3895,7 @@ overflow-x: hidden;
 
 #simg img{
   width:100%;
+  height:114px;
 }
 #sinfo{
   width:100%;
@@ -3924,8 +3925,8 @@ overflow-x: hidden;
   margin:5px 0px 0px 16%;
 }
 #bimg img{
-  width:50%;
-  margin:0px 0px 0px 25%;
+  width:80%;
+  margin:0px 0px 0px 0px;
   height:30px;
 }
 #bull{
