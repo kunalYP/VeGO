@@ -2187,7 +2187,21 @@ padding-bottom: 20px;
   width: 100%;
   margin: auto;
   justify-content: center;
-  border: 2px solid rgb(235, 232, 232);
+  border-top: 3px solid rgb(235, 232, 232);
+  box-shadow: 2px 2px 2px rgb(232, 240, 241);
+  padding-top: 5px;
+
+}
+#showroomscardsrow2 {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0.1rem;
+  padding-bottom: 5px;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  border-bottom: 2px solid rgb(235, 232, 232);
+  border-top:none;
   box-shadow: 2px 2px 2px rgb(232, 240, 241);
   padding-top: 5px;
 
