@@ -2207,94 +2207,6 @@ padding-bottom: 20px;
 
 }
 
-.showroom-cont-btm-one {
-
- 
-
-  display: flex;
-  justify-content: center;
-
-  
-
-}
-
-.showroom-cont-btm-two {
-
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin-left: -30px;    
-
-}
-
-.showroom-cont-btm-two h3 {
-  font-size: 1rem;
-  font-weight: 700;
-}
-
-.showroom-cont-btm-two p {
-  font-size: 0.7rem;
-}
-
-.showroom-cont-btm-one img {
-  margin-left: -30px;
-  height: 110px;
-  width: 200px;
-}
-
-/* new showroom card concept*/
-.search-showrm-cont {
-  display: flex;
-
-  width: 100%;
-}
-
-.search-showrm-cont-one img {
-  height: 5rem;
-  width: 8rem;
-  margin: 10px;
-}
-
-.search-showrm-cont-one-1 img {
-  height: 5rem;
-  width: 8rem;
-  margin: 10px;
-}
-
-.search-showrm-cont-two {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 7px;
-}
-
-
-
-.search-showrm-cont-two .showroom-title {
-  
-  font-size: 1rem;
-  font-weight: 700;
-}
-
-.search-showrm-cont-outer {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid rgb(173, 173, 173);
-  box-shadow: 1.5px 2px 3px rgb(199, 199, 199);
-
-
-}
-.search-showrm-cont-one-1 {
-  border-right: 2px solid rgb(219, 218, 218);
-}
-
-.search-showrm-cont-inner {
-  display: flex;
-  border: 0.1px solid rgb(223, 220, 220);
-  width: 100%;
-  margin: auto;
-
-}
 #garagesearchboxdesktop{
   display: none;
 }
@@ -3940,8 +3852,14 @@ overflow-x: hidden;
 }
 #bimg img{
   width:80%;
-  margin:0px 0px 0px 0px;
-  height:30px;
+  margin:0px 0px 0px 10px;
+  height:28px;
+}
+#bimg p{
+  color:rgba(179, 6, 6, 0.733);
+  font-size:0.9rem;
+  margin:5px 0px 0px 0px;
+  font-weight:500;
 }
 #bull{
   margin: 4px 0px 0px 0px;

@@ -188,313 +188,254 @@
     </section>
         --->
 
-    <section id="showroomscardsmobile">
-        <!-- <div class="container heading" style="margin-top:20px">
-            <h4><span></span> Garages <span>In Your City</span></h4>
-        </div> -->
-
-        <section id="filteroption">
-            <div class="alert alert-light " role="alert" style="float:right">
-                <button onclick="w3_openfilter()" class="btn btn-outline-dark btn-sm" style="width:110%"> filters <i
-                        class="fa fa-angle-down" aria-hidden="true"></i></button>
+        <section id="showroomscardsmobile">
+            <section id=" filteroption">
+                <div style="float:left;font-weight:750;font-size:13px;margin-top:15px;margin-left:10px">
+                    <p>20 Showrooms Found
+                    <p>
+                </div>
+                <div class="alert alert-light" role="alert" style="float:right">
+                    <button onclick="w3_openfilter()" class="btn btn-outline-dark btn-sm" style="width:110%"> filters <i
+                            class="fa fa-angle-down" aria-hidden="true"></i></button>
+                </div>
+    
+            </section>
+    
+            <header id="sidebar ">
+                <div class="w3-sidebar w3-bar-block w3-animate-bottom fixed" style="display:none;z-index:5;width:100%;"
+                    id="filtersidebar">
+                    <button class="w3-bar-item w3-button w3-large" onclick="w3_closefilter()"><i class="fa fa-filter"
+                            aria-hidden="true"></i> Filters<i class="fa fa-window-close" style="float: right;"
+                            aria-hidden="true"></i></button>
+                    <div class="filters text-center">
+                        <button style="border-radius: 12px;margin-top:10px;margin-right:10px"
+                            class="btn btn-outline-dark btn-sm"> Sort By Ratings</button>
+                        <button style="border-radius: 12px;margin-top:10px;margin-right:10px"
+                            class="btn btn-outline-dark btn-sm"> Show only Authorized</button>
+    
+                        <button style="border-radius: 12px;margin-top:10px" class="btn btn-outline-dark btn-sm"> Sort By
+                            Distance From You</button>
+    
+                    </div>
+    
+                </div>
+            </header>
+    
+            <div class="servicesverticalcards">
+    
+                <div id="scrad">
+                    <div class="row" id="showroomscardsrow" style="border-bottom:none">
+    
+                        <div class="col" id="simg">
+                            <img src="images/garage1 (1).jpg" alt="">
+                        </div>
+                        <div class="col" id="sinfo">
+                            <h3>Akshay Automobiles</h3>
+                           
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            <p><i class="fa fa-location-arrow" aria-hidden="true"></i> Near Kunal Niwas , Adarsh Colony , Purna , Dist Parbhani </p>
+                        </div>
+        
+                    </div>
+                    <div class="row" id="showroomscardsrow2">
+        
+                        <div class="col" id="sstatus">
+                            <p>Open Now
+        
+                            </p>
+        
+        
+                        </div>
+                        <span id="bull">&#8226;</span>
+                        <div class="col" id="sdist">
+                            <p>2.5 KM
+                            </p>
+        
+                        </div>
+                        <span id="bull">&#8226;</span>
+                        <div class="col" id="bimg">
+                            <p><b>3-Wheeler</b></p>
+                        </div>
+        
+        
+                    </div>
+                </div>
+                <div id="scrad">
+                    <div class="row" id="showroomscardsrow" style="border-bottom:none">
+    
+                        <div class="col" id="simg">
+                            <img src="images/garage1 (2).jpg" alt="">
+                        </div>
+                        <div class="col" id="sinfo">
+                            <h3>Kunal da Garage</h3>
+                           
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            <p><i class="fa fa-location-arrow" aria-hidden="true"></i> Near Kunal Niwas , Adarsh Colony , Purna , Dist Parbhani </p>
+                        </div>
+        
+                    </div>
+                    <div class="row" id="showroomscardsrow2">
+        
+                        <div class="col" id="sstatus" >
+                            <p style="color:rgb(179, 35, 35)"> Closed
+        
+                            </p>
+        
+        
+                        </div>
+                        <span id="bull">&#8226;</span>
+                        <div class="col" id="sdist">
+                            <p>2.5 KM
+                            </p>
+        
+                        </div>
+                        <span id="bull">&#8226;</span>
+                        <div class="col" id="bimg">
+                            <p><b>2-Wheeler</b></p>
+                           </div>
+        
+                    </div>
+                </div>
+           
+                <div id="scrad">
+                    <div class="row" id="showroomscardsrow" style="border-bottom:none">
+    
+                        <div class="col" id="simg">
+                            <img src="images/garage1 (3).jpg" alt="">
+                        </div>
+                        <div class="col" id="sinfo">
+                            <h3>Billu da Garage</h3>
+                           
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            <p><i class="fa fa-location-arrow" aria-hidden="true"></i> Near Kunal Niwas , Adarsh Colony , Purna , Dist Parbhani </p>
+                        </div>
+        
+                    </div>
+                    <div class="row" id="showroomscardsrow2">
+        
+                        <div class="col" id="sstatus">
+                            <p>Open Now
+        
+                            </p>
+        
+        
+                        </div>
+                        <span id="bull">&#8226;</span>
+                        <div class="col" id="sdist">
+                            <p>2.5 KM
+                            </p>
+        
+                        </div>
+                        <span id="bull">&#8226;</span>
+                        <div class="col" id="bimg">
+                          <p><b>2,3-Wheeler</b></p>
+                        </div>
+        
+        
+                    </div>
+                </div>
+           
+                <div id="scrad">
+                    <div class="row" id="showroomscardsrow" style="border-bottom:none">
+    
+                        <div class="col" id="simg">
+                            <img src="images/garage1 (4).jpg" alt="">
+                        </div>
+                        <div class="col" id="sinfo">
+                            <h3>Akshay Auto Tvs Dealer</h3>
+                           
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            <p><i class="fa fa-location-arrow" aria-hidden="true"></i> Near Kunal Niwas , Adarsh Colony , Purna , Dist Parbhani </p>
+                        </div>
+        
+                    </div>
+                    <div class="row" id="showroomscardsrow2">
+        
+                        <div class="col" id="sstatus">
+                            <p>Open Now
+        
+                            </p>
+        
+        
+                        </div>
+                        <span id="bull">&#8226;</span>
+                        <div class="col" id="sdist">
+                            <p>2.5 KM
+                            </p>
+        
+                        </div>
+                        <span id="bull">&#8226;</span>
+                        <div class="col" id="bimg">
+                            <p><b>2,3-Wheeler</b></p>
+                           </div>
+        
+                    </div>
+                </div>
+           
+                <div id="scrad">
+                    <div class="row" id="showroomscardsrow" style="border-bottom:none">
+    
+                        <div class="col" id="simg">
+                            <img src="images/showroom1.jpg" alt="">
+                        </div>
+                        <div class="col" id="sinfo">
+                            <h3>Akshay Auto Tvs Dealer</h3>
+                           
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            <p><i class="fa fa-location-arrow" aria-hidden="true"></i> Near Kunal Niwas , Adarsh Colony , Purna , Dist Parbhani </p>
+                        </div>
+        
+                    </div>
+                    <div class="row" id="showroomscardsrow2">
+        
+                        <div class="col" id="sstatus">
+                            <p>Open Now
+        
+                            </p>
+        
+        
+                        </div>
+                        <span id="bull">&#8226;</span>
+                        <div class="col" id="sdist">
+                            <p>2.5 KM
+                            </p>
+        
+                        </div>
+                        <span id="bull">&#8226;</span>
+                        <div class="col" id="bimg">
+                            <p><b>2,3-Wheeler</b></p>
+                           </div>
+        
+                    </div>
+                </div>
+           
+           
+    
+    
             </div>
-            <div style="float:left;font-weight:900;font-size:13px;margin-top:15px;margin-left:10px">
-                <p>20 Garages Found
-                <p>
-            </div>
+    
+    
         </section>
-
- 
-        <header id="sidebar ">
-            <div class="w3-sidebar w3-bar-block w3-animate-bottom fixed" style="display:none;z-index:5;width:100%;"
-                id="filtersidebar">
-                <button class="w3-bar-item w3-button w3-large" onclick="w3_closefilter()"><i class="fa fa-filter"
-                        aria-hidden="true"></i> Filters<i class="fa fa-window-close" style="float: right;"
-                        aria-hidden="true"></i></button>
-                <div class="filters text-center">
-                    <button style="border-radius: 12px;margin-top:10px;margin-right:10px" class="btn btn-outline-dark btn-sm"> Sort By Ratings</button>
-                    <button style="border-radius: 12px;margin-top:10px;margin-right:10px" class="btn btn-outline-dark btn-sm"> Show only Authorized</button>
-
-                    <button style="border-radius: 12px;margin-top:10px" class="btn btn-outline-dark btn-sm"> Sort By Distance From You</button>
- 
-                </div>
-
-            </div>
-        </header>
-
-
-
-
-        <div class="servicesverticalcards">
-            <a href="garageinfo.html" style="text-decoration: none; color:black;" id="showroomcardrow">
-                <div class="row" id="showroomscardsrow" style="padding-bottom:0px;">
-
-                    <div class="col showroom-cont-btm-one">
-                        <img src="images/garage1 (1).jpg" alt="...">
-                    </div>
-                    <div class="col showroom-cont-btm-two">
-                        <h3>Garage 1</h3>
-                        <p class="showroomratings">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-
-                        </p>
-
-                        <div id="distanceshowroom">
-                            <span class="distanceshowroom">2.5 KM</span>
-                        </div>
-
-                        <div id="brandimageshowroom">
-
-                            <p class="desc" style="padding-top: 5px;">Kunal Niwas , Adarsh Colony , Purna ,
-                                dist.Parbhani</p>
-                        </div>
-
-
-
-                    </div>
-                </div>
-            </a>
-            <a href="garageinfo.html" style="text-decoration: none; color:black;" data-name="Garage 1"
-                id="showroomcardrow">
-                <div class="row" id="showroomscardsrow" style="padding-bottom:0px;">
-
-                    <div class="col showroom-cont-btm-one">
-                        <img src="images/garage1 (4).jpg" alt="...">
-                    </div>
-                    <div class="col showroom-cont-btm-two">
-                        <h3>Garage 4</h3>
-                        <p class="showroomratings">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-
-                        </p>
-
-                        <div id="distanceshowroom">
-                            <span class="distanceshowroom">2.5 KM</span>
-                        </div>
-
-                        <div id="brandimageshowroom">
-
-                            <p class="desc" style="padding-top: 5px;">Kunal Niwas , Adarsh Colony , Purna ,
-                                dist.Parbhani</p>
-                        </div>
-
-
-
-                    </div>
-                </div>
-            </a>
-            <a href="garageinfo.html" style="text-decoration: none; color:black;" data-name="Garage 1"
-                id="showroomcardrow">
-                <div class="row" id="showroomscardsrow" style="padding-bottom:0px;">
-
-                    <div class="col showroom-cont-btm-one">
-                        <img src="images/garage1 (2).jpg" alt="...">
-                    </div>
-                    <div class="col showroom-cont-btm-two">
-                        <h3>Garage 2</h3>
-                        <p class="showroomratings">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-
-                        </p>
-
-                        <div id="distanceshowroom">
-                            <span class="distanceshowroom">2.5 KM</span>
-                        </div>
-
-                        <div id="brandimageshowroom">
-
-                            <p class="desc" style="padding-top: 5px;">Kunal Niwas , Adarsh Colony , Purna ,
-                                dist.Parbhani</p>
-                        </div>
-
-
-
-                    </div>
-                </div>
-            </a>
-            <a href="garageinfo.html" style="text-decoration: none; color:black;" data-name="Garage 1"
-                id="showroomcardrow">
-                <div class="row" id="showroomscardsrow" style="padding-bottom:0px;">
-
-                    <div class="col showroom-cont-btm-one">
-                        <img src="images/garage1 (3).jpg" alt="...">
-                    </div>
-                    <div class="col showroom-cont-btm-two">
-                        <h3>Garage 3</h3>
-                        <p class="showroomratings">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-
-                        </p>
-
-                        <div id="distanceshowroom">
-                            <span class="distanceshowroom">2.5 KM</span>
-                        </div>
-
-                        <div id="brandimageshowroom">
-
-                            <p class="desc" style="padding-top: 5px;">Kunal Niwas , Adarsh Colony , Purna ,
-                                dist.Parbhani</p>
-                        </div>
-
-
-
-                    </div>
-                </div>
-            </a>
-            <a style="text-decoration: none; color:black;" href="garageinfo.html" data-name="Garage 1"
-                id="showroomcardrow">
-                <div class="row" id="showroomscardsrow" style="padding-bottom:0px;">
-
-                    <div class="col showroom-cont-btm-one">
-                        <img src="images/garage1 (1).jpg" alt="...">
-                    </div>
-                    <div class="col showroom-cont-btm-two">
-                        <h3>Garage 1</h3>
-                        <p class="showroomratings">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-
-                        </p>
-
-                        <div id="distanceshowroom">
-                            <span class="distanceshowroom">2.5 KM</span>
-                        </div>
-
-                        <div id="brandimageshowroom">
-
-                            <p class="desc" style="padding-top: 5px;">Kunal Niwas , Adarsh Colony , Purna ,
-                                dist.Parbhani</p>
-                        </div>
-
-
-
-                    </div>
-                </div>
-            </a>
-            <a style="text-decoration: none; color:black;" href="garageinfo.html" data-name="Garage 1"
-                id="showroomcardrow">
-                <div class="row" id="showroomscardsrow" style="padding-bottom:0px;">
-
-                    <div class="col showroom-cont-btm-one">
-                        <img src="images/garage1 (4).jpg" alt="...">
-                    </div>
-                    <div class="col showroom-cont-btm-two">
-                        <h3>Garage 4</h3>
-                        <p class="showroomratings">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-
-                        </p>
-
-                        <div id="distanceshowroom">
-                            <span class="distanceshowroom">2.5 KM</span>
-                        </div>
-
-                        <div id="brandimageshowroom">
-
-                            <p class="desc" style="padding-top: 5px;">Kunal Niwas , Adarsh Colony , Purna ,
-                                dist.Parbhani</p>
-                        </div>
-
-
-
-                    </div>
-                </div>
-            </a>
-            <a style="text-decoration: none; color:black;" href="garageinfo.html" data-name="Garage 1"
-                id="showroomcardrow">
-                <div class="row" id="showroomscardsrow" style="padding-bottom:0px;">
-
-                    <div class="col showroom-cont-btm-one">
-                        <img src="images/garage1 (2).jpg" alt="...">
-                    </div>
-                    <div class="col showroom-cont-btm-two">
-                        <h3>Garage 2</h3>
-                        <p class="showroomratings">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-
-                        </p>
-
-                        <div id="distanceshowroom">
-                            <span class="distanceshowroom">2.5 KM</span>
-                        </div>
-
-                        <div id="brandimageshowroom">
-
-                            <p class="desc" style="padding-top: 5px;">Kunal Niwas , Adarsh Colony , Purna ,
-                                dist.Parbhani</p>
-                        </div>
-
-
-
-                    </div>
-                </div>
-            </a>
-            <a style="text-decoration: none; color:black;" href="garageinfo.html" data-name="Garage 1"
-                id="showroomcardrow">
-                <div class="row" id="showroomscardsrow" style="padding-bottom:0px;">
-
-                    <div class="col showroom-cont-btm-one">
-                        <img src="images/garage1 (3).jpg" alt="...">
-                    </div>
-                    <div class="col showroom-cont-btm-two">
-                        <h3>Garage 3</h3>
-                        <p class="showroomratings">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-
-                        </p>
-
-                        <div id="distanceshowroom">
-                            <span class="distanceshowroom">2.5 KM</span>
-                        </div>
-
-                        <div id="brandimageshowroom">
-
-                            <p class="desc" style="padding-top: 5px;">Kunal Niwas , Adarsh Colony , Purna ,
-                                dist.Parbhani</p>
-                        </div>
-
-
-
-                    </div>
-                </div>
-            </a>
-
-
-
-        </div>
-
-    </section>
 
     <section id="mobilefooter">
         <footer class="mobilefooter" style="position: relative;">
